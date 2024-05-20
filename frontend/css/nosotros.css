@@ -85,6 +85,13 @@
   .cards-team-container {
     height: 200%;
   }
+
+  .cards-team-container > div:nth-child(2n) {
+    background-color: #38580e;
+  }
+  .cards-team-container > div:nth-child(2n + 1) {
+    background-color: #38580e;
+  }
 }
 
 .overlay {
