@@ -48,7 +48,7 @@
 }
 
 /* Adaptable responsivo  */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1023px) {
   .cards-team-container {
     display: flex;
     flex-wrap: wrap;
@@ -79,17 +79,22 @@
   }
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (min-width: 1024px) {
   .cards-team-container {
-    height: 200%;
+    height: 300%;
   }
-
+  
   .cards-team-container > div:nth-child(2n) {
     background-color: #38580e;
   }
   .cards-team-container > div:nth-child(2n + 1) {
     background-color: #38580e;
   }
+
+  .overlay p {
+    font-size: 15px;
+  }
+
 }
 
 .overlay {
@@ -106,7 +111,7 @@
 
 .overlay p {
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 0;
 }
 
