@@ -18,7 +18,7 @@ let participantes = [
     correo: "mailto:espinosajuliana44@gmail.com",
   },
   {
-    foto: "/Proyecto_Final_Generation/frontend/css/img/foto-Sara.jpg",
+    foto: "/frontend/css/img/foto-Sara.jpg",
     nombre: "Sara Salazar",
     descripcion:
       " Sara es la Desarrolladora Backend de Agón. Ingeniera física con fuertes bases en tecnología, posee amplios conocimientos que van desde el análisis de datos hasta el desarrollo web y de aplicaciones. Manejando Java,Python, C++, R, HTML, CSS y JavaScript. Se considera una mente inquieta que busca resolver problemas complejos.",
@@ -27,7 +27,7 @@ let participantes = [
     correo: "mailto:sara.salazar@gmail.com",
   },
   {
-    foto: "/Proyecto_Final_Generation/frontend/css/img/foto-angela.JPEG",
+    foto: "/frontend/css/img/foto-angela.JPEG",
     nombre: "Angela Rubio",
     descripcion:
       "Front-End developer y una mente creativa en el mundo digital. Ha trabajado en una amplia gama de proyectos, desde aplicaciones web innovadoras hasta e-commerce dinámicas. Su habilidad para entender las necesidades del usuario y traducirlas en interfaces intuitivas ha sido fundamental en el éxito de cada proyecto.",
@@ -42,9 +42,7 @@ let teamContainer = document.querySelector("#cards-team-container");
 
 let crearCardParticipantes = (container, participante) => {
   let card = `<div class="card col-12 col-md-5 px-0 col-lg card-teammate">
-                  <div class="overlay">
                   <img src="${participante.foto}" class="card-img-top" alt="foto de ${participante.nombre}">
-
                   <div class="overlay" >
                     <p class="card-text">${participante.descripcion}</p>
                   </div>
