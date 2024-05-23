@@ -13,10 +13,10 @@ let participantes = [
       foto: "/Proyecto_Final_Generation/frontend/css/img/teamater.jpeg",
       nombre: "Juliana Espinosa",
       descripcion:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores illo vero magnam natus suscipit veritatis velit inventore! Nihil non autem",
-      linkedin: "#",
-      github: "#",
-      correo: "#",
+        "Juliana enfoca su capacidad creativa en el desarrollo de páginas web innovadoras y dinámicas que se enfocan en las necesidades y preferencias de los usuarios. <br> Es proactiva en aprender nuevas herramientas y aplicarlas en su trabajo y tiene la mente abierta a la evolución constante de la tecnología.",
+      linkedin: "https://www.linkedin.com/in/juliana-espinosa-escobar-desarrolladora-web/",
+      github: "https://github.com/Ribatosis",
+      correo: "mailto:espinosajuliana44@gmail.com",
     },
     {
       foto: "/Proyecto_Final_Generation/frontend/css/img/teamater.jpeg",
