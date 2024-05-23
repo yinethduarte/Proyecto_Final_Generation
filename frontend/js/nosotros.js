@@ -27,10 +27,10 @@ let participantes = [
     correo: "mailto:sara.salazar@gmail.com",
   },
   {
-    foto: "/Proyecto_Final_Generation/frontend/css/img/teamater.jpeg",
+    foto: "/Proyecto_Final_Generation/frontend/css/img/foto-angela.JPEG",
     nombre: "Angela Rubio",
     descripcion:
-      "Front-End developer y na mente creativa en el mundo digital. Ha trabajado en una amplia gama de proyectos, desde aplicaciones web innovadoras hasta e-commerce dinámicas. Su habilidad para entender las necesidades del usuario y traducirlas en interfaces intuitivas ha sido fundamental en el éxito de cada proyecto.",
+      "Front-End developer y una mente creativa en el mundo digital. Ha trabajado en una amplia gama de proyectos, desde aplicaciones web innovadoras hasta e-commerce dinámicas. Su habilidad para entender las necesidades del usuario y traducirlas en interfaces intuitivas ha sido fundamental en el éxito de cada proyecto.",
     linkedin: "https://www.linkedin.com/in/anrubiodev/",
     github: "https://github.com/AnrubioG",
     correo: "mailto:angela.rubio@genstudents.org",
