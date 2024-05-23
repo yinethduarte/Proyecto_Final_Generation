@@ -12,7 +12,7 @@
 }
 
 .cards-team-container {
-  background-color: #a63f03;
+  background-color: #cc5d18;
   margin-bottom: 100px;
   padding-inline: 50px;
   color: white;
@@ -46,8 +46,6 @@
   margin: 5px;
   transition: all 0.3s ease;
 }
-
-
 
 /* Adaptable responsivo  */
 @media screen and (max-width: 1023px) {
@@ -124,5 +122,3 @@
 .card-teammate:hover .overlay {
   opacity: 1;
 }
-
-
