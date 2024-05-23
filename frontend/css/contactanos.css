@@ -1,0 +1,1016 @@
+.mobile.mobile-wrapper {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .mobile .div-todo-mob-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 320px;
+    height: 1519px;
+  }
+  
+  .mobile .div-todo-mob {
+    position: relative;
+    width: 316px;
+    height: 1427px;
+    top: 34px;
+    left: 24px;
+  }
+  
+  .mobile .overlap {
+    position: relative;
+    width: 312px;
+    height: 1427px;
+  }
+  
+  .mobile .caja-fondo {
+    width: 296px;
+    height: 1427px;
+    top: 0;
+    position: absolute;
+    left: 0;
+  }
+  
+  .mobile .foot-naranja {
+    height: 121px;
+    top: 1284px;
+    position: absolute;
+    width: 275px;
+    left: 0;
+    background-color: #a63f03;
+  }
+  
+  .mobile .foot-naran {
+    height: 59px;
+    top: 1368px;
+    border-radius: 11px;
+    position: absolute;
+    width: 275px;
+    left: 0;
+    background-color: #a63f03;
+  }
+  
+  .mobile .icono-agon {
+    position: absolute;
+    width: 102px;
+    height: 94px;
+    top: 1304px;
+    left: 87px;
+    object-fit: cover;
+  }
+  
+  .mobile .tit-contactenos {
+    width: 296px;
+    top: 54px;
+    left: 16px;
+    font-weight: 700;
+    font-size: 36px;
+    position: absolute;
+    font-family: "Montserrat Alternates", Helvetica;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .txt-cont {
+    position: absolute;
+    width: 289px;
+    top: 131px;
+    left: 19px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .boton-enviar {
+    position: absolute;
+    width: 196px;
+    height: 57px;
+    top: 762px;
+    left: 39px;
+  }
+  
+  .mobile .overlap-group {
+    position: relative;
+    width: 194px;
+    height: 57px;
+    background-color: #d97218;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .mobile .btn-enviar {
+    position: absolute;
+    width: 73px;
+    top: 13px;
+    left: 60px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .form-nam {
+    position: absolute;
+    width: 236px;
+    height: 411px;
+    top: 287px;
+    left: 19px;
+  }
+  
+  .mobile .div {
+    position: relative;
+    height: 411px;
+  }
+  
+  .mobile .caja-nom {
+    width: 234px;
+    height: 68px;
+    top: 116px;
+    background-color: #1b1b1d1a;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .mobile .tit-name {
+    width: 71px;
+    top: 128px;
+    left: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    position: absolute;
+    font-family: "Montserrat Alternates", Helvetica;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .line {
+    top: 167px;
+    position: absolute;
+    width: 222px;
+    height: 1px;
+    left: 6px;
+    object-fit: cover;
+  }
+  
+  .mobile .form-nam-2 {
+    height: 411px;
+    top: 0;
+    position: absolute;
+    width: 236px;
+    left: 0;
+  }
+  
+  .mobile .overlap-2 {
+    position: absolute;
+    width: 234px;
+    height: 68px;
+    top: 231px;
+    left: 0;
+    background-color: #1b1b1d1a;
+    border-radius: 8px;
+  }
+  
+  .mobile .text-wrapper {
+    width: 93px;
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .img {
+    top: 51px;
+    position: absolute;
+    width: 222px;
+    height: 1px;
+    left: 6px;
+    object-fit: cover;
+  }
+  
+  .mobile .overlap-group-wrapper {
+    height: 68px;
+    top: 343px;
+    position: absolute;
+    width: 236px;
+    left: 0;
+  }
+  
+  .mobile .overlap-group-2 {
+    position: relative;
+    width: 234px;
+    height: 68px;
+    background-color: #1b1b1d1a;
+    border-radius: 8px;
+  }
+  
+  .mobile .tit-name-2 {
+    width: 115px;
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .overlap-wrapper {
+    height: 68px;
+    top: 0;
+    position: absolute;
+    width: 236px;
+    left: 0;
+  }
+  
+  .mobile .tit-name-3 {
+    width: 71px;
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .div-info {
+    position: absolute;
+    width: 251px;
+    height: 298px;
+    top: 894px;
+    left: 16px;
+  }
+  
+  .mobile .overlap-3 {
+    position: relative;
+    width: 243px;
+    height: 298px;
+    background-color: #1b1b1d;
+  }
+  
+  .mobile .tit-info {
+    width: 86px;
+    top: 21px;
+    left: 24px;
+    font-weight: 700;
+    font-size: 32px;
+    position: absolute;
+    font-family: "Montserrat Alternates", Helvetica;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .icon {
+    position: absolute;
+    width: 32px;
+    height: 27px;
+    top: 91px;
+    left: 18px;
+  }
+  
+  .mobile .icon-2 {
+    position: absolute;
+    width: 32px;
+    height: 27px;
+    top: 162px;
+    left: 18px;
+  }
+  
+  .mobile .icon-3 {
+    position: absolute;
+    width: 32px;
+    height: 27px;
+    top: 233px;
+    left: 18px;
+  }
+  
+  .mobile .info {
+    position: absolute;
+    top: 97px;
+    left: 59px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .info-2 {
+    position: absolute;
+    top: 239px;
+    left: 60px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .info-3 {
+    position: absolute;
+    top: 168px;
+    left: 59px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile.tablet-wrapper {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .mobile .tablet {
+    background-color: #ffffff;
+    width: 744px;
+    height: 1133px;
+  }
+  
+  .mobile .divcaja-fondo {
+    position: relative;
+    width: 685px;
+    height: 1035px;
+    top: 28px;
+    left: 29px;
+    background-color: #486622;
+    border-radius: 24px;
+  }
+  
+  .mobile .overlap-4 {
+    position: absolute;
+    width: 638px;
+    height: 574px;
+    top: 0;
+    left: 43px;
+  }
+  
+  .mobile .div-caja-cont {
+    position: absolute;
+    width: 618px;
+    height: 543px;
+    top: 31px;
+    left: 0;
+  }
+  
+  .mobile .overlap-5 {
+    position: absolute;
+    width: 606px;
+    height: 292px;
+    top: 142px;
+    left: 0;
+    background-color: #435f22;
+  }
+  
+  .mobile .tit-name-4 {
+    position: absolute;
+    width: 113px;
+    top: 18px;
+    left: 27px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .line-2 {
+    position: absolute;
+    width: 534px;
+    height: 1px;
+    top: 52px;
+    left: 18px;
+    object-fit: cover;
+  }
+  
+  .mobile .tit-email {
+    width: 116px;
+    top: 155px;
+    position: absolute;
+    left: 24px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .line-3 {
+    top: 188px;
+    position: absolute;
+    width: 534px;
+    height: 1px;
+    left: 19px;
+    object-fit: cover;
+  }
+  
+  .mobile .tit-mensaje {
+    width: 123px;
+    top: 222px;
+    position: absolute;
+    left: 24px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .line-4 {
+    top: 259px;
+    position: absolute;
+    width: 534px;
+    height: 1px;
+    left: 19px;
+    object-fit: cover;
+  }
+  
+  .mobile .tit-email-2 {
+    position: absolute;
+    width: 82px;
+    top: 85px;
+    left: 24px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .line-5 {
+    top: 120px;
+    position: absolute;
+    width: 534px;
+    height: 1px;
+    left: 19px;
+    object-fit: cover;
+  }
+  
+  .mobile .overlap-6 {
+    position: absolute;
+    width: 587px;
+    height: 124px;
+    top: 0;
+    left: 19px;
+  }
+  
+  .mobile .tit-contactenos-2 {
+    position: absolute;
+    width: 587px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .lorem-ipsum-dolor {
+    position: absolute;
+    width: 539px;
+    top: 85px;
+    left: 5px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .div-wrapper {
+    position: absolute;
+    width: 591px;
+    height: 63px;
+    top: 480px;
+    left: 0;
+  }
+  
+  .mobile .btn-enviar-wrapper {
+    position: relative;
+    width: 589px;
+    height: 63px;
+    background-color: #d97218;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .mobile .btn-enviar-2 {
+    position: absolute;
+    width: 103px;
+    top: 16px;
+    left: 242px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .mobile .icono-agon-2 {
+    position: absolute;
+    width: 98px;
+    height: 94px;
+    top: 0;
+    left: 540px;
+    object-fit: cover;
+  }
+  
+  .mobile .overlap-7 {
+    position: absolute;
+    width: 608px;
+    height: 388px;
+    top: 621px;
+    left: 43px;
+  }
+  
+  .mobile .div-caja-info {
+    position: absolute;
+    width: 608px;
+    height: 388px;
+    top: 0;
+    left: 0;
+  }
+  
+  .mobile .overlap-8 {
+    position: relative;
+    width: 600px;
+    height: 388px;
+    background-color: #1b1b1d;
+  }
+  
+  .mobile .tit-info-2 {
+    position: absolute;
+    width: 109px;
+    top: 28px;
+    left: 48px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .mobile .icon-4 {
+    position: absolute;
+    width: 42px;
+    height: 34px;
+    top: 112px;
+    left: 44px;
+  }
+  
+  .mobile .icon-5 {
+    position: absolute;
+    width: 42px;
+    height: 34px;
+    top: 194px;
+    left: 44px;
+  }
+  
+  .mobile .icon-6 {
+    position: absolute;
+    width: 42px;
+    height: 34px;
+    top: 279px;
+    left: 44px;
+  }
+  
+  .mobile .info-4 {
+    position: absolute;
+    width: 195px;
+    top: 120px;
+    left: 102px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .mobile .info-5 {
+    position: absolute;
+    width: 195px;
+    top: 202px;
+    left: 102px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .mobile .info-6 {
+    position: absolute;
+    width: 195px;
+    top: 287px;
+    left: 102px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .mobile .rect-barra {
+    position: absolute;
+    width: 131px;
+    height: 388px;
+    top: 0;
+    left: 469px;
+    background-color: #a63f03;
+  }
+  
+  .mobile.contact-us-wrapper {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .mobile .contact-us {
+    background-color: #ffffff;
+    width: 1366px;
+    height: 768px;
+  }
+  
+  .mobile .divcaja-fondo-2 {
+    position: relative;
+    width: 1162px;
+    height: 620px;
+    top: 68px;
+    left: 105px;
+    background-color: #486622;
+    border-radius: 24px;
+  }
+  
+  .mobile .overlap-9 {
+    position: absolute;
+    width: 482px;
+    height: 620px;
+    top: 0;
+    left: 688px;
+  }
+  
+  .mobile .rect-barra-2 {
+    position: absolute;
+    width: 206px;
+    height: 620px;
+    top: 0;
+    left: 268px;
+    background-color: #a63f03;
+    border-radius: 23px;
+  }
+  
+  .mobile .rect-barra-3 {
+    position: absolute;
+    width: 154px;
+    height: 620px;
+    top: 0;
+    left: 268px;
+    background-color: #a63f03;
+  }
+  
+  .mobile .div-caja-info-2 {
+    position: absolute;
+    width: 482px;
+    height: 456px;
+    top: 82px;
+    left: 0;
+  }
+  
+  .mobile .overlap-group-3 {
+    position: relative;
+    width: 474px;
+    height: 456px;
+    background-color: #1b1b1d;
+  }
+  
+  .mobile .tit-info-3 {
+    position: absolute;
+    width: 86px;
+    top: 50px;
+    left: 57px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .mobile .icon-7 {
+    position: absolute;
+    width: 46px;
+    height: 40px;
+    top: 125px;
+    left: 54px;
+  }
+  
+  .mobile .icon-8 {
+    position: absolute;
+    width: 46px;
+    height: 40px;
+    top: 228px;
+    left: 54px;
+  }
+  
+  .mobile .icon-9 {
+    position: absolute;
+    width: 46px;
+    height: 40px;
+    top: 328px;
+    left: 54px;
+  }
+  
+  .mobile .info-7 {
+    position: absolute;
+    top: 137px;
+    left: 114px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .info-8 {
+    position: absolute;
+    top: 238px;
+    left: 114px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .info-9 {
+    position: absolute;
+    top: 338px;
+    left: 114px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .div-caja-cont-2 {
+    position: absolute;
+    width: 491px;
+    height: 543px;
+    top: 30px;
+    left: 149px;
+  }
+  
+  .mobile .overlap-10 {
+    position: absolute;
+    width: 479px;
+    height: 292px;
+    top: 142px;
+    left: 0;
+    background-color: #435f22;
+  }
+  
+  .mobile .tit-name-5 {
+    position: absolute;
+    width: 89px;
+    top: 18px;
+    left: 21px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .line-6 {
+    position: absolute;
+    width: 422px;
+    height: 1px;
+    top: 52px;
+    left: 14px;
+    object-fit: cover;
+  }
+  
+  .mobile .tit-email-3 {
+    width: 92px;
+    top: 155px;
+    position: absolute;
+    left: 19px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .line-7 {
+    position: absolute;
+    width: 422px;
+    height: 1px;
+    top: 188px;
+    left: 15px;
+    object-fit: cover;
+  }
+  
+  .mobile .tit-mensaje-2 {
+    position: absolute;
+    width: 97px;
+    top: 222px;
+    left: 19px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .line-8 {
+    position: absolute;
+    width: 422px;
+    height: 1px;
+    top: 259px;
+    left: 15px;
+    object-fit: cover;
+  }
+  
+  .mobile .tit-email-4 {
+    width: 65px;
+    top: 85px;
+    position: absolute;
+    left: 19px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .line-9 {
+    position: absolute;
+    width: 422px;
+    height: 1px;
+    top: 120px;
+    left: 15px;
+    object-fit: cover;
+  }
+  
+  .mobile .overlap-11 {
+    position: absolute;
+    width: 464px;
+    height: 124px;
+    top: 0;
+    left: 15px;
+  }
+  
+  .mobile .tit-contactenos-3 {
+    position: absolute;
+    width: 464px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .p {
+    position: absolute;
+    width: 426px;
+    top: 85px;
+    left: 4px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mobile .boton-enviar-2 {
+    position: absolute;
+    width: 467px;
+    height: 63px;
+    top: 480px;
+    left: 0;
+  }
+  
+  .mobile .overlap-group-4 {
+    position: relative;
+    width: 465px;
+    height: 63px;
+    background-color: #d97218;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .mobile .btn-enviar-3 {
+    position: absolute;
+    width: 81px;
+    top: 16px;
+    left: 191px;
+    font-family: "Montserrat Alternates", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .mobile .icono-agon-3 {
+    position: absolute;
+    width: 102px;
+    height: 94px;
+    top: 17px;
+    left: 17px;
+    object-fit: cover;
+  }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+    .mobile.tablet-wrapper {
+      display: none !important;
+    }
+    .mobile.contact-us-wrapper {
+      display: none !important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .mobile.mobile-wrapper {
+      display: none !important;
+    }
+    .mobile.contact-us-wrapper {
+      display: none !important;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .mobile.mobile-wrapper {
+      display: none !important;
+    }
+    .mobile.tablet-wrapper {
+      display: none !important;
+    }
+  }
+  
