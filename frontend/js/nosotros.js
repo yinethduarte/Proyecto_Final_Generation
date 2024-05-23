@@ -1,6 +1,6 @@
 let participantes = [
   {
-    foto: "/Proyecto_Final_Generation/frontend/css/img/perfil.jpeg",
+    foto: "/frontend/css/img/perfil.jpeg",
     nombre: "Yineth Duarte",
     descripcion:
       "Ingeniera de Sistemas con bases en lógica de programación y dominio de lenguajes como JavaScript y Java. Yineth es una persona curiosa, responsable y comprometida, siempre interesada en aprender y explorar diferentes áreas del conocimiento.",
@@ -9,7 +9,7 @@ let participantes = [
     correo: "yineth.duarte@genstudents.org",
   },
   {
-    foto: "/Proyecto_Final_Generation/frontend/css/img/teamater.jpeg",
+    foto: "/frontend/css/img/teamater.jpeg",
     nombre: "Juliana Espinosa",
     descripcion:
       "Juliana enfoca su capacidad creativa en el desarrollo de páginas web innovadoras y dinámicas que se enfocan en las necesidades y preferencias de los usuarios. <br> Es proactiva en aprender nuevas herramientas y aplicarlas en su trabajo y tiene la mente abierta a la evolución constante de la tecnología.",
@@ -42,7 +42,9 @@ let teamContainer = document.querySelector("#cards-team-container");
 
 let crearCardParticipantes = (container, participante) => {
   let card = `<div class="card col-12 col-md-5 px-0 col-lg card-teammate">
+                  <div class="overlay">
                   <img src="${participante.foto}" class="card-img-top" alt="foto de ${participante.nombre}">
+
                   <div class="overlay" >
                     <p class="card-text">${participante.descripcion}</p>
                   </div>
