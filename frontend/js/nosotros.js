@@ -19,13 +19,13 @@ let participantes = [
       correo: "#",
     },
     {
-      foto: "/Proyecto_Final_Generation/frontend/css/img/teamater.jpeg",
+      foto: "/Proyecto_Final_Generation/frontend/css/img/foto-Sara.jpg",
       nombre: "Sara Salazar",
       descripcion:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores illo vero magnam natus suscipit veritatis velit inventore! Nihil non autem",
-      linkedin: "#",
-      github: "#",
-      correo: "#",
+        " Sara es la Desarrolladora Backend de Agón. Ingeniera física con fuertes bases en tecnología, posee amplios conocimientos que van desde el análisis de datos hasta el desarrollo web y de aplicaciones. Manejando Java,Python, C++, R, HTML, CSS y JavaScript. Se considera una mente inquieta que busca resolver problemas complejos.",
+      linkedin: "linkedin.com/in/sarasalazarz",
+      github: "https://github.com/SaraDSala",
+      correo: "mailto:sara.salazar@gmail.com",
     },
     {
       foto: "/Proyecto_Final_Generation/frontend/css/img/teamater.jpeg",
@@ -50,9 +50,9 @@ let participantes = [
                   <div class="card-body">
                       <p class="card-text">${participante.nombre}</p>
                       <div class="teamater-contact">
-                          <a href="${participante.github}"><i class="bi bi-github"></i></a>
-                          <a href="${participante.linkedin}"><i class="bi bi-linkedin"></i></a>
-                          <a href="${participante.correo}"><i class="bi bi-envelope-at-fill"></i></a>   
+                          <a href="${participante.github}" target="_blank" rel="noopener noreffer"><i class="bi bi-github"></i></a>
+                          <a href="${participante.linkedin}" target="_blank" rel="noopener noreffer"><i class="bi bi-linkedin"></i></a>
+                          <a href="${participante.correo}" target="_blank" rel="noopener noreffer"><i class="bi bi-envelope-at-fill"></i></a>   
                       </div>
                   </div>
               </div>`;
