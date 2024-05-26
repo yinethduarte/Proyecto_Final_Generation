@@ -62,6 +62,10 @@
   transition: all 0.3s ease;
 }
 
+.teamater-contact i:hover {
+  color:#af480c ;
+}
+
 .overlay {
   width: 85%;
   height: 80%;
