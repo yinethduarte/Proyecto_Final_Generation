@@ -8,11 +8,11 @@
 }
 
 .info-container h1 {
-  color: #38580e;
+  color: #2f4217;
 }
 
 .cards-team-container {
-  background-color: #cc5d18;
+  background-color: #a38f83;
   margin-bottom: 100px;
   padding-inline: 50px;
   color: white;
@@ -35,7 +35,7 @@
 }
 
 .cards-team-container > div:nth-child(2n + 1) {
-  background-color: #38580e;
+  background-color: #35471c;
   margin-top: 5%;
   margin-bottom: -50px;
 }
@@ -83,18 +83,17 @@
   .cards-team-container {
     height: 300%;
   }
-  
+
   .cards-team-container > div:nth-child(2n) {
-    background-color: #38580e;
+    background-color: #52643b;
   }
   .cards-team-container > div:nth-child(2n + 1) {
-    background-color: #38580e;
+    background-color: #52643b;
   }
 
   .overlay p {
     font-size: 15px;
   }
-
 }
 
 .overlay {
