@@ -6,7 +6,7 @@ body {
   align-items: center;
 }
 
-
+/* contact header  */
 .contact h2{
   font-size: 2.5rem;
   color: #af480c;
@@ -17,17 +17,21 @@ body {
 
 }
 
+
 .card-contact-container{
   color: white;
   background-color: #38580e;
   border-radius: 10px;             
 }
 
+
+/* formulario  */
 .contact-group {
   position: relative;
   margin-bottom: 2rem;
 }
 
+/*animación label */
 .contact-group label {
   position: absolute;
   left: 0;
@@ -39,13 +43,11 @@ body {
 .contact-group input:focus + label,
 .contact-group input:not(:placeholder-shown) + label {
   top: -1.2em;
-
 }
 
 .contact-group textarea:focus + label,
 .contact-group textarea:not(:placeholder-shown) + label {
   top: -1.2em;
-
 }
 
 .contact-group input, textarea{
@@ -58,10 +60,15 @@ body {
   outline: none;
 }
 
+/*estilo y animación cuando hay erorr */
 .contact-group .error{
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #af480c;
 }
 
+.contact-group input.error + label,
+.contact-group textarea.error + label {
+  top: -1.2em;
+}
 
 .form-contact button{
   width: 100%;
@@ -81,9 +88,9 @@ body {
 }
 
 .info-container-contact{
+  right: 0;
   color: #172A3A;
   background-color: #bae286a8;
-  height: 330px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,17 +99,17 @@ body {
 
 .info-container-contact ul{
   list-style: none;
-  margin: 20px;
 }
 .info-container-contact h2{
-  margin: 20px;
-  font-weight: bold;
   color: #172A3A;
-  font-size: 1.8rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10PX;
 }
 .info-container-contact ul li{
-  margin: 10px;
-  font-size: 1.2rem;
+  margin-bottom: 10PX;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 

@@ -5,9 +5,8 @@ const inputTelefono = document.querySelector("#phone");
 const inputCorreo = document.querySelector("#email");
 const inputConsulta = document.querySelector("#txtConsult");
 
-
 const inputs = [inputNombre, inputTelefono, inputCorreo, inputConsulta];
-console.log(inputs);
+
 let consulta = {
   name: "",
   email: "",
@@ -21,21 +20,34 @@ function normalizar(input) {
   return input.value.trim();
 }
 
+// validar correo
 
-// remover error 
-function validarInputs(){
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+function validarCorreo() {
+  if (!emailRegex.test(normalizar(inputCorreo))) {
+    inputCorreo.value = "";
+    inputCorreo.placeholder = "ingrese un correo válido";
+  } 
+}
+
+// Validad inputs
+function validarInputs() {
   inputs.forEach((input) => {
-    input.classList.remove('error')
+    input.classList.remove("error");
     if (normalizar(input) === "") {
+      validarCorreo()
       input.classList.add("error");
+      input.placeholder = "Este campo es requerido";
+      
     }
   });
 }
 
-// validar Inputs
+// evento submit
 
 submit.addEventListener("click", (e) => {
   e.preventDefault();
-  validarInputs()
-
+  validarInputs();
+  validarCorreo();
 });
