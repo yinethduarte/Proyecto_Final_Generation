@@ -6,13 +6,13 @@ let participantes = [
       "Ingeniera de Sistemas con bases en lógica de programación y dominio de lenguajes como JavaScript y Java. Yineth es una persona curiosa, responsable y comprometida, siempre interesada en aprender y explorar diferentes áreas del conocimiento.",
     linkedin: "https://www.linkedin.com/in/yineth-paola-duarte-contreras-3b67b8176/",
     github: "https://github.com/yinethduarte",
-    correo: "yineth.duarte@genstudents.org",
+    correo: "mailto:yineth.duarte@genstudents.org",
   },
   {
-    foto: "/frontend/css/img/teamater.jpeg",
+    foto: "/frontend/css/img/foto-juliana.jpeg",
     nombre: "Juliana Espinosa",
     descripcion:
-      "Juliana enfoca su capacidad creativa en el desarrollo de páginas web innovadoras y dinámicas que se enfocan en las necesidades y preferencias de los usuarios. <br> Es proactiva en aprender nuevas herramientas y aplicarlas en su trabajo y tiene la mente abierta a la evolución constante de la tecnología.",
+      "Juliana enfoca su capacidad creativa en el desarrollo de páginas web innovadoras y dinámicas que se enfocan en las necesidades y preferencias de los usuarios. <br> Es proactiva en aprender nuevas herramientas y aplicarlas en su trabajo.",
     linkedin: "https://www.linkedin.com/in/juliana-espinosa-escobar-desarrolladora-web/",
     github: "https://github.com/Ribatosis",
     correo: "mailto:espinosajuliana44@gmail.com",
@@ -21,7 +21,7 @@ let participantes = [
     foto: "/frontend/css/img/foto-Sara.jpg",
     nombre: "Sara Salazar",
     descripcion:
-      " Sara es la Desarrolladora Backend de Agón. Ingeniera física con fuertes bases en tecnología, posee amplios conocimientos que van desde el análisis de datos hasta el desarrollo web y de aplicaciones. Manejando Java,Python, C++, R, HTML, CSS y JavaScript. Se considera una mente inquieta que busca resolver problemas complejos.",
+      "Ingeniera física con fuertes bases en tecnología, posee amplios conocimientos que van desde el análisis de datos hasta el desarrollo web y de aplicaciones. Manejando Java,Python, C++, R, HTML, CSS y JavaScript. Se considera una mente inquieta que busca resolver problemas complejos.",
     linkedin: "linkedin.com/in/sarasalazarz",
     github: "https://github.com/SaraDSala",
     correo: "mailto:sara.salazar@gmail.com",
