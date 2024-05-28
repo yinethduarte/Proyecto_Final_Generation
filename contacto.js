@@ -28,7 +28,7 @@ function validarCorreo() {
   if (!emailRegex.test(normalizar(inputCorreo))) {
     inputCorreo.value = "";
     inputCorreo.placeholder = "ingrese un correo válido";
-  } 
+  }
 }
 
 // Validad inputs
@@ -36,10 +36,9 @@ function validarInputs() {
   inputs.forEach((input) => {
     input.classList.remove("error");
     if (normalizar(input) === "") {
-      validarCorreo()
+      validarCorreo();
       input.classList.add("error");
       input.placeholder = "Este campo es requerido";
-      
     }
   });
 }
