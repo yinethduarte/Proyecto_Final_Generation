@@ -3,12 +3,11 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 /* contact header  */
 .contact h2 {
-  margin: 50px 1rem;
+  margin: 0px 1rem;
   font-size: 2.5rem;
   color: #af480c;
 }
@@ -100,17 +99,23 @@ textarea {
   padding: 0.8em;
 }
 
+.info-container-contact .list-info-contact{
+  padding: 0px;
+  text-align: center;
+}
+
 .info-container-contact ul {
   list-style: none;
 }
 .info-container-contact h2 {
-  color: #172a3a;
+  color: #020305;
   font-weight: bold;
   font-size: 1.2rem;
-  margin-bottom: 10px;
+  margin: 0px 0px 10px;
+  text-align: center;
 }
 .info-container-contact ul li {
   margin-bottom: 10px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: bold;
 }
