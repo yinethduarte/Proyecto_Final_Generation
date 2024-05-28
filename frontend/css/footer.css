@@ -1,12 +1,13 @@
 /* La clase content debe expandirse para llenar el espacio disponible */
 .content {
   flex: 1;
+  padding-left: 3%;
 }
 
 /* Estilos para el footer */
 .footer {
   margin-top: 15%;
-  background-color: rgb(57, 66, 57);
+  background-color: #216869;
   padding: 10px;
   font-size: 14px;
   color: aliceblue;
@@ -45,7 +46,7 @@ input[type="email"] {
 
 button[type="submit"] {
   padding: 5px 10px;
-  background-color: #216869;
+  background-color: #c56709;
   color: aliceblue;
   border: none;
   cursor: pointer;
