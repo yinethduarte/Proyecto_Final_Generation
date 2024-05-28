@@ -8,11 +8,12 @@ body {
 
 /* contact header  */
 .contact h2 {
+  margin: 50px 1rem;
   font-size: 2.5rem;
   color: #af480c;
 }
 .contact p {
-  margin-top: 50px;
+  margin: 50px 1rem;
   font-size: 1.5rem;
 }
 
@@ -20,6 +21,10 @@ body {
   color: white;
   background-color: #38580e;
   border-radius: 10px;
+}
+
+.card-contact-container .form-container{
+  padding-top: 25px;
 }
 
 /* formulario  */
