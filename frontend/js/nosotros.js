@@ -42,9 +42,11 @@ let teamContainer = document.querySelector("#cards-team-container");
 
 let crearCardParticipantes = (container, participante) => {
   let card = `<div class="card col-12 col-md-5 px-0 col-lg card-teammate">
-                  <img src="${participante.foto}" class="card-img-top" alt="foto de ${participante.nombre}">
-                  <div class="overlay" >
-                    <p class="card-text">${participante.descripcion}</p>
+                  <div class="imgcontainer" >
+                    <img src="${participante.foto}" class="card-img-top" alt="foto de ${participante.nombre}">
+                    <div class="overlay" >
+                      <p class="card-text">${participante.descripcion}</p>
+                    </div>
                   </div>
                   <div class="card-body">
                       <p class="card-text">${participante.nombre}</p>

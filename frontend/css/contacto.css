@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* contact header  */
+.contact h2 {
+  margin: 50px 1rem;
+  font-size: 2.5rem;
+  color: #af480c;
+}
+.contact p {
+  margin: 50px 1rem;
+  font-size: 1.5rem;
+}
+
+.card-contact-container {
+  color: white;
+  background-color: #38580e;
+  border-radius: 10px;
+}
+
+.card-contact-container .form-container{
+  padding-top: 25px;
+}
+
+/* formulario  */
+.contact-group {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/*animación label */
+.contact-group label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: top 0.3s, font-size 0.3s;
+  font-weight: bold;
+}
+
+.contact-group input:focus + label,
+.contact-group input:not(:placeholder-shown) + label {
+  top: -1.2em;
+}
+
+.contact-group textarea:focus + label,
+.contact-group textarea:not(:placeholder-shown) + label {
+  top: -1.2em;
+}
+
+.contact-group input,
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #bae286a8;
+  outline: none;
+}
+
+/*estilo y animación cuando hay erorr */
+.contact-group .error {
+  border-bottom: 2px solid #af480c;
+}
+
+.contact-group input.error + label,
+.contact-group textarea.error + label {
+  top: -1.2em;
+}
+
+.form-contact button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: #af480c;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.form-contact button:hover {
+  background-color: #bae286a8;
+  color: #172a3a;
+}
+
+.info-container-contact {
+  right: 0;
+  color: #172a3a;
+  background-color: #bae286a8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.8em;
+}
+
+.info-container-contact ul {
+  list-style: none;
+}
+.info-container-contact h2 {
+  color: #172a3a;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.info-container-contact ul li {
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}

@@ -1,5 +1,5 @@
 /* ESTILOS GENERALES */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -30,9 +30,18 @@
   text-align: center;
 }
 
-.card-teammate img{
-  height:40vh;
+.imgcontainer {
+  height: 50vh;
+  position: relative;
+}
+
+.card-teammate .imgcontainer img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .cards-team-container .card-teammate {
@@ -44,13 +53,13 @@
 }
 
 .cards-team-container > div:nth-child(2n) {
-  background-color: #3D4C47;
+  background-color: #3d4c47;
   margin-top: -50px;
   margin-bottom: 5%;
 }
 
 .cards-team-container > div:nth-child(2n + 1) {
-  background-color: #3D4C47;
+  background-color: #3d4c47;
   margin-top: 5%;
   margin-bottom: -50px;
 }
@@ -63,25 +72,25 @@
 }
 
 .teamater-contact i:hover {
-  color:#af480c ;
+  color: #af480c;
 }
 
 .overlay {
-  width: 85%;
+  width: 90%;
   height: 80%;
   transition: all 0.2s ease;
   opacity: 0;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
 
-.overlay p{
+.overlay p {
   font-size: 1rem;
   font-weight: 600;
   display: flex;
@@ -95,11 +104,10 @@
   opacity: 1;
 }
 
-
 /* Adaptable responsivo */
 
 /* ESCITORIO NORMAL */
-@media (min-width:991px){
+@media (min-width: 991px) {
   .info-container {
     margin: 0px 40px;
   }
@@ -109,7 +117,7 @@
   }
 
   .info-container p {
-    font-size:1.1rem;
+    font-size: 1.1rem;
     margin-bottom: 40px;
   }
 
@@ -120,10 +128,9 @@
     align-items: center;
   }
 
-  .overlay p{
+  .overlay p {
     font-size: 0.85rem;
   }
-
 }
 
 /* Escritorios anchos */
@@ -133,16 +140,16 @@
   }
 
   .info-container p {
-    font-size:17px;
+    font-size: 17px;
   }
-  
+
   .overlay p {
     font-size: 0.98rem;
   }
 }
 
 /* MOBILE */
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .cards-team-container {
     display: flex;
     flex-wrap: wrap;
@@ -151,7 +158,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
     height: 100%;
-
   }
 
   .cards-team-container .card-teammate {
@@ -169,7 +175,7 @@
 }
 
 /* TABLET */
-@media (min-width:767px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
   .cards-team-container {
     display: flex;
     flex-wrap: nowrap;
@@ -179,7 +185,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  
+
   .cards-team-container > div:nth-child(2n) {
     margin-top: 10px;
     margin-left: 30px;
@@ -190,4 +196,4 @@
     margin-left: 30px;
     margin-bottom: 30px;
   }
-} 
+}
