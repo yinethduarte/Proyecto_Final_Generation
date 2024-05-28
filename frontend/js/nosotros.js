@@ -22,7 +22,7 @@ let participantes = [
     nombre: "Sara Salazar",
     descripcion:
       "Ingeniera física con fuertes bases en tecnología, posee amplios conocimientos que van desde el análisis de datos hasta el desarrollo web y de aplicaciones. Manejando Java,Python, C++, R, HTML, CSS y JavaScript. Se considera una mente inquieta que busca resolver problemas complejos.",
-    linkedin: "linkedin.com/in/sarasalazarz",
+    linkedin: "https://www.linkedin.com/in/sarasalazarz/z",
     github: "https://github.com/SaraDSala",
     correo: "mailto:sara.salazar@gmail.com",
   },
