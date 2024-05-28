@@ -4,6 +4,7 @@ const inputNombre = document.querySelector("#name");
 const inputTelefono = document.querySelector("#phone");
 const inputCorreo = document.querySelector("#email");
 const inputConsulta = document.querySelector("#txtConsult");
+const btnEnviar = document.querySelector("#submit")
 
 const inputs = [inputNombre, inputTelefono, inputCorreo, inputConsulta];
 
@@ -45,7 +46,7 @@ function validarInputs() {
 }
 
 // evento submit
-submit.addEventListener("click", (e) => {
+btnEnviar.addEventListener("click", (e) => {
   e.preventDefault();
   validarInputs();
   validarCorreo();
