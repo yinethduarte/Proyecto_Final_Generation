@@ -14,8 +14,9 @@
 }
 
 .imgAgon {
-  width: 80%;
-  padding-left: 2%;
+  width: 100%;
+  max-width: 100px; /* Ajusta según sea necesario */
+  height: auto;
 }
 
 .row {
