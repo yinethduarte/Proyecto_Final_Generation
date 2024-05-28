@@ -45,7 +45,6 @@ function validarInputs() {
 }
 
 // evento submit
-
 submit.addEventListener("click", (e) => {
   e.preventDefault();
   validarInputs();
