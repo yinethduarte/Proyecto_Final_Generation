@@ -1,0 +1,46 @@
+
+:root,
+[data-bs-theme="light"] {
+  --bs-primary: #fe8340;
+  --bs-primary-rgb: 254, 131, 64;
+  --bs-secondary: #293e31;
+  --bs-secondary-rgb: 41, 62, 49;
+}
+ 
+.fill-secondary {
+  fill: var(--bs-secondary);
+}
+
+.logoContainer img{
+  width: 85px;
+  height: 80px;
+}
+ 
+.cajaMarca{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleAgon{
+  padding-left: 10px;
+}
+
+.cajaBotonesContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 80%;
+}
+
+
+
+.cajaBtn{
+  width: 100%;
+  background-color: blue;
+  text-align: center;
+  border-radius: 10px;
+}
+
