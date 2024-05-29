@@ -44,7 +44,7 @@ body {
 
 .card-contact-container {
   color: var(--platinum);
-  padding-top: 50px;
+  padding-top: 60px;
   margin-left: 40px;
   margin-right: 40%;
 } 
@@ -163,3 +163,8 @@ textarea {
   margin: 10px 10px 10px 0px;
 } 
 
+.info-container-contact .item-info-contact a {
+  color: var(--caribbean-current);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
