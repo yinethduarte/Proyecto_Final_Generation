@@ -1,43 +1,84 @@
+:root{
+  --caribbean-current: #143E3E; 
+  --jungle-green: #49a078ff; 
+  --cambridge-blue: #9cc5a1ff; 
+  --ut-orange: #ff8811ff; 
+  --platinum: #dce1deff;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-family: "Montserrat Alternates",sans-serif;
 }
 
-/* contact header  */
-.contact h2 {
-  margin: 0px 1rem;
-  font-size: 2.5rem;
-  color: #af480c;
+
+/* Esquema del contenedor */
+.contact {
+  background-color: var(--caribbean-current);
+  max-width: 1140px;
+  border-radius: 50px;
+  padding: 0px;
+  position: relative;
 }
-.contact p {
-  margin: 50px 1rem;
-  font-size: 1.5rem;
+
+.container-logo{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 20px 0px 0px 50px;
+}
+
+.container-logo img{
+  height: 7rem;
+}
+
+.container-gris{
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: var(--ut-orange);
 }
 
 .card-contact-container {
-  color: white;
-  background-color: #38580e;
-  border-radius: 10px;
-}
+  color: var(--platinum);
+  padding-top: 60px;
+  margin-left: 40px;
+  margin-right: 40%;
+} 
 
-.card-contact-container .form-container{
-  padding-top: 25px;
+/* contact header  */
+.contact h2 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: var(--platinum);
+  letter-spacing: 2px;
 }
+.contact p {
+  display: none;
+  font-size: 1rem;
+}  
 
 /* formulario  */
+.form-contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .contact-group {
   position: relative;
   margin-bottom: 2rem;
-}
+} 
 
 /*animación label */
 .contact-group label {
   position: absolute;
   left: 0;
   top: 0;
-  transition: top 0.3s, font-size 0.3s;
+  transition: top 0.3s; 
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -55,16 +96,16 @@ body {
 textarea {
   width: 100%;
   padding: 0.5em;
-  color: white;
+  color: var(--platinum);
   background-color: transparent;
   border: none;
-  border-bottom: 2px solid #bae286a8;
+  border-bottom: 2px solid #9CC5A1;
   outline: none;
-}
+} 
 
 /*estilo y animación cuando hay erorr */
 .contact-group .error {
-  border-bottom: 2px solid #af480c;
+  border-bottom: 2px solid #E74C3C;
 }
 
 .contact-group input.error + label,
@@ -78,44 +119,52 @@ textarea {
   border: none;
   border-radius: 10px;
   margin-bottom: 30px;
-  background-color: #af480c;
-  color: white;
+  background-color: var(--platinum);
+  color: var(--caribbean-current);
   font-size: 1.2rem;
   font-weight: bold;
 }
 
 .form-contact button:hover {
-  background-color: #bae286a8;
-  color: #172a3a;
+  background-color: #FF8811;
+  color: #1b1b1d;
 }
+
+/* Contenedor info */
 
 .info-container-contact {
-  right: 0;
-  color: #172a3a;
-  background-color: #bae286a8;
-  display: flex;
+  color: var(--caribbean-current);
+  height: 400px;
+  background-color: var(--platinum);
   flex-direction: column;
   justify-content: center;
-  padding: 0.8em;
+  padding: 2rem;
+  position: absolute;
+  top: 17%;
+  right: 0%;
+  width: 440px;
 }
 
-.info-container-contact .list-info-contact{
-  padding: 0px;
-  text-align: center;
-}
-
-.info-container-contact ul {
-  list-style: none;
-}
 .info-container-contact h2 {
-  color: #020305;
+  color: var(--caribbean-current);
   font-weight: bold;
-  font-size: 1.2rem;
-  margin: 0px 0px 10px;
-  text-align: center;
-}
-.info-container-contact ul li {
+  font-size: 2rem;
   margin-bottom: 10px;
-  font-size: 1rem;
+}
+.info-container-contact .item-info-contact{
+  margin-bottom: 10px;
+  font-size: 1.2rem;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+} 
+.info-container-contact .item-info-contact i{
+  font-size: 2rem;
+  margin: 10px 10px 10px 0px;
+} 
+
+.info-container-contact .item-info-contact a {
+  color: var(--caribbean-current);
+  transition: all 0.3s ease;
+  text-decoration: none;
 }

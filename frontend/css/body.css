@@ -11,3 +11,11 @@
   font-size: 48px;
   font-weight: bold;
 }
+
+:root{
+  --caribbean-current: #216869ff; 
+  --jungle-green: #49a078ff; 
+  --cambridge-blue: #9cc5a1ff; 
+  --ut-orange: #ff8811ff; 
+  --platinum: #dce1deff;
+}
