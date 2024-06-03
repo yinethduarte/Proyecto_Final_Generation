@@ -20,14 +20,17 @@
     />
   </head>
   <body class="container-fluid">
-    <header class="row flex-md-row position-sticky top-0 ">
+    <header class="row flex-md-row position-sticky top-0">
       <!-- Company Name -->
       <div
-        class="cajaMarca bg-primary text-secondary col-7 col-md-2 ps-3 py-5 pt-md-4 order-md-1">
-        <div class="logoContainer"> <img src="/frontend/css/img/iconoagon-2@2x.png" alt="Logo de Agon"> </div>       
+        class="cajaMarca bg-primary text-secondary col-7 col-md-2 ps-3 py-5 pt-md-4 order-md-1"
+      >
+        <div class="logoContainer">
+          <img src="/frontend/css/img/iconoagon-2@2x.png" alt="Logo de Agon" />
+        </div>
         <h1 class="titleAgon m-0 fs-3 fw-bold">AGON</h1>
       </div>
- 
+
       <!-- Hamburguer Button  -->
       <button class="bg-primary border-0 text-white col-2 fs-1 d-md-none top-0">
         <i class="fa-solid fa-bars"></i>
@@ -43,31 +46,31 @@
           <li>Contac Us</li>
         </ul>
       </nav>
- 
+
       <!-- Join Us icon -->
-      <div class="col-3 col-md-2 d-flex justify-content-center bg-primary order-first order-md-3 ps-3">
-          <div class="cajaBotonesContainer d-flex column-gap-3 fs-3">
-            <div class="cajaBtn d-none d-md-block">
-              <a href="">
-                <i class="fa-solid fa-circle-user"></i></a>
-            </div>
-
-            <div class="cajaBtn d-none d-md-block">
-              <a href=""><i class="fa-solid fa-basket-shopping"></i></a>
-                <!-- <p class="fw-bold">0</p> -->
-            </div>
+      <div
+        class="col-3 col-md-2 d-flex justify-content-center bg-primary order-first order-md-3 ps-3"
+      >
+        <div class="cajaBotonesContainer d-flex column-gap-3 fs-3">
+          <div class="cajaBtn d-none d-md-block">
+            <a href=""> <i class="fa-solid fa-circle-user"></i></a>
           </div>
-      </div>
 
+          <div class="cajaBtn d-none d-md-block">
+            <a href=""><i class="fa-solid fa-basket-shopping"></i></a>
+            <!-- <p class="fw-bold">0</p> -->
+          </div>
+        </div>
+      </div>
     </header>
-    <div>
- 
-    </div>
+    <div></div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <!-- elemento que va a contener los productos -->
+    <div id="divProductos"></div>
+    <script src="/frontend/js/obtenerdatos.js"></script>
   </body>
 </html>
- 

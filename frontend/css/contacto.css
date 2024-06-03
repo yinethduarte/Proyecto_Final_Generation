@@ -1,8 +1,8 @@
-:root{
-  --caribbean-current: #143E3E; 
-  --jungle-green: #49a078ff; 
-  --cambridge-blue: #9cc5a1ff; 
-  --ut-orange: #ff8811ff; 
+:root {
+  --caribbean-current: #143e3e;
+  --jungle-green: #49a078ff;
+  --cambridge-blue: #9cc5a1ff;
+  --ut-orange: #ff8811ff;
   --platinum: #dce1deff;
 }
 
@@ -12,9 +12,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Montserrat Alternates",sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
 }
-
 
 /* Esquema del contenedor */
 .contact {
@@ -25,18 +24,18 @@ body {
   position: relative;
 }
 
-.container-logo{
+.container-logo {
   display: flex;
   align-items: start;
   justify-content: center;
   padding: 20px 0px 0px 50px;
 }
 
-.container-logo img{
+.container-logo img {
   height: 7rem;
 }
 
-.container-gris{
+.container-gris {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   background-color: var(--ut-orange);
@@ -47,7 +46,7 @@ body {
   padding-top: 60px;
   margin-left: 40px;
   margin-right: 40%;
-} 
+}
 
 /* contact header  */
 .contact h2 {
@@ -59,7 +58,7 @@ body {
 .contact p {
   display: none;
   font-size: 1rem;
-}  
+}
 
 /* formulario  */
 .form-contact {
@@ -70,14 +69,14 @@ body {
 .contact-group {
   position: relative;
   margin-bottom: 2rem;
-} 
+}
 
 /*animación label */
 .contact-group label {
   position: absolute;
   left: 0;
   top: 0;
-  transition: top 0.3s; 
+  transition: top 0.3s;
   font-size: 1.2rem;
   font-weight: bold;
 }
@@ -99,13 +98,13 @@ textarea {
   color: var(--platinum);
   background-color: transparent;
   border: none;
-  border-bottom: 2px solid #9CC5A1;
+  border-bottom: 2px solid #9cc5a1;
   outline: none;
-} 
+}
 
 /*estilo y animación cuando hay erorr */
 .contact-group .error {
-  border-bottom: 2px solid #E74C3C;
+  border-bottom: 2px solid #e74c3c;
 }
 
 .contact-group input.error + label,
@@ -126,7 +125,7 @@ textarea {
 }
 
 .form-contact button:hover {
-  background-color: #FF8811;
+  background-color: #ff8811;
   color: #1b1b1d;
 }
 
@@ -151,17 +150,17 @@ textarea {
   font-size: 2rem;
   margin-bottom: 10px;
 }
-.info-container-contact .item-info-contact{
+.info-container-contact .item-info-contact {
   margin-bottom: 10px;
   font-size: 1.2rem;
   font-weight: bold;
   display: flex;
   align-items: center;
-} 
-.info-container-contact .item-info-contact i{
+}
+.info-container-contact .item-info-contact i {
   font-size: 2rem;
   margin: 10px 10px 10px 0px;
-} 
+}
 
 .info-container-contact .item-info-contact a {
   color: var(--caribbean-current);
