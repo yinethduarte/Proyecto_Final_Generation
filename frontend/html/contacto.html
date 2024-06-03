@@ -10,23 +10,30 @@
       type="image/png"
       href="/frontend/css/img/iconoagon-2@2x.png"
     />
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Estilos -->
     <link rel="stylesheet" href="/frontend/css/contacto.css" />
   </head>
   <body>
-    <section class="contact container pt-5 m-2 m-md-0">
-      <h2>¿Tienes alguna duda? Cuéntanos un poco más</h2>
-      <p class="mb-5">
-        Tus solicitudes serán contestadas por uno de nuestros asesores en un
-        plazo maximo de tres días hábiles
-      </p>
-      <div class="card-contact-container row p-4 m-3">
-        <div class="form-container col col-md-8 mb-5 mb-md-0 pe-md-5">
+    <section class="contact row container">
+      <div class="container-logo col-12 col-md-1"> 
+        <img src="/frontend/css/img/iconoagon-naranja.png" alt="Logo Agon">
+      </div>
+      <div class="card-container col-12 col-md-9">
+      <div class="card-contact-container col">
+        <div class="form-container">
+          <h2>¿Tienes alguna duda? <br />Cuéntanos un poco más</h2>
+          <p class="mb-5">
+            Tus solicitudes serán contestadas por uno de nuestros asesores en un
+            plazo maximo de tres días hábiles
+          </p>
           <form id="form" class="form-contact">
             <div class="contact-group">
               <input type="text" name="name" id="name" placeholder=" " />
@@ -40,7 +47,7 @@
 
             <div class="contact-group">
               <input type="email" name="email" id="email" placeholder=" " />
-              <label for="email">Correo Electronico</label>
+              <label for="email">Correo Electrónico</label>
             </div>
 
             <div class="contact-group">
@@ -56,16 +63,17 @@
             <button type="submit" id="submit">Enviar</button>
           </form>
         </div>
-
-        <div class="info-container-contact col-12 col-md-4">
-          <h2>Más información</h2>
-          <ul class="list-info-contact">
-            <li class="item-info-contact">agon.admin@agon.com</li>
-            <li class="item-info-contact">@_Agón</li>
-            <li class="item-info-contact">Agón</li>
-          </ul>
-        </div>
       </div>
+    </div>
+        <div class="info-container-contact col d-flex">
+          <h2>Más información:</h2>
+          <div class="list-info-contact">
+            <div class="item-info-contact"><a href="$" target="_blank" rel="noopener noreffer"><i class="bi bi-envelope"></i></a> agon.admin@agon.com</div>
+            <div class="item-info-contact"><a href="$" target="_blank" rel="noopener noreffer"><i class="bi bi-instagram"></i></a> @_Agón</div>
+            <div class="item-info-contact"><a href="$" target="_blank" rel="noopener noreffer"><i class="bi bi-facebook"></i></a> Agón</div>
+            </div>
+        </div>
+        <div class="container-gris col-12 col-md-2"></div>
     </section>
 
     <script src="/frontend/js/contacto.js"></script>
