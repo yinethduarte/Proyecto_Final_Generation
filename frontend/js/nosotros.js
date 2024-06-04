@@ -71,7 +71,7 @@ let renderizarCardsParticipantes = (participantes) => {
 
 renderizarCardsParticipantes(participantes);
 
-//Solicitud para obtener footer.html e incertarlo en esta página.
+//Solicitud para obtener footer.html e insertarlo en esta página.
 fetch("./footer.html")
   .then((response) => {
     return response.text();

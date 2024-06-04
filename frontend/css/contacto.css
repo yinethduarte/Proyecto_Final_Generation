@@ -5,15 +5,19 @@
   --ut-orange: #ff8811ff; 
   --platinum: #dce1deff;
 }
-
-body {
+*{
   margin: 0;
-  min-height: 100vh;
-  display: flex;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  /* display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Montserrat Alternates",sans-serif;
-}
+  font-family: "Montserrat Alternates",sans-serif; */
+} 
 
 
 /* Esquema del contenedor */
@@ -59,7 +63,7 @@ body {
 .contact p {
   display: none;
   font-size: 1rem;
-}  
+}   
 
 /* formulario  */
 .form-contact {
@@ -101,7 +105,7 @@ textarea {
   border: none;
   border-bottom: 2px solid #9CC5A1;
   outline: none;
-} 
+}  
 
 /*estilo y animación cuando hay erorr */
 .contact-group .error {
@@ -128,7 +132,7 @@ textarea {
 .form-contact button:hover {
   background-color: #FF8811;
   color: #1b1b1d;
-}
+} 
 
 /* Contenedor info */
 
@@ -167,4 +171,4 @@ textarea {
   color: var(--caribbean-current);
   transition: all 0.3s ease;
   text-decoration: none;
-}
+} 
