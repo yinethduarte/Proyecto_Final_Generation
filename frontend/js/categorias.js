@@ -3,7 +3,7 @@ const contenedorCategoria = document.querySelector(".categoria");
 const listaSubcategorias = document.querySelector(".lista-subcategorias");
 
 // crear una tarjeta de producto
-function crearCartProducto(product) {
+function crearCardProducto(product) {
   const productoHTML = `
     <div class="contenedor-producto">
       <div class="header-producto">
@@ -27,13 +27,13 @@ function renderizarProductos(productos, subcategoria) {
     const productosFiltrados = productos[subcategoria];
     if (productosFiltrados) {
       productosFiltrados.forEach((producto) => {
-        crearCartProducto(producto);
+        crearCardProducto(producto);
       });
     }
   } else {
     for (const key in productos) {
       productos[key].forEach((producto) => {
-        crearCartProducto(producto);
+        crearCardProducto(producto);
       });
     }
   }
