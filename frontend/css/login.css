@@ -1,0 +1,120 @@
+:root{
+    --caribbean-current: #143E3E; 
+    --jungle-green: #49a078ff; 
+    --cambridge-blue: #9cc5a1ff; 
+    --ut-orange: #ff8811ff; 
+    --platinum: #dce1deff;
+  }
+
+  .modal2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(20, 62, 62, 50%);
+    display: flex;
+}
+
+.modalContainer2{
+    width: 90%;
+    background-color: var(--caribbean-current);
+    margin: auto;
+    max-width: 400px;
+    max-height: 90%;
+    border-radius: 6px;
+    padding: 70px 10px 15px 10px;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+}
+
+.modal2 .modalContainer2 .imgModal2 img{
+    width: 70px;
+    position: relative;
+    top: -40px;
+}
+
+.modal2 .modalContainer2 h2{
+    color: var(--ut-orange);
+    font-size: 35px;
+    position: relative;
+    top: -50px;
+}
+
+/* Animación */
+
+.modal2 .modalContainer2 .formRegistro2 .registroGroup2 label {
+    position: absolute;
+    transition: top 0.3s; 
+    font-size: 1rem;
+    color: var(--jungle-green) ;
+  }
+  
+  .modal2 .modalContainer2 .formRegistro2 .registroGroup2 input:focus + label,
+  .registroGroup input:not(:placeholder-shown) + label {
+    top: -1.2em;
+  }
+  
+  .modal2 .modalContainer2 .formRegistro2 .registroGroup2 textarea:focus + label,
+  .registroGroup2 textarea:not(:placeholder-shown) + label {
+    top: -1.2em;
+  }
+  
+  .modal2 .modalContainer2 .formRegistro2 .registroGroup2 input,
+  textarea {
+    width: 100%;
+    padding: 0.5em;
+    color: var(--platinum);
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #9CC5A1;
+    outline: none;
+  }  
+  /*  */
+
+  .modal2 .modalContainer2 .formRegistro2 .registroGroup2{
+    position: relative;
+    top: -30px;
+    margin-bottom: 40px;
+  }
+
+  .modal2 .modalContainer2 .modalContinuar2{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 14px;
+    background-color: var(--ut-orange);
+    padding: 10px 85px;
+    border-radius: 20px;
+    position: relative;
+    top: -50px;
+}
+
+.modal2 .modalContainer2 .noRegistrado{
+    position: relative;
+    top: 45px;
+    font-size: 13px;
+    color: wheat;
+}
+
+.modal2 .modalContainer2 .noRegistrado a{
+    text-decoration: none;
+    color: var(--ut-orange);
+}
+
+.modal2 .modalContainer2 .extra{
+    position: relative;
+    top: -87px;
+}
+
+.modal2 .modalContainer2 .facebook{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 14px;
+    background-color: #3b5998;
+    padding: 10px 30px;
+    border-radius: 20px;
+    position: relative;
+    top: -83px;
+}

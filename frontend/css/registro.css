@@ -23,7 +23,7 @@
     max-width: 400px;
     max-height: 90%;
     border-radius: 6px;
-    padding: 2em 2.5em;
+    padding: 10px 10px;
     display: grid;
     gap: 1em;
     place-items: center;
@@ -38,16 +38,24 @@
 .modal .modalContainer h3{
     font-size: 35px;
     margin-bottom: -12px;
+    color: var(--ut-orange);
+    position: relative;
+    top: -6px;
 }
 
 .modal .modalContainer p{
     font-size: 13px;
     margin-bottom: 20px;
+    position: relative;
+    top: -6px;
+    color: wheat;
 }
 
 .modal .modalContainer .formRegistro{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -15px;
 }
 
 .modal .modalContainer .formRegistro .registroGroup{
@@ -63,7 +71,7 @@
     top: 0;
     transition: top 0.3s; 
     font-size: 1rem;
-    color: ;
+    color: var(--jungle-green) ;
   }
   
   .modal .modalContainer .formRegistro .registroGroup input:focus + label,
@@ -91,20 +99,32 @@
 .modal .modalContainer .modalContinuar{
     text-decoration: none;
     color: aliceblue;
-    background-color: blue;
-    padding: 1em 3em;
-    border: 1px solid;
-    border-radius: 6px;
+    font-size: 14px;
+    background-color: var(--ut-orange);
+    padding: 10px 25px;
+    border-radius: 20px;
+    position: relative;
+    top: -38px;
 }
 
 .modal .modalContainer .modalCloseContainer{
-    width: 100%;
+    /* width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: end; */
     font-size: 30px;
 }
 
 .modal .modalContainer .modalCloseContainer .modalClose i{
     color: var(--jungle-green) ;
     font-weight: 100;
+}
+
+.modal .modalContainer .yaRegistrado{
+    position: relative;
+    top: -25px;
+}
+
+.modal .modalContainer .yaRegistrado a{
+    text-decoration: none;
+    color: var(--ut-orange);
 }
