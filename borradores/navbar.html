@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Personalización -->
+    <title>Agon</title>
+    <link rel="icon" type="image/png" href="/frontend/css/img/iconoagon-2@2x.png"/>
+
+    <!-- Bootstrap y fuentes-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  <!-- Estilos  -->
+    <link rel="stylesheet" href="/frontend/css/navbar.css" />
+
+  </head>
+  <body class="container-fluid">
+    <header class="row flex-md-row position-sticky top-0 ">
+      <!-- Logo -->
+      <div
+        class="cajaMarca col-7 col-md-2 order-md-1">
+        <div class="logoContainer"> <img src="/frontend/css/img/iconoagon-2@2x.png" alt="Logo de Agon"> </div>       
+        <h1 class="titleAgon m-0 fw-bold">AGON</h1>
+      </div>
+
+
+      <!-- Hamburguer Button  -->
+      <button class="hamburger-button navbar-toggler border-0 col-2 fs-1 d-md-none top-0"
+      type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- Navbar -->
+      <nav class="navbar col-12 col-md-8 order-md-2">
+        <!-- Barra de búsqueda -->
+        <div class="barra-busqueda ">
+          <div class="contenedor-box col-md-5">
+            <div class="box laptop">
+              <form name="search">
+                  <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();">
+              </form>
+              <i class="bi bi-search"></i>
+            </div>
+          </div>
+          
+        <!-- Menú de navegación -->
+        <ul id="navbar-toggler" class="navegacion col-12 col-md-7 d-md-flex list-unstyled column-gap-4 text-white m-0" >
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+          <li>
+            <a href="#">Categorías</a>
+          </li>
+          <li>
+            <a href="nosotros.html">Nosotros</a>
+          </li>
+          <li>
+            <a href="contacto.html">Contáctenos</a>
+          </li>
+        </ul>
+
+        <div class="contenedor-box col-12 d-md-none">
+          <div class="box mobile">
+            <form name="search">
+                <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();">
+            </form>
+            <i class="bi bi-search"></i>
+          </div>
+        </div>
+        
+      </div>
+      </nav>
+
+      <!-- Iconos de usuario y carrito-->
+      <div class="botonesContainer col-3 col-md-2 d-flex justify-content-center order-first order-md-3 ">
+          <div class="cajaBotonesContainer d-flex column-gap-3 fs-3">
+            <div class="cajaBtn">
+              <a href="#">
+                <i class="fa-solid fa-circle-user"></i></a>
+            </div>
+
+            <div class="cajaBtn">
+              <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+              <span></span>
+            </div>
+          </div>
+      </div>
+    </header>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- elemento que va a contener los productos -->
+    <div id="divProductos"></div>
+    <script src="/frontend/js/obtenerdatos.js"></script>
+  </body>
+</html>
+

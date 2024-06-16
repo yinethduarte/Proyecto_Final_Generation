@@ -12,9 +12,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-} 
+}
 
-.contact-container .contact{
+.contact-container .contact {
   background-color: var(--caribbean-current);
   width: 90vw;
   border-radius: 50px;
@@ -23,7 +23,7 @@
   margin: 20px auto;
 }
 
-.contact-container .container-logo{
+.contact-container .container-logo {
   display: flex;
   align-items: start;
   justify-content: center;
@@ -33,7 +33,7 @@
   height: 7rem;
 }
 
-.contact .container-gris{
+.contact .container-gris {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   background-color: var(--ut-orange);
@@ -42,7 +42,7 @@
 .contact-container .card-contact-container {
   color: var(--platinum);
   margin: 2rem;
-} 
+}
 
 /* contact header */
 .contact h2 {
@@ -163,14 +163,13 @@ textarea {
   color: var(--caribbean-current);
   transition: all 0.3s ease;
   text-decoration: none;
-} 
-
+}
 
 /* Adaptable responsivo */
 
 /* ESCITORIO NORMAL */
 @media (width>= 992px) {
-  .contact-container{
+  .contact-container {
     margin-top: 40px;
   }
   .contact .info-container-contact {
@@ -189,26 +188,23 @@ textarea {
     padding-top: 60px;
     margin-left: 40px;
     margin-right: 40%;
-  } 
+  }
 
-  .contact-container .container-logo{
+  .contact-container .container-logo {
     display: flex;
     align-items: start;
     justify-content: center;
     padding: 20px 0px 0px 50px;
   }
-  
 }
 
-
 /* MOBILE & TABLET */
-@media 
-  screen and (width<=991px) {
-  .contact-container{
+@media screen and (width<=991px) {
+  .contact-container {
     margin-top: 100px;
   }
 
-  .contact-container .contact{
+  .contact-container .contact {
     display: flex;
     flex-direction: column;
   }
@@ -218,7 +214,7 @@ textarea {
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
   }
-  
+
   .contact h2 {
     font-size: 1.2rem;
   }
@@ -227,9 +223,7 @@ textarea {
     font-size: 1rem;
   }
 
-  .info-container-contact .item-info-contact{
+  .info-container-contact .item-info-contact {
     font-size: 1rem;
-  } 
-  
-
+  }
 }

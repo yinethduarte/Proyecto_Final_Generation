@@ -64,11 +64,9 @@ function buildMenu(navmenu) {
   );
 }
 
-
 // crear la lista de filtros
 function crearFiltroCategorias() {
   const categorias = document.querySelectorAll(".lista-navbar-nesting");
-  console.log(categorias)
+  console.log(categorias);
 }
 crearFiltroCategorias();
-
