@@ -64,7 +64,7 @@ function crearFiltrosSubcategorias(productos) {
 
 // filtrar los productos por CATEGORIA
 function filtrarCategoria(data) {
-  const productos = data.productos; // aca se debe hacer la lógica para que se elija la categoria seleccionada en el nav
+  const productos = data.servicios; // aca se debe hacer la lógica para que se elija la categoria seleccionada en el nav
   crearFiltrosSubcategorias(productos);
   renderizarProductos(productos, null);
 }
