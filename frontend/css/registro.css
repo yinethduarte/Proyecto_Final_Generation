@@ -1,0 +1,110 @@
+:root{
+    --caribbean-current: #143E3E; 
+    --jungle-green: #49a078ff; 
+    --cambridge-blue: #9cc5a1ff; 
+    --ut-orange: #ff8811ff; 
+    --platinum: #dce1deff;
+  }
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(20, 62, 62, 50%);
+    display: flex;
+}
+
+.modalContainer{
+    width: 90%;
+    background-color: var(--caribbean-current);
+    margin: auto;
+    max-width: 400px;
+    max-height: 90%;
+    border-radius: 6px;
+    padding: 2em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+}
+
+.modal .modalContainer .imgModal img{
+    width: 70px;
+
+}
+
+.modal .modalContainer h3{
+    font-size: 35px;
+    margin-bottom: -12px;
+}
+
+.modal .modalContainer p{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.modal .modalContainer .formRegistro{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.modal .modalContainer .formRegistro .registroGroup{
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+/* Animación  */
+
+.modal .modalContainer .formRegistro .registroGroup label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: top 0.3s; 
+    font-size: 1rem;
+    color: ;
+  }
+  
+  .modal .modalContainer .formRegistro .registroGroup input:focus + label,
+  .registroGroup input:not(:placeholder-shown) + label {
+    top: -1.2em;
+  }
+  
+  .modal .modalContainer .formRegistro .registroGroup textarea:focus + label,
+  .registroGroup textarea:not(:placeholder-shown) + label {
+    top: -1.2em;
+  }
+  
+  .modal .modalContainer .formRegistro .registroGroup input,
+  textarea {
+    width: 100%;
+    padding: 0.5em;
+    color: var(--platinum);
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #9CC5A1;
+    outline: none;
+  }  
+
+/*  */
+.modal .modalContainer .modalContinuar{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: blue;
+    padding: 1em 3em;
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+.modal .modalContainer .modalCloseContainer{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+}
+
+.modal .modalContainer .modalCloseContainer .modalClose i{
+    color: var(--jungle-green) ;
+    font-weight: 100;
+}
