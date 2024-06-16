@@ -5,6 +5,27 @@
   --ut-orange: #ff8811ff;
   --platinum: #dce1deff;
 }
+.filtro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.lista-subcategorias {
+  margin: 0px;
+  padding: 0;
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid var(--ut-orange);
+}
+
+.lista-subcategorias li {
+  margin: 15px;
+  font-size: large;
+  color: var(--jungle-green);
+}
 .categoria {
   max-width: 80%;
   margin: 40px auto 100px auto;
@@ -44,6 +65,7 @@
   border: none;
   color: var(--caribbean-current);
   background-color: var(--platinum);
+  font-weight: 550;
 }
 .contenedor-addCart button:hover {
   color: var(--platinum);
