@@ -55,26 +55,26 @@
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
-    top: -15px;
+    top: -20px;
 }
 
 .modal .modalContainer .formRegistro .registroGroup{
     position: relative;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* Animación  */
 
 .modal .modalContainer .formRegistro .registroGroup label {
-    position: absolute;
+    /* position: absolute;
     left: 0;
     top: 0;
-    transition: top 0.3s; 
+    transition: top 0.3s;  */
     font-size: 1rem;
     color: var(--jungle-green) ;
   }
   
-  .modal .modalContainer .formRegistro .registroGroup input:focus + label,
+  /* .modal .modalContainer .formRegistro .registroGroup input:focus + label,
   .registroGroup input:not(:placeholder-shown) + label {
     top: -1.2em;
   }
@@ -82,7 +82,7 @@
   .modal .modalContainer .formRegistro .registroGroup textarea:focus + label,
   .registroGroup textarea:not(:placeholder-shown) + label {
     top: -1.2em;
-  }
+  } */
   
   .modal .modalContainer .formRegistro .registroGroup input,
   textarea {
@@ -93,9 +93,10 @@
     border: none;
     border-bottom: 2px solid #9CC5A1;
     outline: none;
-  }  
+  }   
 
 /*  */
+
 .modal .modalContainer .modalContinuar{
     text-decoration: none;
     color: aliceblue;

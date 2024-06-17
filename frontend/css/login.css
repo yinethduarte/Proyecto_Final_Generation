@@ -46,22 +46,11 @@
 /* Animación */
 
 .modal2 .modalContainer2 .formRegistro2 .registroGroup2 label {
-    position: absolute;
-    transition: top 0.3s; 
+
     font-size: 1rem;
     color: var(--jungle-green) ;
   }
-  
-  .modal2 .modalContainer2 .formRegistro2 .registroGroup2 input:focus + label,
-  .registroGroup input:not(:placeholder-shown) + label {
-    top: -1.2em;
-  }
-  
-  .modal2 .modalContainer2 .formRegistro2 .registroGroup2 textarea:focus + label,
-  .registroGroup2 textarea:not(:placeholder-shown) + label {
-    top: -1.2em;
-  }
-  
+
   .modal2 .modalContainer2 .formRegistro2 .registroGroup2 input,
   textarea {
     width: 100%;
@@ -72,6 +61,7 @@
     border-bottom: 2px solid #9CC5A1;
     outline: none;
   }  
+  
   /*  */
 
   .modal2 .modalContainer2 .formRegistro2 .registroGroup2{
