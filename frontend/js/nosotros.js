@@ -4,7 +4,8 @@ let participantes = [
     nombre: "Yineth Duarte",
     descripcion:
       "Ingeniera de Sistemas con bases en lógica de programación y dominio de lenguajes como JavaScript y Java. Yineth es una persona curiosa, responsable y comprometida, siempre interesada en aprender y explorar diferentes áreas del conocimiento.",
-    linkedin: "https://www.linkedin.com/in/yineth-paola-duarte-contreras-3b67b8176/",
+    linkedin:
+      "https://www.linkedin.com/in/yineth-paola-duarte-contreras-3b67b8176/",
     github: "https://github.com/yinethduarte",
     correo: "mailto:yineth.duarte@genstudents.org",
   },
@@ -13,7 +14,8 @@ let participantes = [
     nombre: "Juliana Espinosa",
     descripcion:
       "Juliana enfoca su capacidad creativa en el desarrollo de páginas web innovadoras y dinámicas que se enfocan en las necesidades y preferencias de los usuarios. <br> Es proactiva en aprender nuevas herramientas y aplicarlas en su trabajo.",
-    linkedin: "https://www.linkedin.com/in/juliana-espinosa-escobar-desarrolladora-web/",
+    linkedin:
+      "https://www.linkedin.com/in/juliana-espinosa-escobar-desarrolladora-web/",
     github: "https://github.com/Ribatosis",
     correo: "mailto:espinosajuliana44@gmail.com",
   },
@@ -53,7 +55,7 @@ let crearCardParticipantes = (container, participante) => {
                       <div class="teamater-contact">
                           <a href="${participante.github}" target="_blank" rel="noopener noreffer"><i class="bi bi-github"></i></a>
                           <a href="${participante.linkedin}" target="_blank" rel="noopener noreffer"><i class="bi bi-linkedin"></i></a>
-                          <a href="${participante.correo}" target="_blank" rel="noopener noreffer"><i class="bi bi-envelope-at-fill"></i></a>   
+                          <a href="${participante.correo}" target="_blank" rel="noopener noreffer"><i class="bi bi-envelope-at-fill"></i></a>  
                       </div>
                   </div>
               </div>`;

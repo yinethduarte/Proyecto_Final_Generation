@@ -1,0 +1,378 @@
+{
+  "productos": {
+    "articulos_deportivos": [
+      {
+        "nombre": "Balón de Fútbol",
+        "precio": 25.99,
+        "descripcion": "Balón de fútbol tamaño oficial.",
+        "unidades_disponibles": 100
+      },
+      {
+        "nombre": "Raqueta de Tenis",
+        "precio": 89.99,
+        "descripcion": "Raqueta de tenis profesional de grafito.",
+        "unidades_disponibles": 50
+      },
+      {
+        "nombre": "Guantes de Boxeo",
+        "precio": 49.99,
+        "descripcion": "Guantes de boxeo de alta calidad.",
+        "unidades_disponibles": 75
+      },
+      {
+        "nombre": "Bicicleta de Montaña",
+        "precio": 299.99,
+        "descripcion": "Bicicleta de montaña con suspensión completa.",
+        "unidades_disponibles": 20
+      },
+      {
+        "nombre": "Pesas Ajustables",
+        "precio": 150.0,
+        "descripcion": "Set de pesas ajustables de 2.5 a 24 kg.",
+        "unidades_disponibles": 40
+      },
+      {
+        "nombre": "Cuerda para Saltar",
+        "precio": 15.99,
+        "descripcion": "Cuerda para saltar con rodamiento de bolas.",
+        "unidades_disponibles": 200
+      },
+      {
+        "nombre": "Mancuernas Hexagonales",
+        "precio": 29.99,
+        "descripcion": "Par de mancuernas hexagonales de 10 kg.",
+        "unidades_disponibles": 100
+      },
+      {
+        "nombre": "Set de Yoga",
+        "precio": 59.99,
+        "descripcion": "Incluye esterilla, bloques y correa de yoga.",
+        "unidades_disponibles": 150
+      },
+      {
+        "nombre": "Patines en Línea",
+        "precio": 89.99,
+        "descripcion": "Patines en línea ajustables para adultos.",
+        "unidades_disponibles": 60
+      },
+      {
+        "nombre": "Tabla de Surf",
+        "precio": 299.99,
+        "descripcion": "Tabla de surf de fibra de vidrio.",
+        "unidades_disponibles": 15
+      }
+    ],
+    "ropa": [
+      {
+        "nombre": "Camiseta Deportiva",
+        "precio": 19.99,
+        "descripcion": "Camiseta deportiva de secado rápido.",
+        "unidades_disponibles": 200
+      },
+      {
+        "nombre": "Pantalones de Yoga",
+        "precio": 29.99,
+        "descripcion": "Pantalones de yoga elásticos y cómodos.",
+        "unidades_disponibles": 150
+      },
+      {
+        "nombre": "Chaqueta Impermeable",
+        "precio": 59.99,
+        "descripcion": "Chaqueta impermeable y transpirable.",
+        "unidades_disponibles": 100
+      },
+      {
+        "nombre": "Zapatos de Correr",
+        "precio": 89.99,
+        "descripcion": "Zapatos de correr ligeros y con buen soporte.",
+        "unidades_disponibles": 120
+      },
+      {
+        "nombre": "Calcetines Deportivos",
+        "precio": 9.99,
+        "descripcion": "Pack de 5 pares de calcetines deportivos.",
+        "unidades_disponibles": 300
+      },
+      {
+        "nombre": "Sudadera con Capucha",
+        "precio": 39.99,
+        "descripcion": "Sudadera con capucha y bolsillo frontal.",
+        "unidades_disponibles": 180
+      },
+      {
+        "nombre": "Shorts de Entrenamiento",
+        "precio": 24.99,
+        "descripcion": "Shorts de entrenamiento ligeros.",
+        "unidades_disponibles": 160
+      },
+      {
+        "nombre": "Gorra Deportiva",
+        "precio": 14.99,
+        "descripcion": "Gorra deportiva ajustable.",
+        "unidades_disponibles": 250
+      },
+      {
+        "nombre": "Guantes de Invierno",
+        "precio": 19.99,
+        "descripcion": "Guantes de invierno térmicos.",
+        "unidades_disponibles": 140
+      },
+      {
+        "nombre": "Mallas de Compresión",
+        "precio": 34.99,
+        "descripcion": "Mallas de compresión para running.",
+        "unidades_disponibles": 130
+      }
+    ],
+    "accesorios": [
+      {
+        "nombre": "Botella de Agua",
+        "precio": 12.99,
+        "descripcion": "Botella de agua reutilizable de 1 litro.",
+        "unidades_disponibles": 250
+      },
+      {
+        "nombre": "Mochila Deportiva",
+        "precio": 49.99,
+        "descripcion": "Mochila deportiva con múltiples compartimentos.",
+        "unidades_disponibles": 80
+      },
+      {
+        "nombre": "Toalla de Microfibra",
+        "precio": 15.99,
+        "descripcion": "Toalla de microfibra absorbente.",
+        "unidades_disponibles": 300
+      },
+      {
+        "nombre": "Cinturón de Correr",
+        "precio": 19.99,
+        "descripcion": "Cinturón de correr con bolsillo para el móvil.",
+        "unidades_disponibles": 220
+      },
+      {
+        "nombre": "Gafas de Sol Deportivas",
+        "precio": 29.99,
+        "descripcion": "Gafas de sol deportivas polarizadas.",
+        "unidades_disponibles": 90
+      },
+      {
+        "nombre": "Reloj Deportivo",
+        "precio": 99.99,
+        "descripcion": "Reloj deportivo con monitor de actividad.",
+        "unidades_disponibles": 50
+      },
+      {
+        "nombre": "Auriculares Inalámbricos",
+        "precio": 59.99,
+        "descripcion": "Auriculares inalámbricos resistentes al sudor.",
+        "unidades_disponibles": 110
+      },
+      {
+        "nombre": "Rodilleras Deportivas",
+        "precio": 24.99,
+        "descripcion": "Rodilleras deportivas de compresión.",
+        "unidades_disponibles": 200
+      },
+      {
+        "nombre": "Banda para la Cabeza",
+        "precio": 9.99,
+        "descripcion": "Banda elástica para la cabeza.",
+        "unidades_disponibles": 180
+      },
+      {
+        "nombre": "Mascarilla Deportiva",
+        "precio": 14.99,
+        "descripcion": "Mascarilla deportiva reutilizable.",
+        "unidades_disponibles": 300
+      }
+    ],
+    "suplementos": [
+      {
+        "nombre": "Proteína en Polvo",
+        "precio": 39.99,
+        "descripcion": "Proteína en polvo de suero de leche.",
+        "unidades_disponibles": 150
+      },
+      {
+        "nombre": "Creatina Monohidratada",
+        "precio": 29.99,
+        "descripcion": "Creatina monohidratada en polvo.",
+        "unidades_disponibles": 120
+      },
+      {
+        "nombre": "Aminoácidos BCAA",
+        "precio": 34.99,
+        "descripcion": "Suplemento de aminoácidos BCAA.",
+        "unidades_disponibles": 100
+      },
+      {
+        "nombre": "Pre-entrenamiento",
+        "precio": 49.99,
+        "descripcion": "Suplemento pre-entrenamiento energizante.",
+        "unidades_disponibles": 80
+      },
+      {
+        "nombre": "Multivitaminas",
+        "precio": 24.99,
+        "descripcion": "Suplemento multivitamínico diario.",
+        "unidades_disponibles": 200
+      },
+      {
+        "nombre": "Omega 3",
+        "precio": 19.99,
+        "descripcion": "Cápsulas de aceite de pescado Omega 3.",
+        "unidades_disponibles": 180
+      },
+      {
+        "nombre": "Glutamina",
+        "precio": 34.99,
+        "descripcion": "Suplemento de glutamina en polvo.",
+        "unidades_disponibles": 90
+      },
+      {
+        "nombre": "Proteína Vegana",
+        "precio": 44.99,
+        "descripcion": "Proteína en polvo vegana.",
+        "unidades_disponibles": 110
+      },
+      {
+        "nombre": "Barritas Energéticas",
+        "precio": 24.99,
+        "descripcion": "Caja de 12 barritas energéticas.",
+        "unidades_disponibles": 130
+      },
+      {
+        "nombre": "Electrolitos en Polvo",
+        "precio": 19.99,
+        "descripcion": "Polvo de electrolitos para rehidratación.",
+        "unidades_disponibles": 140
+      }
+    ]
+  },
+  "servicios": {
+    "videos_de_entrenamiento": [
+      {
+        "nombre": "Entrenamiento HIIT",
+        "duracion_video": "30 minutos",
+        "descripcion": "Video de entrenamiento de alta intensidad.",
+        "precio": 9.99
+      },
+      {
+        "nombre": "Yoga para Principiantes",
+        "duracion_video": "45 minutos",
+        "descripcion": "Video de yoga básico para principiantes.",
+        "precio": 12.99
+      },
+      {
+        "nombre": "Rutina de Fuerza",
+        "duracion_video": "60 minutos",
+        "descripcion": "Video de entrenamiento de fuerza completo.",
+        "precio": 14.99
+      },
+      {
+        "nombre": "Cardio Dance",
+        "duracion_video": "40 minutos",
+        "descripcion": "Video de entrenamiento cardiovascular con baile.",
+        "precio": 10.99
+      },
+      {
+        "nombre": "Pilates en Casa",
+        "duracion_video": "50 minutos",
+        "descripcion": "Video de entrenamiento de pilates para casa.",
+        "precio": 11.99
+      },
+      {
+        "nombre": "Boxeo Cardio",
+        "duracion_video": "35 minutos",
+        "descripcion": "Video de entrenamiento de boxeo con cardio.",
+        "precio": 9.99
+      },
+      {
+        "nombre": "Entrenamiento Funcional",
+        "duracion_video": "55 minutos",
+        "descripcion": "Video de entrenamiento funcional para todo el cuerpo.",
+        "precio": 13.99
+      },
+      {
+        "nombre": "Estiramientos y Movilidad",
+        "duracion_video": "30 minutos",
+        "descripcion": "Video de estiramientos y mejora de la movilidad.",
+        "precio": 8.99
+      },
+      {
+        "nombre": "Entrenamiento de Core",
+        "duracion_video": "25 minutos",
+        "descripcion": "Video de ejercicios para fortalecer el core.",
+        "precio": 7.99
+      },
+      {
+        "nombre": "Entrenamiento de Resistencia",
+        "duracion_video": "45 minutos",
+        "descripcion": "Video de entrenamiento para mejorar la resistencia.",
+        "precio": 12.99
+      }
+    ],
+    "planes_nutricionales": [
+      {
+        "nombre": "Plan Nutricional Básico",
+        "duracion_video": "15 minutos",
+        "descripcion": "Plan de alimentación básico para empezar una dieta saludable.",
+        "precio": 19.99
+      },
+      {
+        "nombre": "Plan de Pérdida de Peso",
+        "duracion_video": "20 minutos",
+        "descripcion": "Plan de alimentación enfocado en la pérdida de peso.",
+        "precio": 24.99
+      },
+      {
+        "nombre": "Plan de Ganancia Muscular",
+        "duracion_video": "25 minutos",
+        "descripcion": "Plan de alimentación para ganar masa muscular.",
+        "precio": 29.99
+      },
+      {
+        "nombre": "Plan Vegano",
+        "duracion_video": "30 minutos",
+        "descripcion": "Plan de alimentación vegano equilibrado.",
+        "precio": 27.99
+      },
+      {
+        "nombre": "Plan para Deportistas",
+        "duracion_video": "35 minutos",
+        "descripcion": "Plan de alimentación para mejorar el rendimiento deportivo.",
+        "precio": 34.99
+      },
+      {
+        "nombre": "Plan Detox",
+        "duracion_video": "15 minutos",
+        "descripcion": "Plan de alimentación para desintoxicación.",
+        "precio": 19.99
+      },
+      {
+        "nombre": "Plan Keto",
+        "duracion_video": "25 minutos",
+        "descripcion": "Plan de alimentación cetogénico.",
+        "precio": 29.99
+      },
+      {
+        "nombre": "Plan sin Gluten",
+        "duracion_video": "20 minutos",
+        "descripcion": "Plan de alimentación sin gluten.",
+        "precio": 24.99
+      },
+      {
+        "nombre": "Plan de Alta Energía",
+        "duracion_video": "30 minutos",
+        "descripcion": "Plan de alimentación para aumentar la energía diaria.",
+        "precio": 27.99
+      },
+      {
+        "nombre": "Plan de Salud Digestiva",
+        "duracion_video": "20 minutos",
+        "descripcion": "Plan de alimentación para mejorar la salud digestiva.",
+        "precio": 24.99
+      }
+    ]
+  }
+}

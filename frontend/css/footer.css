@@ -1,0 +1,65 @@
+/* La clase content debe expandirse para llenar el espacio disponible */
+.content {
+  flex: 1;
+  padding-left: 3%;
+}
+
+
+
+/* Estilos para el footer */
+.footer {
+  margin-top: 15%;
+  background-color: #216869;
+  padding: 10px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.imgAgon {
+  width: 100%;
+  max-width: 100px; /* Ajusta según sea necesario */
+  height: auto;
+}
+
+.row {
+  margin: 20px 0;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li i {
+  margin-right: 8px;
+  font-size: 130%;
+}
+
+.footer a{
+  color:white;
+  text-decoration: none;
+}
+
+input[type="email"] {
+  padding: 5px;
+  margin-right: 10px;
+  width: 70%;
+}
+
+button[type="submit"] {
+  padding: 5px 10px;
+  background-color: #c56709;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff8811;
+}

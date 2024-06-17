@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar-container, 
+  #navbar-container * {
+    margin: 0;
+  }
+  
+
+  body{
+    margin: 0;
+    width: 100%;
+  }
+  .navbar{
+    background-color: #143E3E;
+    display:flex; 
+    flex:row; 
+    align-items:center; 
+    justify-content:start;
+  }
+  
+  .navbar a{
+    color:white;
+    text-decoration: none;
+    font-weight:600;
+  }
+  
+  .navbar a:hover {
+    color: #ccc; /* Cambia a un color de hover deseado */
+  }
+  
+  .logoContainer img {
+    width: 75px;
+    height: 70px;
+  }
+  
+  .cajaMarca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    background-color: #ff8811ff;
+  }
+  
+  .barra-busqueda{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navegacion{
+    align-items:center; 
+    justify-content:end;
+    margin:0;
+    padding-right: 2rem;
+  }
+  
+  header .hamburger-button{
+    background-color: #ff8811ff;
+    font-size: 30px;
+  }
+  
+  nav .hamburger-button{
+    background-color: #ff8811ff;
+    font-size: 30px;
+  }
+  
+  ul{
+    font-size: 1.1rem;
+    font-family: 'Montserrat Alternates';
+  }
+  
+  .titleAgon {
+    font-size: 1.5rem;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .botonesContainer{
+    background-color: #ff8811ff;
+  }
+  
+  .cajaBotonesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction:row-reverse;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cajaBtn {
+    font-size: 120%;
+    text-align: center;
+  }
+  
+  .cajaBtn i{
+    color:black;
+  }
+  
+  /* Animacion barra de busqueda */
+  
+  .contenedor-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    align-content: center;
+    padding-left: 30px;
+  }
+  .box{
+    position: relative;
+  }
+  
+  .input {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: 4px solid #ff8811ff;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    transition: .6s;
+    box-shadow: 0 0 10px #ff8811ff;
+  }
+  .box:hover input{
+    width: 200px;
+    background: #dce1deff;
+    border-radius: 10px;
+  }
+  .box i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    color: #ff8811ff;
+    transition: .2s;
+  }
+  .box:hover i{
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  /* Adaptable responsivo */
+  
+  /* ESCITORIO NORMAL */
+  @media (min-width: 991px) {
+  
+  }
+  
+  /* Escritorios anchos */
+  @media (min-width: 1200px) {
+  
+  }
+  
+  /* MOBILE */
+  @media screen and (max-width: 767px) {
+    .titleAgon{
+      display: none;
+    }
+  
+    .navegacion{
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      padding-right: 25px;
+      padding-bottom: 15px;
+    }
+  
+    .navegacion li{
+      padding-top: 8px;
+    }
+  
+    .contenedor-box{
+      align-items: center;
+      padding: 0;
+      padding-bottom: 10px;
+    }
+  
+    .box.laptop{
+      display: none;
+    }
+  
+    .barra-busqueda{
+      flex-direction: column;
+    }
+  
+    .input {
+      width: 300px;
+      border-radius: 40px;
+      background: #dce1deff;
+    }
+    .box:hover input{
+      width: 300px;
+      border-radius: 40px;
+    }
+    .box i{
+      left: 10%;
+      font-size: 15px;
+    }
+  
+  }
+  
+  /* TABLET */
+  @media (min-width: 767px) and (max-width: 991px) {
+    .titleAgon{
+      display: none;
+    }
+  
+    .contenedor-box{
+      align-items: start;
+      padding: 10px;
+    }
+  
+    .navegacion{
+      padding-right: 10px;
+    }
+  
+    .input {
+      height: 40px;
+      width: 40px;
+      border-radius: 40px;
+      background: transparent;
+    }
+    .box:hover input{
+      width: 150px;
+      border-radius: 40px;
+    }
+  
+    .navbar a{
+      font-size: 0.9rem;
+    }
+  
+    .box i{
+      font-size: 18px;
+    }
+  }
+  
+
+  :root{
+    --main-color: #ff002b;
+    --sec-color: #4b60d8;
+    --text-color: #ffffff;
+    --bg-color: #000000;
+  }
+  
+  ::selection{
+    color: var(--text-color);
+    background-color: var(--main-color);
+  }
+  
+  .container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+  }
+  
+  section{
+    padding: 4rem 0 3rem ;
+  }
+
+  #cart-icon{
+    cursor: pointer;
+  }
+  
+  .cart{
+    position: fixed;
+    top: 0;
+    right: 0;
+    right: -100%;
+    width: 360px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color: var(--bg-color);
+    box-shadow: -2px solid 4px hsl(0 4% 15% / 10%);
+    border: 1px solid var(--main-color);
+    transition: 1.7s;
+  
+  }
+
+  .cart.active{
+    right: 0;
+    transition: 0.5s;
+  }
+
+  .cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+
+ .cart-box{
+  display: grid;
+  grid-template-columns: 32% 50% 10%;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  }
+
+  .cart-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+  }
+
+  .detail.box{
+    display: grid;
+    row-gap: .5rem;
+    
+  }
+
+  .cart-product-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  .cart-price{
+    font-weight: 500;
+  }
+
+  .cart-quantity{
+    border: 1px solid var(--text-color);
+    outline-color: var(--main-color);
+    width: 1.4rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .cart-remove{
+    font-size: 24px;
+    color: var(--main-color);
+    cursor: pointer;
+  }
+
+  .total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--text-color);
+  }
+
+  .total-title{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .total-price{
+    margin-left: .5rem;
+  }
+
+  .btn-buy{
+    display: flex;
+    margin: 1,5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background-color: var(--sec-color);
+    color: var(--bg-color);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .btn-buy:hover{
+    background-color: var(--main-color);
+    color: var(--text-color);
+  }
+
+  #cart-close{
+    position: absolute;
+    top: 1rem;
+    right: .8rem;
+    font-size: 2rem;
+    color: var(--text-color);
+    cursor: pointer;
+  }
