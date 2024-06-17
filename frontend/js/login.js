@@ -40,10 +40,6 @@ loginForm.addEventListener("submit", (e) => {
       user.email === normalizar(email) && user.password === normalizar(password)
   );
 
-  // if (!usuarioValido) {
-  //   return alert("usuario y/o contraseña incorrectos");
-  // }
-
   if (inputsValidos && usuarioValido) {
     alert(`Bienvenido ${usuarioValido.name}`);
     window.location.href = "categorias.html";

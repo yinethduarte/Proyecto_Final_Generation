@@ -57,7 +57,8 @@ registroForm.addEventListener("submit", (e) => {
   // validar si el usuario ya se encuentra registrado
   const users = JSON.parse(localStorage.getItem("users")) || [];
   const esUsuarioRegistrado = users.find((user) => user.email === email);
-  if (esUsuarioRegistrado) {
+
+  if (esUsuarioRegistrado && correoValido) {
     return alert("el usuario ya está registrado");
   }
 
