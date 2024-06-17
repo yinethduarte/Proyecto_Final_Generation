@@ -105,7 +105,8 @@
     padding: 10px 25px;
     border-radius: 20px;
     position: relative;
-    top: -38px;
+    top: 3px;
+    left: 75px;
 }
 
 .modal .modalContainer .modalCloseContainer{
