@@ -1,19 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 #navbar-container,
 #navbar-container * {
   margin: 0;
 }
 
-body {
+/* body {
   margin: 0;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-}
+} */
 
 .cajaMarca {
   display: flex;
@@ -200,7 +195,7 @@ body {
   width: 36px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .lista-hamburger {
     display: flex;
   }
@@ -223,6 +218,7 @@ body {
     grid-auto-rows: max-content;
     transition: transform 0.5s;
     transform: translateX(100%);
+    z-index: 1000;
   }
 
   .lista--show {

@@ -5,31 +5,24 @@
   --ut-orange: #ff8811ff; 
   --platinum: #dce1deff;
 }
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  width: 100vw;
-  /* display: flex;
+
+/* Esquema del contenedor */
+.contact-container {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Montserrat Alternates",sans-serif; */
 } 
 
-
-/* Esquema del contenedor */
-.contact {
+.contact-container .contact{
   background-color: var(--caribbean-current);
-  max-width: 1140px;
+  width: 90vw;
   border-radius: 50px;
   padding: 0px;
   position: relative;
 }
 
-.container-logo{
+.contact-container .container-logo{
   display: flex;
   align-items: start;
   justify-content: center;
@@ -40,13 +33,13 @@ body {
   height: 7rem;
 }
 
-.container-gris{
+.contact .container-gris{
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   background-color: var(--ut-orange);
 }
 
-.card-contact-container {
+.contact-container .card-contact-container {
   color: var(--platinum);
   padding-top: 60px;
   margin-left: 40px;
@@ -136,7 +129,7 @@ textarea {
 
 /* Contenedor info */
 
-.info-container-contact {
+.contact .info-container-contact {
   color: var(--caribbean-current);
   height: 400px;
   background-color: var(--platinum);
@@ -146,7 +139,7 @@ textarea {
   position: absolute;
   top: 17%;
   right: 0%;
-  width: 440px;
+  max-width: 40%;
 }
 
 .info-container-contact h2 {
@@ -173,3 +166,26 @@ textarea {
   transition: all 0.3s ease;
   text-decoration: none;
 } 
+
+
+/* Adaptable responsivo */
+
+/* ESCITORIO NORMAL */
+@media (min-width: 991px) {
+
+}
+
+/* Escritorios anchos */
+@media (min-width: 1200px) {
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+  
+}
+
+/* TABLET */
+@media (min-width: 767px) and (max-width: 991px) {
+
+}

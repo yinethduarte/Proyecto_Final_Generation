@@ -9,11 +9,6 @@
   padding: 0;
 }
 
-.title {
-  font-size: 48px;
-  font-weight: bold;
-}
-
 :root{
   --caribbean-current: #143E3E; 
   --jungle-green: #49a078ff; 
