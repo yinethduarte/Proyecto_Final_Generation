@@ -6,7 +6,7 @@ const inputs = [email, password];
 
 // Normalizar datos
 function normalizar(input) {
-  return input.value.trim();
+  return input.value.trim().toLowerCase();
 }
 
 // Validar inputs

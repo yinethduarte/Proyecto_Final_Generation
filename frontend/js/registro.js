@@ -8,7 +8,7 @@ const inputs = [name, phone, email, password];
 
 // Normalizar datos
 function normalizar(input) {
-  return input.value.trim();
+  return input.value.trim().toLowerCase();
 }
 
 // Validar correo
@@ -56,9 +56,11 @@ registroForm.addEventListener("submit", (e) => {
 
   // validar si el usuario ya se encuentra registrado
   const users = JSON.parse(localStorage.getItem("users")) || [];
-  const esUsuarioRegistrado = users.find((user) => user.email === email);
+  const esUsuarioRegistrado = users.find(
+    (user) => user.email === normalizar(email)
+  );
 
-  if (esUsuarioRegistrado && correoValido) {
+  if (esUsuarioRegistrado) {
     return alert("el usuario ya está registrado");
   }
 
