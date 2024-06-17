@@ -63,7 +63,7 @@ textarea {
 /* Clase error */
 
 .modal2 .modalContainer2 .formRegistro2 .registroGroup2 .error {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid var(--ut-orange);
 }
 
 /*  */
