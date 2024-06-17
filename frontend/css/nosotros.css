@@ -16,14 +16,14 @@
 }
 
 .info-container h1 {
-  color: #38580e;
+  color: #ff8811ff;
   font-size: 1.8rem;
 }
 
 /* CONFIGURACION CARDS */
 
 .cards-team-container {
-  background-color: #cbd5d2;
+  background-color: rgb(199, 179, 161);
   margin-bottom: 100px;
   padding-inline: 50px;
   color: white;
@@ -53,13 +53,13 @@
 }
 
 .cards-team-container > div:nth-child(2n) {
-  background-color: #3d4c47;
+  background-color: #143e3e;
   margin-top: -50px;
   margin-bottom: 5%;
 }
 
 .cards-team-container > div:nth-child(2n + 1) {
-  background-color: #3d4c47;
+  background-color: #143e3e;
   margin-top: 5%;
   margin-bottom: -50px;
 }

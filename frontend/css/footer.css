@@ -4,12 +4,10 @@
   padding-left: 3%;
 }
 
-
-
 /* Estilos para el footer */
 .footer {
   margin-top: 15%;
-  background-color: #216869;
+  background-color: #143e3e;
   padding: 10px;
   font-size: 14px;
   color: rgb(255, 255, 255);
@@ -26,7 +24,6 @@
   margin: 20px 0;
 }
 
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -41,8 +38,8 @@ ul li i {
   font-size: 130%;
 }
 
-.footer a{
-  color:white;
+.footer a {
+  color: white;
   text-decoration: none;
 }
 
@@ -61,5 +58,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #ff8811;
+  background-color: #ff8811ff;
 }
