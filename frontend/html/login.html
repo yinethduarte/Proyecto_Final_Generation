@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="/frontend/css/login.css">
-    <link rel="stylesheet" href="/frontend/css/body.css">
+    <link rel="stylesheet" href="/frontend/css/login.css" />
+    <link rel="stylesheet" href="/frontend/css/body.css" />
   </head>
 
   <body>
-
     <section class="modal2">
       <div class="modalContainer2">
-
         <div class="imgModal2">
-          <img src="/frontend/css/img/iconoagon-2@2x.png" alt="">
-        </div> 
+          <img src="/frontend/css/img/iconoagon-2@2x.png" alt="" />
+        </div>
 
         <h2>Inicia sesion</h2>
 
         <form class="formRegistro2" id="login-form">
-
           <div class="registroGroup2" id="correo2">
             <label class="textArea" for="mail">Correo</label>
-            <input class="input2" type="email" id="email" placeholder="" required autocomplete="off"  required autofocus />
+            <input
+              class="input2"
+              type="email"
+              id="email"
+              placeholder=""
+              required
+              autocomplete="off"
+              required
+              autofocus
+            />
           </div>
 
           <div class="registroGroup2" id="contraseña2">
             <label for="password">Contraseña</label>
             <input id="password" type="password" placeholder="" required />
           </div>
-
+          <input class="modalContinuar2" type="submit" value="Ingresar" />
         </form>
 
-        <a href="" class="modalContinuar2">Ingresar</a>
+        <!-- <a href="" class="modalContinuar2">Ingresar</a> -->
 
         <div class="noRegistrado">
           <p>¿No tienes una cuenta? <a href="registro.html">Regístrate</a></p>
         </div>
 
-        <p class="extra"> O </p>
+        <p class="extra">O</p>
 
         <div class="ingresarExtra">
           <a href="" class="facebook">Continúa con Facebook</a>
         </div>
-
       </div>
     </section>
 
     <script src="/frontend/js/login.js"></script>
-    
   </body>
 </html>
