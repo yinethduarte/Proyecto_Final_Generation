@@ -143,9 +143,8 @@
 
 /* MOBILE */
 @media screen and (max-width: 767px) {
-
   .nosotros-container {
-    margin-top: 60px; 
+    margin-top: 60px;
   }
 
   .cards-team-container {
@@ -175,7 +174,7 @@
 /* TABLET */
 @media (min-width: 767px) and (max-width: 991px) {
   .nosotros-container {
-    margin-top: 60px; 
+    margin-top: 60px;
   }
 
   .cards-team-container {

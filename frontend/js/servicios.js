@@ -82,7 +82,6 @@ function filtrarCategoria(data) {
   renderizarProductos(productos, null);
 }
 
-
 // Función para obtener y procesar el JSON
 async function fetchAndPrintJSON() {
   try {
