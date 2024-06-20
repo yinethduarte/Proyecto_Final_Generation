@@ -105,8 +105,6 @@ registroForm.addEventListener("submit", (e) => {
     // guardar usuario en el local storage
     localStorage.setItem("users", JSON.stringify(users));
 
-    // alert("registro exitoso");
-
     Swal.fire({
       title: "Te has registrado exitosamente",
       text: "Bienvenido a tu nuevo reto",

@@ -41,8 +41,6 @@ loginForm.addEventListener("submit", (e) => {
   );
 
   if (inputsValidos && usuarioValido) {
-    // alert(`Bienvenido ${usuarioValido.name}`);
-    // window.location.href = "categorias.html";
     Swal.fire({
       title: `Bienvenida ${usuarioValido.name}`,
       icon: "success",
