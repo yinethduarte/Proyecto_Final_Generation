@@ -41,9 +41,56 @@ loginForm.addEventListener("submit", (e) => {
   );
 
   if (inputsValidos && usuarioValido) {
-    alert(`Bienvenido ${usuarioValido.name}`);
-    window.location.href = "categorias.html";
+    // alert(`Bienvenido ${usuarioValido.name}`);
+    // window.location.href = "categorias.html";
+    Swal.fire({
+      title: `Bienvenida ${usuarioValido.name}`,
+      icon: "success",
+      iconColor: "#49a078ff",
+      confirmButtonColor: "#49a078ff",
+      showClass: {
+        popup: `
+      animate__animated
+      animate__zoomIn
+      animate__faster
+    `,
+      },
+      hideClass: {
+        popup: `
+      animate__animated
+      animate__zoomIn
+      animate__faster
+    `,
+      },
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.href = "categorias.html";
+      }
+    });
   } else if (!usuarioValido) {
-    return alert("usuario y/o contraseña incorrectos");
+    return Swal.fire({
+      title: "Ingresa un usuario valido",
+      icon: "warning",
+      iconColor: "#ff8811ff",
+      confirmButtonColor: "#ff8811ff",
+      showClass: {
+        popup: `
+      animate__animated
+      animate__zoomIn
+      animate__faster
+    `,
+      },
+      hideClass: {
+        popup: `
+      animate__animated
+      animate__zoomIn
+      animate__faster
+    `,
+      },
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.href = "login.html";
+      }
+    });
   }
 });
