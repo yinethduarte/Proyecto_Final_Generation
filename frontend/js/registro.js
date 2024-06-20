@@ -61,7 +61,31 @@ registroForm.addEventListener("submit", (e) => {
   );
 
   if (esUsuarioRegistrado) {
-    return alert("el usuario ya está registrado");
+    return Swal.fire({
+      title: "El usuario ya se encuentra registrado",
+      icon: "warning",
+      confirmButtonText: "Inicia inicia sesion aquí",
+      iconColor: "#ff8811ff",
+      confirmButtonColor: "#ff8811ff",
+      showClass: {
+        popup: `
+      animate__animated
+      animate__zoomIn
+      animate__faster
+    `,
+      },
+      hideClass: {
+        popup: `
+      animate__animated
+      animate__zoomIn
+      animate__faster
+    `,
+      },
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.href = "login.html";
+      }
+    });
   }
 
   // Validar todos los inputs y el correo antes de enviar y guardar
@@ -81,9 +105,30 @@ registroForm.addEventListener("submit", (e) => {
     // guardar usuario en el local storage
     localStorage.setItem("users", JSON.stringify(users));
 
-    alert("registro exitoso");
-
-    //   redirección a login
-    window.location.href = "login.html";
+    Swal.fire({
+      title: "Te has registrado exitosamente",
+      text: "Bienvenido a tu nuevo reto",
+      icon: "success",
+      iconColor: "#49a078ff",
+      confirmButtonColor: "#49a078ff",
+      showClass: {
+        popup: `
+      animate__animated
+      animate__zoomIn
+      animate__faster
+    `,
+      },
+      hideClass: {
+        popup: `
+      animate__animated
+      animate__zoomIn
+      animate__faster
+    `,
+      },
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.href = "login.html";
+      }
+    });
   }
 });
