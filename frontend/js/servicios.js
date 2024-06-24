@@ -2,6 +2,16 @@
 const contenedorCategoria = document.querySelector(".categoria");
 const listaSubcategorias = document.querySelector(".lista-subcategorias");
 
+function validarIndefinidoVideo(product) {
+  if (typeof product.video !== "undefined") {
+    return product.video;
+  }
+  if (typeof product.imagen !== "undefined") {
+    return `<img src="${product.imagen}" alt="" />`;
+  }
+  return `<img src="${product.imagen}" alt="" />`;
+}
+
 // crear una tarjeta de producto
 function crearCardProducto(product) {
   const productoHTML = `
@@ -11,7 +21,8 @@ function crearCardProducto(product) {
         <p class="precio-producto">${product.precio}</p>
       </div>
       <div class="contenedor-img-producto">
-        <img src="https://jousfit.com/cdn/shop/files/456CF653-F41F-488A-B49C-396D8CCAD6D1.jpg?v=1704999170" alt="" />
+      ${validarIndefinidoVideo(product)}
+        
       </div>
       <div class="contenedor-addCart">
         <button>Add to Cart</button>
@@ -64,9 +75,9 @@ function crearFiltrosSubcategorias(productos) {
 
 // filtrar los productos por CATEGORIA
 function filtrarCategoria(data) {
-  const servicios = data.servicios; // aca se debe hacer la lógica para que se elija la categoria seleccionada en el nav
-  crearFiltrosSubcategorias(servicios);
-  renderizarProductos(servicios, null);
+  const productos = data.servicios; // aca se debe hacer la lógica para que se elija la categoria seleccionada en el nav
+  crearFiltrosSubcategorias(productos);
+  renderizarProductos(productos, null);
 }
 
 // Función para obtener y procesar el JSON
