@@ -5,61 +5,71 @@
         "nombre": "Balón de Fútbol",
         "precio": 25.99,
         "descripcion": "Balón de fútbol tamaño oficial.",
-        "unidades_disponibles": 100
+        "unidades_disponibles": 100,
+        "imagen": "https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto,fl_lossy,c_fill,g_auto/f877bfe1dece49aabbee742824a88e1d_9366/balon-eliminatorias-ucl-club-23-24.jpg"
       },
       {
         "nombre": "Raqueta de Tenis",
         "precio": 89.99,
         "descripcion": "Raqueta de tenis profesional de grafito.",
-        "unidades_disponibles": 50
+        "unidades_disponibles": 50,
+        "imagen": "https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto,fl_lossy,c_fill,g_auto/1629f7ceaed44c9496b1af6600e41f6c_9366/pala-de-padel-rx-green.jpg"
       },
       {
         "nombre": "Guantes de Boxeo",
         "precio": 49.99,
         "descripcion": "Guantes de boxeo de alta calidad.",
-        "unidades_disponibles": 75
+        "unidades_disponibles": 75,
+        "imagen": "https://contents.mediadecathlon.com/p2604989/k$b5dee32969c43f9d5ee952e6b5222dc5/guantes-de-boxeo-120-rosado.jpg?format=auto&quality=40&f=800x800"
       },
       {
         "nombre": "Bicicleta de Montaña",
         "precio": 299.99,
         "descripcion": "Bicicleta de montaña con suspensión completa.",
-        "unidades_disponibles": 20
+        "unidades_disponibles": 20,
+        "imagen": "https://contents.mediadecathlon.com/p1819622/k$d46fef6855bdda48a62e43ad54ce1dbb/prod.jpg?format=auto&quality=40&f=250x180"
       },
       {
         "nombre": "Pesas Ajustables",
         "precio": 150.0,
         "descripcion": "Set de pesas ajustables de 2.5 a 24 kg.",
-        "unidades_disponibles": 40
+        "unidades_disponibles": 40,
+        "imagen": "https://contents.mediadecathlon.com/p1248562/k$01448487cc01f6437afa685728065895/prod.jpg?format=auto&quality=40&f=250x180"
       },
       {
         "nombre": "Cuerda para Saltar",
         "precio": 15.99,
         "descripcion": "Cuerda para saltar con rodamiento de bolas.",
-        "unidades_disponibles": 200
+        "unidades_disponibles": 200,
+        "imagen": "https://contents.mediadecathlon.com/p2052047/k$a297338e7aa2161200cfe2594eafbe25/prod.jpg?format=auto&quality=40&f=250x180"
       },
       {
         "nombre": "Mancuernas Hexagonales",
         "precio": 29.99,
         "descripcion": "Par de mancuernas hexagonales de 10 kg.",
-        "unidades_disponibles": 100
+        "unidades_disponibles": 100,
+        "imagen": "https://contents.mediadecathlon.com/p2720129/k$47423c440776298373204a99089eeffb/prod.jpg?format=auto&quality=40&f=250x180"
       },
       {
         "nombre": "Set de Yoga",
         "precio": 59.99,
         "descripcion": "Incluye esterilla, bloques y correa de yoga.",
-        "unidades_disponibles": 150
+        "unidades_disponibles": 150,
+        "imagen": "https://contents.mediadecathlon.com/p2384452/k$e40403df75541a965a73f0aafc13e05b/prod.jpg?format=auto&quality=40&f=250x180"
       },
       {
         "nombre": "Patines en Línea",
         "precio": 89.99,
         "descripcion": "Patines en línea ajustables para adultos.",
-        "unidades_disponibles": 60
+        "unidades_disponibles": 60,
+        "imagen": "https://contents.mediadecathlon.com/p2075738/k$779c90b7eaa2e5ff4db983ed81dfb629/prod.jpg?format=auto&quality=40&f=250x180"
       },
       {
         "nombre": "Tabla de Surf",
         "precio": 299.99,
         "descripcion": "Tabla de surf de fibra de vidrio.",
-        "unidades_disponibles": 15
+        "unidades_disponibles": 15,
+        "imagen": "https://contents.mediadecathlon.com/p2592238/k$165028829b93cedae988107e659af63d/prod.jpg?format=auto&quality=40&f=250x180"
       }
     ],
     "ropa": [
@@ -67,61 +77,71 @@
         "nombre": "Camiseta Deportiva",
         "precio": 19.99,
         "descripcion": "Camiseta deportiva de secado rápido.",
-        "unidades_disponibles": 200
+        "unidades_disponibles": 200,
+        "imagen": "https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto,fl_lossy,c_fill,g_auto/258c7f061ea241c7b0e4433a1ef61b6f_9366/camiseta-local-seleccion-colombia-24.jpg"
       },
       {
         "nombre": "Pantalones de Yoga",
         "precio": 29.99,
         "descripcion": "Pantalones de yoga elásticos y cómodos.",
-        "unidades_disponibles": 150
+        "unidades_disponibles": 150,
+        "imagen": "https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto,fl_lossy,c_fill,g_auto/4883a85a86c64d21b651af4e01199e5b_9366/licras-7-8-yoga-estudio-luxe-pretina-alta.jpg"
       },
       {
         "nombre": "Chaqueta Impermeable",
         "precio": 59.99,
         "descripcion": "Chaqueta impermeable y transpirable.",
-        "unidades_disponibles": 100
+        "unidades_disponibles": 100,
+        "imagen": "https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto,fl_lossy,c_fill,g_auto/05603f42950d4d15835bebc2d02f1450_9366/chaqueta-run-it.jpg"
       },
       {
         "nombre": "Zapatos de Correr",
         "precio": 89.99,
         "descripcion": "Zapatos de correr ligeros y con buen soporte.",
-        "unidades_disponibles": 120
+        "unidades_disponibles": 120,
+        "imagen": "https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto,fl_lossy,c_fill,g_auto/175e5d39a53941a498da4c18102adc94_9366/tenis-zx-6001-b-civilist.jpg"
       },
       {
         "nombre": "Calcetines Deportivos",
         "precio": 9.99,
         "descripcion": "Pack de 5 pares de calcetines deportivos.",
-        "unidades_disponibles": 300
+        "unidades_disponibles": 300,
+        "imagen": "https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto,fl_lossy,c_fill,g_auto/2e769f11c6514cf2b148af10009c1def_9366/medias-acolchadas-corte-medio-3-pares.jpg"
       },
       {
         "nombre": "Sudadera con Capucha",
         "precio": 39.99,
         "descripcion": "Sudadera con capucha y bolsillo frontal.",
-        "unidades_disponibles": 180
+        "unidades_disponibles": 180,
+        "imagen": "https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto,fl_lossy,c_fill,g_auto/01c876e5d9f54694aa374987187fd301_9366/hoodie-leg-set.jpg"
       },
       {
         "nombre": "Shorts de Entrenamiento",
         "precio": 24.99,
         "descripcion": "Shorts de entrenamiento ligeros.",
-        "unidades_disponibles": 160
+        "unidades_disponibles": 160,
+        "imagen": "https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto,fl_lossy,c_fill,g_auto/9d1df35a640c45dbbcf15ae3a5564381_9366/conjunto-shorts-y-camiseta.jpg"
       },
       {
         "nombre": "Gorra Deportiva",
         "precio": 14.99,
         "descripcion": "Gorra deportiva ajustable.",
-        "unidades_disponibles": 250
+        "unidades_disponibles": 250,
+        "imagen": "https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto,fl_lossy,c_fill,g_auto/a617a645ebc4460f8ab9b7ddf7bab658_9366/gorra-trifolio-baseball-unisex.jpg"
       },
       {
         "nombre": "Guantes de Invierno",
         "precio": 19.99,
         "descripcion": "Guantes de invierno térmicos.",
-        "unidades_disponibles": 140
+        "unidades_disponibles": 140,
+        "imagen": "https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto,fl_lossy,c_fill,g_auto/fe8ab59fc0f648ac9ef4af1200b03e89_9366/guantes-aeroready.jpg"
       },
       {
         "nombre": "Mallas de Compresión",
         "precio": 34.99,
         "descripcion": "Mallas de compresión para running.",
-        "unidades_disponibles": 130
+        "unidades_disponibles": 130,
+        "imagen": "https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto,fl_lossy,c_fill,g_auto/f5f548232d37475ea585af5b01274e9a_9366/licras-training-techfit-recharge.jpg"
       }
     ],
     "accesorios": [
@@ -129,13 +149,15 @@
         "nombre": "Botella de Agua",
         "precio": 12.99,
         "descripcion": "Botella de agua reutilizable de 1 litro.",
-        "unidades_disponibles": 250
+        "unidades_disponibles": 250,
+        "imagen": "https://assets.adidas.com/images/w_303,h_303,f_auto,q_auto,fl_lossy,c_fill,g_auto/90846c7dae42482ea3c7ac6301311407_9366/botella-performance-0_5-litros.jpg"
       },
       {
         "nombre": "Mochila Deportiva",
         "precio": 49.99,
         "descripcion": "Mochila deportiva con múltiples compartimentos.",
-        "unidades_disponibles": 80
+        "unidades_disponibles": 80,
+        "imagen": ""
       },
       {
         "nombre": "Toalla de Microfibra",
