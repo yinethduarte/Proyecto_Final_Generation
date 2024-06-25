@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const agregarCarrito = document.createElement("button");
     agregarCarrito.textContent = "Agregar al carrito";
     agregarCarrito.addEventListener("click", () => {
-      // Aquí puedes agregar funcionalidad para agregar al carrito
+      // funcionalidad para agregar al carrito
       alert(`Producto ${producto.name} agregado al carrito`);
     });
 

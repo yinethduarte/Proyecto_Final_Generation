@@ -2,71 +2,81 @@
   "productos": {
     "articulos_deportivos": [
       {
+        "id": 1,
         "nombre": "Balón de Fútbol",
-        "precio": 300.0,
+        "precio": 300000,
         "descripcion": "Balón de fútbol tamaño oficial.",
         "unidades_disponibles": 100,
         "imagen": "https://contents.mediadecathlon.com/p2571328/k$bcd3c25846279cde8d74b9996aef2566/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 2,
         "nombre": "Raqueta de Tenis",
-        "precio": 500.0,
+        "precio": 500000,
         "descripcion": "Raqueta de tenis profesional de grafito.",
         "unidades_disponibles": 50,
         "imagen": "https://contents.mediadecathlon.com/p2486884/k$95135fd03bd711a6935037cc1afc190d/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 3,
         "nombre": "Guantes de Boxeo",
-        "precio": 800.0,
+        "precio": 800000,
         "descripcion": "Guantes de boxeo de alta calidad.",
         "unidades_disponibles": 75,
         "imagen": "https://contents.mediadecathlon.com/p2604989/k$b5dee32969c43f9d5ee952e6b5222dc5/guantes-de-boxeo-120-rosado.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 4,
         "nombre": "Bicicleta de Montaña",
-        "precio": 2500.0,
+        "precio": 2500000,
         "descripcion": "Bicicleta de montaña con suspensión completa.",
         "unidades_disponibles": 20,
         "imagen": "https://contents.mediadecathlon.com/p1819622/k$d46fef6855bdda48a62e43ad54ce1dbb/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 5,
         "nombre": "Pesas Ajustables",
-        "precio": 600.0,
+        "precio": 600000,
         "descripcion": "Set de pesas ajustables de 2.5 a 24 kg.",
         "unidades_disponibles": 40,
         "imagen": "https://contents.mediadecathlon.com/p1248562/k$01448487cc01f6437afa685728065895/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 6,
         "nombre": "Cuerda para Saltar",
-        "precio": 80.0,
+        "precio": 80000,
         "descripcion": "Cuerda para saltar con rodamiento de bolas.",
         "unidades_disponibles": 200,
         "imagen": "https://contents.mediadecathlon.com/p2052047/k$a297338e7aa2161200cfe2594eafbe25/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 7,
         "nombre": "Mancuernas Hexagonales",
-        "precio": 300.0,
+        "precio": 300000,
         "descripcion": "Par de mancuernas hexagonales de 10 kg.",
         "unidades_disponibles": 100,
         "imagen": "https://contents.mediadecathlon.com/p2720129/k$47423c440776298373204a99089eeffb/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 8,
         "nombre": "Set de Yoga",
-        "precio": 150.0,
+        "precio": 150000,
         "descripcion": "Incluye esterilla, bloques y correa de yoga.",
         "unidades_disponibles": 150,
         "imagen": "https://contents.mediadecathlon.com/p2384622/k$90c9faab38b013bb03b55e4f9d264926/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 9,
         "nombre": "Patines en Línea",
-        "precio": 350.0,
+        "precio": 350000,
         "descripcion": "Patines en línea ajustables para adultos.",
         "unidades_disponibles": 60,
         "imagen": "https://contents.mediadecathlon.com/p2075738/k$779c90b7eaa2e5ff4db983ed81dfb629/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 10,
         "nombre": "Tabla de Surf",
-        "precio": 800.0,
+        "precio": 800000,
         "descripcion": "Tabla de surf de fibra de vidrio.",
         "unidades_disponibles": 15,
         "imagen": "https://contents.mediadecathlon.com/p1581633/k$d6238bbfa2422130918115c86711ba41/prod.jpg?format=auto&quality=80&f=603x350"
@@ -74,71 +84,81 @@
     ],
     "ropa": [
       {
+        "id": 11,
         "nombre": "Camiseta Deportiva",
-        "precio": 150.0,
+        "precio": 150000,
         "descripcion": "Camiseta deportiva de secado rápido.",
         "unidades_disponibles": 200,
         "imagen": "https://contents.mediadecathlon.com/p2600501/k$d0cb2fc9af587718b83800ddb3da5d5d/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 12,
         "nombre": "Pantalones de Yoga",
-        "precio": 120.0,
+        "precio": 120000,
         "descripcion": "Pantalones de yoga elásticos y cómodos.",
         "unidades_disponibles": 150,
         "imagen": "https://contents.mediadecathlon.com/p1786471/k$aee767635f2e000910bf2d8ccdb9920f/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 13,
         "nombre": "Chaqueta Impermeable",
-        "precio": 300.0,
+        "precio": 300000,
         "descripcion": "Chaqueta impermeable y transpirable.",
         "unidades_disponibles": 100,
         "imagen": "https://contents.mediadecathlon.com/p2495908/k$2162edaeb310718fba2a36bfa4f2f744/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 14,
         "nombre": "Zapatos de Correr",
-        "precio": 670.0,
+        "precio": 670000,
         "descripcion": "Zapatos de correr ligeros y con buen soporte.",
         "unidades_disponibles": 120,
         "imagen": "https://contents.mediadecathlon.com/p2006790/k$42e498d4b762040f804f2c8ce35f0ffb/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 15,
         "nombre": "Calcetines Deportivos",
-        "precio": 100.0,
+        "precio": 100000,
         "descripcion": "Pack de 5 pares de calcetines deportivos.",
         "unidades_disponibles": 300,
         "imagen": "https://contents.mediadecathlon.com/p2428664/k$80bde18ddf362e7f090f18ec776dc032/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 16,
         "nombre": "Sudadera con Capucha",
-        "precio": 200.0,
+        "precio": 200000,
         "descripcion": "Sudadera con capucha y bolsillo frontal.",
         "unidades_disponibles": 180,
         "imagen": "https://contents.mediadecathlon.com/p2731024/k$fabb031c1dd17125a31cd2a8591a71cf/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 17,
         "nombre": "Shorts de Entrenamiento",
-        "precio": 150.0,
+        "precio": 150000,
         "descripcion": "Shorts de entrenamiento ligeros.",
         "unidades_disponibles": 160,
         "imagen": "https://contents.mediadecathlon.com/p2731651/k$592cdf7bc41d45164334f954040ce657/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 18,
         "nombre": "Gorra Deportiva",
-        "precio": 100.0,
+        "precio": 100000,
         "descripcion": "Gorra deportiva ajustable.",
         "unidades_disponibles": 250,
         "imagen": "https://contents.mediadecathlon.com/p2151029/k$19bf0adf16717a81a98b0592169b3eb5/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 19,
         "nombre": "Guantes de Invierno",
-        "precio": 120.0,
+        "precio": 120000,
         "descripcion": "Guantes de invierno térmicos.",
         "unidades_disponibles": 140,
         "imagen": "https://contents.mediadecathlon.com/p2579617/k$9ed918a1559aa582621dd524bf1420cb/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 20,
         "nombre": "Mallas de Compresión",
-        "precio": 170.0,
+        "precio": 170000,
         "descripcion": "Mallas de compresión para running.",
         "unidades_disponibles": 130,
         "imagen": "https://contents.mediadecathlon.com/p2197037/k$2c6aec737fbacf6794c2ecd4da897776/prod.jpg?format=auto&quality=80&f=603x350"
@@ -146,71 +166,81 @@
     ],
     "accesorios": [
       {
+        "id": 21,
         "nombre": "Botella de Agua",
-        "precio": 80.0,
+        "precio": 80000,
         "descripcion": "Botella de agua reutilizable de 1 litro.",
         "unidades_disponibles": 250,
         "imagen": "https://contents.mediadecathlon.com/p2579629/k$3355f726e334b1250ee450975961371e/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 22,
         "nombre": "Mochila Deportiva",
-        "precio": 200.0,
+        "precio": 200000,
         "descripcion": "Mochila deportiva con múltiples compartimentos.",
         "unidades_disponibles": 80,
         "imagen": "https://contents.mediadecathlon.com/p2245855/k$fda466dafee1c2e7846d53bb7d69de7f/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 23,
         "nombre": "Toalla de Microfibra",
-        "precio": 90.0,
+        "precio": 90000,
         "descripcion": "Toalla de microfibra absorbente.",
         "unidades_disponibles": 300,
         "imagen": "https://contents.mediadecathlon.com/p2273510/k$e546f81c6311fd07a798650e425e827a/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 24,
         "nombre": "Cinturón de Correr",
-        "precio": 95.0,
+        "precio": 95000,
         "descripcion": "Cinturón de correr con bolsillo para el móvil.",
         "unidades_disponibles": 220,
         "imagen": "https://contents.mediadecathlon.com/p1918659/k$f2360a3dc6ed3e801ae5f70d27f34447/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 25,
         "nombre": "Gafas de Sol Deportivas",
-        "precio": 150.0,
+        "precio": 150000,
         "descripcion": "Gafas de sol deportivas polarizadas.",
         "unidades_disponibles": 90,
         "imagen": "https://contents.mediadecathlon.com/p2579427/k$d26b5e760626951fc43f5c6874124ee1/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 26,
         "nombre": "Reloj Deportivo",
-        "precio": 860.0,
+        "precio": 860000,
         "descripcion": "Reloj deportivo con monitor de actividad.",
         "unidades_disponibles": 50,
         "imagen": "https://contents.mediadecathlon.com/p2621290/k$1049b450879400f545b22713658bb662/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 27,
         "nombre": "Auriculares Inalámbricos",
-        "precio": 500.0,
+        "precio": 500000,
         "descripcion": "Auriculares inalámbricos resistentes al sudor.",
         "unidades_disponibles": 110,
         "imagen": "https://contents.mediadecathlon.com/p2138616/k$57c61abf06913aa8185ce98a5076be6a/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 28,
         "nombre": "Rodilleras Deportivas",
-        "precio": 260.0,
+        "precio": 260000,
         "descripcion": "Rodilleras deportivas de compresión.",
         "unidades_disponibles": 200,
         "imagen": "https://contents.mediadecathlon.com/p1905145/k$f04f5fe02408968562d223bb11084412/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 29,
         "nombre": "Banda para la Cabeza",
-        "precio": 100.0,
+        "precio": 100000,
         "descripcion": "Banda elástica para la cabeza.",
         "unidades_disponibles": 180,
         "imagen": "https://contents.mediadecathlon.com/p1538349/k$fa3676572c85bb7a38b2d396d20eed87/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 30,
         "nombre": "Mascarilla Deportiva",
-        "precio": 45.0,
+        "precio": 45000,
         "descripcion": "Mascarilla deportiva reutilizable.",
         "unidades_disponibles": 300,
         "imagen": "https://contents.mediadecathlon.com/p2615230/k$deb88046b6cfdb3a35b5fbc647b3b69d/prod.jpg?format=auto&quality=80&f=603x350"
@@ -218,71 +248,81 @@
     ],
     "suplementos": [
       {
+        "id": 31,
         "nombre": "Proteína en Polvo",
-        "precio": 390.0,
+        "precio": 390000,
         "descripcion": "Proteína en polvo de suero de leche.",
         "unidades_disponibles": 150,
         "imagen": "https://contents.mediadecathlon.com/p1729699/k$c0632f1471235c1a96c4708ced3995dd/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 32,
         "nombre": "Creatina Monohidratada",
-        "precio": 100.0,
+        "precio": 100000,
         "descripcion": "Creatina monohidratada en polvo.",
         "unidades_disponibles": 120,
         "imagen": "https://contents.mediadecathlon.com/p2719199/k$d7ba5ba0236d188663e3c12dab0daa93/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 33,
         "nombre": "Aminoácidos BCAA",
-        "precio": 150.0,
+        "precio": 150000,
         "descripcion": "Suplemento de aminoácidos BCAA.",
         "unidades_disponibles": 100,
         "imagen": "https://cdn.miproteina.com.co/storage/images/products/carnivor-beef-aminos.jpg?width=300&height=300&quality=80&f=603x350"
       },
       {
+        "id": 34,
         "nombre": "Pre-entrenamiento",
-        "precio": 90.0,
+        "precio": 90000,
         "descripcion": "Suplemento pre-entrenamiento energizante.",
         "unidades_disponibles": 80,
         "imagen": "https://cdn.miproteina.com.co/storage/images/products/img-3496.jpg?width=300&height=300&quality=80&f=603x350"
       },
       {
+        "id": 35,
         "nombre": "Multivitaminas",
-        "precio": 50.0,
+        "precio": 50000,
         "descripcion": "Suplemento multivitamínico diario.",
         "unidades_disponibles": 200,
         "imagen": "https://cdn.miproteina.com.co/storage/images/products/onepack-86grm-01.jpg?width=300&height=300&quality=80&f=603x350"
       },
       {
+        "id": 36,
         "nombre": "Omega 3",
-        "precio": 90.0,
+        "precio": 90000,
         "descripcion": "Cápsulas de aceite de pescado Omega 3.",
         "unidades_disponibles": 180,
         "imagen": "https://cdn.miproteina.com.co/storage/images/products/triple-omega-3-6-9-120-sofgels.jpg?width=300&height=300&quality=80&f=603x350"
       },
       {
+        "id": 37,
         "nombre": "Glutamina",
-        "precio": 80.0,
+        "precio": 80000,
         "descripcion": "Suplemento de glutamina en polvo.",
         "unidades_disponibles": 90,
         "imagen": "https://cdn.miproteina.com.co/storage/images/products/glutamine-300g-pure-bulk.jpg?width=300&height=300&quality=80&f=603x350"
       },
       {
+        "id": 38,
         "nombre": "Proteína Vegana",
-        "precio": 100.0,
+        "precio": 100000,
         "descripcion": "Proteína en polvo vegana.",
         "unidades_disponibles": 110,
         "imagen": "https://contents.mediadecathlon.com/p2397871/k$6b2498926fb0174dc53a164a5cb880c6/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 39,
         "nombre": "Barritas Energéticas",
-        "precio": 40.0,
+        "precio": 40000,
         "descripcion": "Caja de 12 barritas energéticas.",
         "unidades_disponibles": 130,
         "imagen": "https://contents.mediadecathlon.com/p2588229/k$b7ef5c5950a1da14e13840c345179e70/prod.jpg?format=auto&quality=80&f=603x350"
       },
       {
+        "id": 40,
         "nombre": "Electrolitos en Polvo",
-        "precio": 60.0,
+        "precio": 60000,
         "descripcion": "Polvo de electrolitos para rehidratación.",
         "unidades_disponibles": 140,
         "imagen": "https://cdn.miproteina.com.co/storage/images/products/vitamin-t-90-tabletas.jpg?width=300&height=300&quality=80&f=603x350"
@@ -292,135 +332,155 @@
   "servicios": {
     "videos_de_entrenamiento": [
       {
+        "id": 41,
         "nombre": "Entrenamiento HIIT",
         "duracion_video": "30 minutos",
         "descripcion": "Video de entrenamiento de alta intensidad.",
-        "precio": 200.0,
+        "precio": 200000,
         "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hleAwZ4mGh8?si=olbIjuNkHRVU0e0r\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
+        "id": 42,
         "nombre": "Yoga para Principiantes",
         "duracion_video": "45 minutos",
         "descripcion": "Video de yoga básico para principiantes.",
-        "precio": 90.0,
+        "precio": 90000,
         "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FU4OTllcOXM?si=rLL2iTd17S3I-sRJ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
+        "id": 43,
         "nombre": "Rutina de Fuerza",
         "duracion_video": "60 minutos",
         "descripcion": "Video de entrenamiento de fuerza completo.",
-        "precio": 96.0,
+        "precio": 96000,
         "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WuzTGQp-AOo?si=4XSF-pm4DfAc9STm\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
+        "id": 44,
         "nombre": "Cardio Dance",
         "duracion_video": "40 minutos",
         "descripcion": "Video de entrenamiento cardiovascular con baile.",
-        "precio": 40.0,
+        "precio": 40000,
         "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/kS0YB--Cz0U?si=LlquePl-x9qzXcw8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
+        "id": 45,
         "nombre": "Pilates en Casa",
         "duracion_video": "50 minutos",
         "descripcion": "Video de entrenamiento de pilates para casa.",
-        "precio": 70.0,
+        "precio": 70000,
         "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/oUMr3YvZBPA?si=guQH6KzDawHp_DqS\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
+        "id": 46,
         "nombre": "Boxeo Cardio",
         "duracion_video": "35 minutos",
         "descripcion": "Video de entrenamiento de boxeo con cardio.",
-        "precio": 120.0,
+        "precio": 120000,
         "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/E6eibbkPudk?si=BSZjPCS1YU6vVs1b\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
+        "id": 47,
         "nombre": "Entrenamiento Funcional",
         "duracion_video": "55 minutos",
         "descripcion": "Video de entrenamiento funcional para todo el cuerpo.",
-        "precio": 40.0,
+        "precio": 40000,
         "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xUG92gfUmHo?si=Vzbu7O2rBC-zExG7\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
+        "id": 48,
         "nombre": "Estiramientos y Movilidad",
         "duracion_video": "30 minutos",
         "descripcion": "Video de estiramientos y mejora de la movilidad.",
-        "precio": 45.0,
+        "precio": 45000,
         "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/oC91y7SRPHU?si=2cg7pI4I1px_9uSC\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
+        "id": 49,
         "nombre": "Entrenamiento de Core",
         "duracion_video": "25 minutos",
         "descripcion": "Video de ejercicios para fortalecer el core.",
-        "precio": 57.0,
+        "precio": 57000,
         "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/c_XOTJJXfVQ?si=cI3blK7pLSCPTusV\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
+        "id": 50,
         "nombre": "Entrenamiento de Resistencia",
         "duracion_video": "45 minutos",
         "descripcion": "Video de entrenamiento para mejorar la resistencia.",
-        "precio": 100.0,
+        "precio": 100000,
         "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/JPjUmLNQkxI?si=Jvxl_f_l0Yqdycn_\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       }
     ],
     "planes_nutricionales": [
       {
+        "id": 51,
         "nombre": "Plan Nutricional Básico",
         "descripcion": "Plan de alimentación básico para empezar una dieta saludable.",
-        "precio": 100.0,
+        "precio": 100000,
         "imagen": "https://nutricionvegana.org/wp-content/uploads/2017/07/plato-vegano-es-1-600.jpg"
       },
       {
+        "id": 52,
         "nombre": "Plan de Pérdida de Peso",
         "descripcion": "Plan de alimentación enfocado en la pérdida de peso.",
-        "precio": 260.0,
+        "precio": 260000,
         "imagen": "https://www.ocu.org/-/media/ocu/images/home/salud/no%20center%20of%20content/landingsalud/comer_bien_800.jpg?rev=d06b340b-40bd-4867-b623-bee2d0ac2db7&mw=660&hash=859697BA97EF2285164519C8D76FAB24"
       },
       {
+        "id": 53,
         "nombre": "Plan de Ganancia Muscular",
         "descripcion": "Plan de alimentación para ganar masa muscular.",
-        "precio": 290.0,
+        "precio": 290000,
         "imagen": "https://www.mipielsana.com/wp-content/uploads/2015/04/comida-fitness.jpg"
       },
       {
+        "id": 54,
         "nombre": "Plan Vegano",
         "descripcion": "Plan de alimentación vegano equilibrado.",
-        "precio": 150.0,
+        "precio": 150000,
         "imagen": "https://gritoahogado.home.blog/wp-content/uploads/2019/03/nutrinor1707.jpg"
       },
       {
+        "id": 55,
         "nombre": "Plan para Deportistas",
         "descripcion": "Plan de alimentación para mejorar el rendimiento deportivo.",
-        "precio": 280.0,
+        "precio": 280000,
         "imagen": "https://www.cambiatufisico.com/wp-content/uploads/cocina-culturista-696x392.jpg"
       },
       {
+        "id": 56,
         "nombre": "Plan Detox",
         "descripcion": "Plan de alimentación para desintoxicación.",
-        "precio": 450.0,
+        "precio": 450000,
         "imagen": "https://www.hola.com/imagenes/perder-peso/201701101153/plan-detox-para-despues-de-las-fiestas/0-3-654/detox-5dias--z.jpg"
       },
       {
+        "id": 57,
         "nombre": "Plan Keto",
         "descripcion": "Plan de alimentación cetogénico.",
-        "precio": 340.0,
+        "precio": 340000,
         "imagen": "https://gnd-content.dev/blog/wp-content/uploads/2022/12/keto-diet.jpg"
       },
       {
+        "id": 58,
         "nombre": "Plan sin Gluten",
         "descripcion": "Plan de alimentación sin gluten.",
-        "precio": 240.0,
+        "precio": 240000,
         "imagen": "https://www.acecale.org/wp-content/uploads/2018/10/celiacos-cesta-compra-kx0B-U501248042318rSF-624x385@RC.jpeg"
       },
       {
+        "id": 59,
         "nombre": "Plan de Alta Energía",
         "descripcion": "Plan de alimentación para aumentar la energía diaria.",
-        "precio": 270.0,
+        "precio": 270000,
         "imagen": "https://s3.ppllstatics.com/diariovasco/www/multimedia/202001/24/media/cortadas/almendra-k8sG--624x385@Diario%20Vasco.jpg"
       },
       {
+        "id": 60,
         "nombre": "Plan de Salud Digestiva",
         "descripcion": "Plan de alimentación para mejorar la salud digestiva.",
-        "precio": 340.0,
+        "precio": 340000,
         "imagen": "https://imagenes.20minutos.es/files/image_640_360/uploads/imagenes/2023/07/06/salud-digestiva.jpeg"
       }
     ]

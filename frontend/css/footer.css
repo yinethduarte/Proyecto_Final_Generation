@@ -1,5 +1,5 @@
 /* La clase content debe expandirse para llenar el espacio disponible */
-.content {
+.content-footer {
   flex: 1;
   padding-left: 3%;
 }
