@@ -1,15 +1,16 @@
 /* La clase content debe expandirse para llenar el espacio disponible */
-.content {
+.content-footer {
   flex: 1;
   padding-left: 3%;
 }
 
 /* Estilos para el footer */
 .footer {
-  margin-top: 15%;
+  margin-top: 10%;
   background-color: #143e3e;
   padding: 10px;
-  font-size: 14px;
+  padding-top: 2%;
+  font-size: 18px;
   color: rgb(255, 255, 255);
   text-align: center;
 }

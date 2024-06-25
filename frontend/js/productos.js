@@ -11,7 +11,7 @@ function crearCardProducto(product) {
         <p class="precio-producto">${product.precio}</p>
       </div>
       <div class="contenedor-img-producto">
-        <img src="https://jousfit.com/cdn/shop/files/456CF653-F41F-488A-B49C-396D8CCAD6D1.jpg?v=1704999170" alt="" />
+        <img src="${product.imagen}" alt="" />
       </div>
       <div class="contenedor-addCart">
         <button>Add to Cart</button>
@@ -23,7 +23,7 @@ function crearCardProducto(product) {
 // filtrar y renderizar productos por SUBCATEGORIA
 function renderizarProductos(productos, subcategoria) {
   contenedorCategoria.innerHTML = "";
-  if (subcategoria) {
+  if (subcategoria && subcategoria !== "ver_todo") {
     const productosFiltrados = productos[subcategoria];
     if (productosFiltrados) {
       productosFiltrados.forEach((producto) => {
