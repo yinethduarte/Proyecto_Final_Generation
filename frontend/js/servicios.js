@@ -34,7 +34,7 @@ function crearCardProducto(product) {
 // filtrar y renderizar productos por SUBCATEGORIA
 function renderizarProductos(productos, subcategoria) {
   contenedorCategoria.innerHTML = "";
-  if (subcategoria) {
+  if (subcategoria && subcategoria !== "ver_todo") {
     const productosFiltrados = productos[subcategoria];
     if (productosFiltrados) {
       productosFiltrados.forEach((producto) => {
