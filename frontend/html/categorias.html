@@ -21,32 +21,35 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- Estilos -->
     <link rel="stylesheet" href="/frontend/css/body.css" />
     <link rel="stylesheet" href="/frontend/css/productos.css" />
-    <link rel="stylesheet" href="/frontend/css/navbar.css" />
+    <!-- <link rel="stylesheet" href="/frontend/css/navbar.css" /> -->
     <link rel="stylesheet" href="/frontend/css/footer.css" />
     <link rel="stylesheet" href="/frontend/css/categorias.css" />
 
     <script src="/frontend/js/navbar.js"></script>
   </head>
-  <nav id="navbar-container"></nav>
+
   <body>
     <section id="contenedor-categoria">
       <div class="filtro">
         <ul class="lista-subcategorias"></ul>
       </div>
+      
       <div class="categoria" id="productos"></div>
     </section>
 
     <!-- <script src="/frontend/js/f"></script> -->
-    <script src="/frontend/js/categorias.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- Productos  -->
+     <section class="shop-container">
+       <script src="/frontend/js/categorias.js"></script>
+     </section>
+
     <footer></footer>
   </body>
+  
 </html>

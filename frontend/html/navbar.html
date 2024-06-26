@@ -25,6 +25,7 @@
     />
   <!-- Estilos  -->
     <link rel="stylesheet" href="/frontend/css/navbar.css" />
+    <link rel="stylesheet" href="/frontend/css/carrito.css">
 
   </head>
   <body class="container-fluid">
@@ -84,11 +85,51 @@
               <a href="#">
                 <i class="fa-solid fa-circle-user"></i></a>
             </div>
-
+<!-- 
             <div class="cajaBtn">
               <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
               <span></span>
-            </div>
+            </div> -->
+
+            <nav id="navbar-container">
+
+              <!-- Logo carrito -->
+              
+                  <div class="cajaBtn">
+                    <a href="#"><i class="fa-solid fa-basket-shopping" id="cart-icon"></i></a>
+                    <span></span>
+                  </div>
+              
+              <!-- Carrito -->
+              
+              <div class="cart">
+                 <h2 class="cart-title">Tu carrito</h2>
+              
+              
+                 <!-- contenido -->
+              
+                 <div class="cart-content">
+              
+                 </div>
+              
+                 <!-- Total -->
+              
+                 <div class="total">
+                  <div class="total-title">Total</div>
+                  <div class="total-price">$</div>
+                 </div>
+              
+                 <!-- Botón de comprar -->
+              
+                 <button type="button" class="btn-buy">Comprar ahora</button>
+              
+                 <!-- Cerrar carrito -->
+              
+                 <i class="bx bx-x" id="cart-close"></i>
+              
+              </div>
+                  
+              </nav>
           </div>
       </div>
     </header>
@@ -99,6 +140,7 @@
     ></script>
     <!-- elemento que va a contener los productos -->
     <div id="divProductos"></div>
+    <script src="/frontend/js/carrito.js"></script>
     <script src="/frontend/js/obtenerdatos.js"></script>
   </body>
 </html>
