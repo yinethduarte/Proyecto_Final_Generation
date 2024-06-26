@@ -32,6 +32,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="/frontend/css/navbar.css" />
   </head>
@@ -77,21 +81,21 @@
               <a href="home.html" class="lista-navbar-link">Inicio</a>
             </li>
             <li class="lista-navbar-item lista-navbar-item--show">
-              <a href="#" class="lista-navbar-link"
+              <a class="lista-navbar-link"
                 >Categorías<img src="/frontend/css/img/arrow.svg" class="arrow"
               /></a>
 
               <ul class="lista-navbar-nesting">
                 <li class="lista-navbar-inside">
                   <a
-                    href="#"
+                    href="productos.html"
                     class="lista-navbar-link lista-navbar-link--inside"
                     >Productos</a
                   >
                 </li>
                 <li class="lista-navbar-inside">
                   <a
-                    href="#"
+                    href="servicios.html"
                     class="lista-navbar-link lista-navbar-link--inside"
                     >Servicios</a
                   >
@@ -115,12 +119,41 @@
         >
           <div class="cajaBotonesContainer d-flex fs-3">
             <div class="cajaBtn">
-              <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+              <a href="#"
+                ><i class="fa-solid fa-basket-shopping" id="cart-icon"></i
+              ></a>
+
               <span></span>
             </div>
 
+            <!-- Carrito -->
+
+            <div class="cart">
+              <h2 class="cart-title">Tu carrito</h2>
+
+              <!-- contenido -->
+
+              <div class="cart-content"></div>
+
+              <!-- Total -->
+
+              <div class="total">
+                <div class="total-title">Total</div>
+
+                <div class="total-price">$</div>
+              </div>
+
+              <!-- Botón de comprar -->
+
+              <button type="button" class="btn-buy">Comprar ahora</button>
+
+              <!-- Cerrar carrito -->
+
+              <i class="bx bx-x" id="cart-close"></i>
+            </div>
+
             <div class="cajaBtn">
-              <a href="#"> <i class="fa-solid fa-circle-user"></i></a>
+              <a href="login.html"> <i class="fa-solid fa-circle-user"></i></a>
             </div>
           </div>
         </div>
@@ -133,5 +166,6 @@
     ></script>
 
     <script src="/frontend/js/navbar.js"></script>
+    <script src="/frontend/js/carrito.js"></script>
   </body>
 </html>
