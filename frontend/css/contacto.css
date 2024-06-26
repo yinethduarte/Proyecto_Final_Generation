@@ -26,7 +26,6 @@
   display: flex;
   align-items: start;
   justify-content: center;
-  padding: 20px 0px 0px 50px;
 }
 
 .container-logo img{
@@ -41,9 +40,7 @@
 
 .contact-container .card-contact-container {
   color: var(--platinum);
-  padding-top: 60px;
-  margin-left: 40px;
-  margin-right: 40%;
+  margin: 2rem;
 } 
 
 /* contact header  */
@@ -136,10 +133,8 @@ textarea {
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
-  position: absolute;
   top: 17%;
   right: 0%;
-  max-width: 40%;
 }
 
 .info-container-contact h2 {
@@ -171,21 +166,67 @@ textarea {
 /* Adaptable responsivo */
 
 /* ESCITORIO NORMAL */
-@media (min-width: 991px) {
+@media (width>= 992px) {
+  .contact-container{
+    margin-top: 40px;
+  }
+  .contact .info-container-contact {
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    position: absolute;
+    top: 17%;
+    right: 0%;
+    max-width: 40%;
+  }
 
-}
+  .contact-container .card-contact-container {
+    color: var(--platinum);
+    padding-top: 60px;
+    margin-left: 40px;
+    margin-right: 40%;
+  } 
 
-/* Escritorios anchos */
-@media (min-width: 1200px) {
-
-}
-
-/* MOBILE */
-@media screen and (max-width: 767px) {
+  .contact-container .container-logo{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 20px 0px 0px 50px;
+  }
   
 }
 
-/* TABLET */
-@media (min-width: 767px) and (max-width: 991px) {
+
+/* MOBILE & TABLET */
+@media 
+  screen and (width<=991px) {
+  .contact-container{
+    margin-top: 100px;
+  }
+
+  .contact-container .contact{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact .info-container-contact {
+    height: 300px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  
+  .contact h2 {
+    font-size: 1.2rem;
+  }
+
+  .contact-group label {
+    font-size: 1rem;
+  }
+
+  .info-container-contact .item-info-contact{
+    font-size: 1rem;
+  } 
+  
 
 }

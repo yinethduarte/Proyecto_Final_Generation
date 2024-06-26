@@ -26,7 +26,11 @@
   margin: 15px;
   font-size: large;
   color: var(--jungle-green);
+  list-style-type: none;
+  padding: 0;
 }
+
+
 .categoria {
   max-width: 80%;
   margin: 40px auto 100px auto;

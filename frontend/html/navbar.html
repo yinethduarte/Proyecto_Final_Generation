@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Personalización -->
     <title>Agon</title>
-    <link rel="icon" type="image/png" href="/frontend/css/img/iconoagon-2@2x.png"/>
+    <link
+      rel="icon"
+      type="image/png"
+      href="/frontend/css/img/iconoagon-2@2x.png"
+    />
 
     <!-- Bootstrap y fuentes-->
     <link
@@ -16,7 +20,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
 
     <link
       rel="stylesheet"
@@ -26,86 +33,99 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="/frontend/css/navbar.css">
-</head>
-<body>
-  <nav class="">
-    <section class="row flex-md-row position-sticky top-0 ">
-
-      <!-- Logo -->
-      <div class="cajaMarca col-7 col-md-2">
-        <div class="logoContainer"> <img src="/frontend/css/img/iconoagon-2@2x.png" alt="Logo de Agon"> </div>       
-        <h1 class="titleAgon m-0 fw-bold">AGON</h1>
-      </div>
-
-      <!-- Menú hamburguesa -->
-        <div class="lista-hamburger navbar-toggler border-0 col-2 fs-1 top-0">
-          <img src="/frontend/css/img/menu.svg" class="hamburger-img">
-        </div>
-
-      <!-- Parte del centro -->
-      <div class="contenedor-interno col-md-8 order-md-2">
-        <div class="contenedor-box col-md-5">
-          <div class="box">
-            <form name="search">
-                <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();">
-            </form>
-            <i class="bi bi-search"></i>
+    <link rel="stylesheet" href="/frontend/css/navbar.css" />
+  </head>
+  <body>
+    <nav class="">
+      <section class="contenedor-navbar row top-0">
+        <!-- Logo -->
+        <div class="cajaMarca col-7 col-lg-2">
+          <div class="logoContainer">
+            <img
+              src="/frontend/css/img/iconoagon-2@2x.png"
+              alt="Logo de Agon"
+            />
           </div>
+          <h1 class="titleAgon m-0 fw-bold">AGON</h1>
         </div>
 
-      <ul class="lista col-md-7 d-md-flex list-unstyled column-gap-4 m-0">
-        <li class="lista-item">
-          <a href="inicio.html" class="lista-link">Inicio</a>
-        </li>
-        <li class="lista-item lista-item--show">
-          <a href="#" class="lista-link">Categorías<img src="/frontend/css/img/arrow.svg" class="arrow"></a>
-    
-          <ul class="lista-nesting">
-            <li class="lista-inside">
-              <a href="#" class="lista-link lista-link--inside">Productos</a>
+        <!-- Menú hamburguesa -->
+        <div class="lista-navbar-hamburger border-0 col-2 fs-1 top-0">
+          <img src="/frontend/css/img/menu.svg" class="hamburger-img" />
+        </div>
+
+        <!-- Parte del centro -->
+        <div class="contenedor-interno col-3 col-lg-8 order-lg-2">
+          <div class="contenedor-box col-lg-5">
+            <div class="box">
+              <form name="search">
+                <input
+                  type="text"
+                  class="input"
+                  name="txt"
+                  onmouseout="this.value = ''; this.blur();"
+                />
+              </form>
+              <i class="bi bi-search"></i>
+            </div>
+          </div>
+
+          <ul class="lista-navbar col-lg-7 d-lg-flex list-unstyled column-gap-4 m-0">
+            <li class="lista-navbar-item">
+              <a href="inicio.html" class="lista-navbar-link">Inicio</a>
             </li>
-            <li class="lista-inside">
-              <a href="#" class="lista-link lista-link--inside">Servicios</a>
+            <li class="lista-navbar-item lista-navbar-item--show">
+              <a href="#" class="lista-navbar-link"
+                >Categorías<img src="/frontend/css/img/arrow.svg" class="arrow"
+              /></a>
+
+              <ul class="lista-navbar-nesting">
+                <li class="lista-navbar-inside">
+                  <a href="#" class="lista-navbar-link lista-navbar-link--inside"
+                    >Productos</a
+                  >
+                </li>
+                <li class="lista-navbar-inside">
+                  <a href="#" class="lista-navbar-link lista-navbar-link--inside"
+                    >Servicios</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="lista-navbar-item">
+              <a href="nosotros.html" class="lista-navbar-link">Nosotros </a>
+            </li>
+
+            <li class="lista-navbar-item">
+              <a href="contacto.html" class="lista-navbar-link">Contáctenos</a>
             </li>
           </ul>
-        </li>
-    
-        <li class="lista-item">
-          <a href="nosotros.html" class="lista-link">Nosotros </a>
-        </li>
-    
-        <li class="lista-item">
-          <a href="contacto.html" class="lista-link">Contáctenos</a>
-        </li>
-    
-      </ul>
-      </div>
-      
-    <!-- Iconos de usuario y carrito-->
-    <div class="botonesContainer col-3 col-md-2 d-flex justify-content-center order-first order-md-3 ">
-      <div class="cajaBotonesContainer d-flex column-gap-3 fs-3">
-        <div class="cajaBtn">
-          <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
-          <span></span>
         </div>
 
-        <div class="cajaBtn">
-          <a href="#">
-            <i class="fa-solid fa-circle-user"></i></a>
+        <!-- Iconos de usuario y carrito-->
+        <div
+          class="botonesContainer col-3 col-lg-2 d-flex justify-content-center order-first order-lg-3"
+        >
+          <div class="cajaBotonesContainer d-flex fs-3">
+            <div class="cajaBtn">
+              <a href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+              <span></span>
+            </div>
+
+            <div class="cajaBtn">
+              <a href="#"> <i class="fa-solid fa-circle-user"></i></a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-
-
-    </section>
-  </nav>
-  <script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-  crossorigin="anonymous"
-  ></script>
-<!-- 
-  <script src="/frontend/js/configNav.js"></script> -->
-</body>
+      </section>
+    </nav>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    
+  <script src="/frontend/js/navbar.js"></script>
+  </body>
 </html>
