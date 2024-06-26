@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   margin-top: 60px;
+  cursor: pointer;
 }
 .lista-subcategorias {
   margin: 0px;
@@ -45,6 +46,7 @@
   justify-content: space-between;
   border: 1px solid rgba(0, 0, 0, 0.336);
   margin-bottom: 5%;
+  cursor: pointer;
 }
 
 .header-producto {
@@ -69,7 +71,7 @@
   height: 50px;
   border: none;
   color: var(--caribbean-current);
-  background-color: var(--platinum);
+  background-color: var(--cambridge-blue);
   font-weight: 550;
 }
 .contenedor-addCart button:hover {

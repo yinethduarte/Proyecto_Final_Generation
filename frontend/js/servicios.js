@@ -2,16 +2,29 @@
 const contenedorCategoria = document.querySelector(".categoria");
 const listaSubcategorias = document.querySelector(".lista-subcategorias");
 
+function validarIndefinidoVideo(product) {
+  if (typeof product.video !== "undefined") {
+    return product.video;
+  }
+  if (typeof product.imagen !== "undefined") {
+    return `<img src="${product.imagen}" alt="" />`;
+  }
+  return `<img src="${product.imagen}" alt="" />`;
+}
+
 // crear una tarjeta de producto
 function crearCardProducto(product) {
   const productoHTML = `
-    <div class="contenedor-producto">
+    <div class="contenedor-producto"  onclick="window.location.href = 'especificacionesCategorias.html?id=${
+      product.id
+    }'">
       <div class="header-producto">
         <h4 class="nombre-producto">${product.nombre}</h4>
         <p class="precio-producto">${product.precio}</p>
       </div>
       <div class="contenedor-img-producto">
-        <img src="https://jousfit.com/cdn/shop/files/456CF653-F41F-488A-B49C-396D8CCAD6D1.jpg?v=1704999170" alt="" />
+      ${validarIndefinidoVideo(product)}
+        
       </div>
       <div class="contenedor-addCart">
         <button>Add to Cart</button>
@@ -23,7 +36,7 @@ function crearCardProducto(product) {
 // filtrar y renderizar productos por SUBCATEGORIA
 function renderizarProductos(productos, subcategoria) {
   contenedorCategoria.innerHTML = "";
-  if (subcategoria) {
+  if (subcategoria && subcategoria !== "ver_todo") {
     const productosFiltrados = productos[subcategoria];
     if (productosFiltrados) {
       productosFiltrados.forEach((producto) => {
@@ -64,7 +77,7 @@ function crearFiltrosSubcategorias(productos) {
 
 // filtrar los productos por CATEGORIA
 function filtrarCategoria(data) {
-  const productos = data.productos; // aca se debe hacer la lógica para que se elija la categoria seleccionada en el nav
+  const productos = data.servicios; // aca se debe hacer la lógica para que se elija la categoria seleccionada en el nav
   crearFiltrosSubcategorias(productos);
   renderizarProductos(productos, null);
 }

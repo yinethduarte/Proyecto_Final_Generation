@@ -55,7 +55,8 @@
   margin-top: 15%;
   background-color: var(--caribbean-current);
   padding: 10px;
-  font-size: 14px;
+  padding-top: 2%;
+  font-size: 18px;
   color: rgb(255, 255, 255);
   text-align: center;
 }
@@ -84,8 +85,8 @@
   font-size: 130%;
 } 
 
-.footer a{
-  color:white;
+.footer a {
+  color: white;
   text-decoration: none;
 }
 

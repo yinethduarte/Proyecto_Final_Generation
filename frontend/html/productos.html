@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Personalizacion -->
-    <title>Nosotros</title>
+    <title>categorias</title>
     <link
       rel="icon"
       type="image/png"
@@ -27,12 +27,21 @@
     <link rel="stylesheet" href="/frontend/css/productos.css" />
     <link rel="stylesheet" href="/frontend/css/navbar.css" />
     <link rel="stylesheet" href="/frontend/css/footer.css" />
+    <link rel="stylesheet" href="/frontend/css/categorias.css" />
 
     <script src="/frontend/js/navbar.js"></script>
+    <script src="/frontend/js/footer.js"></script>
   </head>
   <nav id="navbar-container"></nav>
   <body>
-    <section id="divProductos"></section>
+    <section id="contenedor-categoria">
+      <div class="filtro">
+        <ul class="lista-subcategorias">
+          <li class="subcategoria">Ver todo</li>
+        </ul>
+      </div>
+      <div class="categoria" id="productos"></div>
+    </section>
 
     <!-- <script src="/frontend/js/f"></script> -->
     <script src="/frontend/js/productos.js"></script>
