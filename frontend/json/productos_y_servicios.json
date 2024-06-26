@@ -5,7 +5,7 @@
         "id": 1,
         "nombre": "Balón de Fútbol",
         "precio": 300000,
-        "descripcion": "Balón de fútbol tamaño oficial.",
+        "descripcion": "¡Descubre el balón de fútbol de tamaño oficial que elevará tu juego al siguiente nivel! Con un diámetro de 22 cm y un peso perfecto de entre 410 y 450 gramos, este balón está diseñado para ofrecer un rendimiento superior en cada jugada. Su cubierta exterior, elaborada con cuero o material sintético de alta resistencia, garantiza una durabilidad excepcional y un toque suave.",
         "unidades_disponibles": 100,
         "imagen": "https://contents.mediadecathlon.com/p2571328/k$bcd3c25846279cde8d74b9996aef2566/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -13,7 +13,7 @@
         "id": 2,
         "nombre": "Raqueta de Tenis",
         "precio": 500000,
-        "descripcion": "Raqueta de tenis profesional de grafito.",
+        "descripcion": "¡Eleva tu juego con nuestra raqueta de tenis de alta calidad! Diseñada para jugadores de todos los niveles, esta raqueta ofrece un equilibrio perfecto entre potencia y control. Con un marco ligero y resistente, fabricado con materiales compuestos avanzados como grafito y carbono, proporciona una durabilidad excepcional y una maniobrabilidad superior. ",
         "unidades_disponibles": 50,
         "imagen": "https://contents.mediadecathlon.com/p2486884/k$95135fd03bd711a6935037cc1afc190d/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -21,7 +21,7 @@
         "id": 3,
         "nombre": "Guantes de Boxeo",
         "precio": 800000,
-        "descripcion": "Guantes de boxeo de alta calidad.",
+        "descripcion": "¡Mejora tu rendimiento en el ring con nuestros guantes de boxeo de primera calidad! Diseñados para ofrecer la máxima protección y comodidad, estos guantes están confeccionados con cuero sintético duradero que garantiza una larga vida útil. Su acolchado de espuma multicapa absorbe los impactos y protege tus manos, muñecas y nudillos, permitiéndote entrenar y competir con total confianza. ",
         "unidades_disponibles": 75,
         "imagen": "https://contents.mediadecathlon.com/p2604989/k$b5dee32969c43f9d5ee952e6b5222dc5/guantes-de-boxeo-120-rosado.jpg?format=auto&quality=80&f=603x350"
       },
@@ -29,7 +29,7 @@
         "id": 4,
         "nombre": "Bicicleta de Montaña",
         "precio": 2500000,
-        "descripcion": "Bicicleta de montaña con suspensión completa.",
+        "descripcion": "¡Aventúrate en terrenos desconocidos con nuestra bicicleta de montaña de alta calidad! Diseñada para superar los desafíos más exigentes, esta bicicleta cuenta con un marco ligero y robusto de aleación de aluminio que proporciona una durabilidad y resistencia excepcionales. Equipadas con una suspensión delantera de alto rendimiento, las ruedas de 27.5 o 29 pulgadas absorben los impactos, garantizando un viaje suave y controlado en cualquier terreno. ",
         "unidades_disponibles": 20,
         "imagen": "https://contents.mediadecathlon.com/p1819622/k$d46fef6855bdda48a62e43ad54ce1dbb/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -37,7 +37,7 @@
         "id": 5,
         "nombre": "Pesas Ajustables",
         "precio": 600000,
-        "descripcion": "Set de pesas ajustables de 2.5 a 24 kg.",
+        "descripcion": "¡Optimiza tu entrenamiento con nuestras pesas ajustables de alta calidad! Diseñadas para adaptarse a todas tus necesidades de ejercicio, estas pesas ofrecen una versatilidad inigualable. Con un sistema de ajuste rápido e intuitivo, puedes cambiar el peso en segundos, permitiéndote pasar de un ejercicio a otro sin interrupciones. Fabricadas con materiales duraderos y de alta resistencia, garantizan una larga vida útil y un rendimiento constante.",
         "unidades_disponibles": 40,
         "imagen": "https://contents.mediadecathlon.com/p1248562/k$01448487cc01f6437afa685728065895/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -45,7 +45,7 @@
         "id": 6,
         "nombre": "Cuerda para Saltar",
         "precio": 80000,
-        "descripcion": "Cuerda para saltar con rodamiento de bolas.",
+        "descripcion": "¡Mejora tu acondicionamiento físico con nuestra cuerda para saltar de alta calidad! Diseñada para ofrecer un rendimiento excepcional, esta cuerda cuenta con un cable ajustable y resistente que se adapta a cualquier altura, permitiéndote personalizar tu entrenamiento. Sus mangos ergonómicos, recubiertos con material antideslizante, aseguran un agarre cómodo y seguro, mientras que los rodamientos de bolas de alta velocidad garantizan giros suaves y sin enredos.",
         "unidades_disponibles": 200,
         "imagen": "https://contents.mediadecathlon.com/p2052047/k$a297338e7aa2161200cfe2594eafbe25/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -53,7 +53,7 @@
         "id": 7,
         "nombre": "Mancuernas Hexagonales",
         "precio": 300000,
-        "descripcion": "Par de mancuernas hexagonales de 10 kg.",
+        "descripcion": "¡Potencia tu entrenamiento con nuestras mancuernas hexagonales de primera calidad! Diseñadas para ofrecer un agarre seguro y cómodo, estas mancuernas cuentan con un diseño hexagonal que evita que rueden, proporcionando estabilidad en cualquier superficie. ",
         "unidades_disponibles": 100,
         "imagen": "https://contents.mediadecathlon.com/p2720129/k$47423c440776298373204a99089eeffb/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -61,7 +61,7 @@
         "id": 8,
         "nombre": "Set de Yoga",
         "precio": 150000,
-        "descripcion": "Incluye esterilla, bloques y correa de yoga.",
+        "descripcion": "¡Equípate para una práctica de yoga excepcional con nuestro completo set de yoga! Incluye todo lo que necesitas para elevar tu experiencia de bienestar y relajación. Nuestro set cuenta con una esterilla de yoga antideslizante y acolchada, que proporciona confort y estabilidad durante cada postura.",
         "unidades_disponibles": 150,
         "imagen": "https://contents.mediadecathlon.com/p2384622/k$90c9faab38b013bb03b55e4f9d264926/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -69,7 +69,7 @@
         "id": 9,
         "nombre": "Patines en Línea",
         "precio": 350000,
-        "descripcion": "Patines en línea ajustables para adultos.",
+        "descripcion": "¡Deslízate con estilo y rendimiento con nuestros patines en línea de alta calidad! Diseñados para ofrecer velocidad, estabilidad y confort, estos patines son ideales para patinadores de todos los niveles. ",
         "unidades_disponibles": 60,
         "imagen": "https://contents.mediadecathlon.com/p2075738/k$779c90b7eaa2e5ff4db983ed81dfb629/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -77,7 +77,7 @@
         "id": 10,
         "nombre": "Tabla de Surf",
         "precio": 800000,
-        "descripcion": "Tabla de surf de fibra de vidrio.",
+        "descripcion": "¡Domina las olas con nuestra tabla de surf de alto rendimiento! Diseñada para ofrecer la máxima diversión y control en el agua, esta tabla está fabricada con materiales ligeros y duraderos que garantizan una excelente flotabilidad y maniobrabilidad. ",
         "unidades_disponibles": 15,
         "imagen": "https://contents.mediadecathlon.com/p1581633/k$d6238bbfa2422130918115c86711ba41/prod.jpg?format=auto&quality=80&f=603x350"
       }
@@ -87,7 +87,7 @@
         "id": 11,
         "nombre": "Camiseta Deportiva",
         "precio": 150000,
-        "descripcion": "Camiseta deportiva de secado rápido.",
+        "descripcion": "¡Maximiza tu rendimiento con nuestra camiseta deportiva de última generación! Diseñada para ofrecer comodidad y estilo, esta camiseta está confeccionada con tejidos transpirables que mantienen tu piel fresca y seca durante tus entrenamientos más intensos. ",
         "unidades_disponibles": 200,
         "imagen": "https://contents.mediadecathlon.com/p2600501/k$d0cb2fc9af587718b83800ddb3da5d5d/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -95,7 +95,7 @@
         "id": 12,
         "nombre": "Pantalones de Yoga",
         "precio": 120000,
-        "descripcion": "Pantalones de yoga elásticos y cómodos.",
+        "descripcion": "¡Encuentra la armonía entre confort y estilo con nuestros pantalones de yoga premium! Diseñados para ofrecer libertad de movimiento y soporte durante cada pose, estos pantalones están confeccionados con telas suaves y elásticas que se adaptan a tu cuerpo sin restricciones. ",
         "unidades_disponibles": 150,
         "imagen": "https://contents.mediadecathlon.com/p1786471/k$aee767635f2e000910bf2d8ccdb9920f/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -103,7 +103,7 @@
         "id": 13,
         "nombre": "Chaqueta Impermeable",
         "precio": 300000,
-        "descripcion": "Chaqueta impermeable y transpirable.",
+        "descripcion": "¡Prepárate para enfrentar cualquier clima con nuestra chaqueta impermeable de alto rendimiento! Diseñada para mantener la lluvia y el viento fuera, esta chaqueta está confeccionada con materiales impermeables y transpirables que te mantienen seco y cómodo en condiciones adversas. ",
         "unidades_disponibles": 100,
         "imagen": "https://contents.mediadecathlon.com/p2495908/k$2162edaeb310718fba2a36bfa4f2f744/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -111,7 +111,7 @@
         "id": 14,
         "nombre": "Zapatos de Correr",
         "precio": 670000,
-        "descripcion": "Zapatos de correr ligeros y con buen soporte.",
+        "descripcion": "¡Alcanza nuevas metas con nuestros zapatos de correr diseñados para rendimiento y comodidad! Estos zapatos ofrecen una combinación perfecta de amortiguación, soporte y ligereza para que puedas correr más rápido y más lejos con confianza. ",
         "unidades_disponibles": 120,
         "imagen": "https://contents.mediadecathlon.com/p2006790/k$42e498d4b762040f804f2c8ce35f0ffb/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -119,7 +119,7 @@
         "id": 15,
         "nombre": "Calcetines Deportivos",
         "precio": 100000,
-        "descripcion": "Pack de 5 pares de calcetines deportivos.",
+        "descripcion": "¡Complementa tu rutina de ejercicio con nuestros calcetines deportivos de alto rendimiento! Diseñados para ofrecer comodidad y soporte durante tus actividades físicas, estos calcetines están confeccionados con materiales transpirables que mantienen tus pies frescos y secos. ",
         "unidades_disponibles": 300,
         "imagen": "https://contents.mediadecathlon.com/p2428664/k$80bde18ddf362e7f090f18ec776dc032/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -127,7 +127,7 @@
         "id": 16,
         "nombre": "Sudadera con Capucha",
         "precio": 200000,
-        "descripcion": "Sudadera con capucha y bolsillo frontal.",
+        "descripcion": "¡Mantén el estilo y la comodidad con nuestra sudadera con capucha de alto rendimiento! Diseñada para brindarte calor y libertad de movimiento, esta sudadera está fabricada con materiales suaves y resistentes que te mantienen cómodo en cualquier actividad. ",
         "unidades_disponibles": 180,
         "imagen": "https://contents.mediadecathlon.com/p2731024/k$fabb031c1dd17125a31cd2a8591a71cf/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -135,7 +135,7 @@
         "id": 17,
         "nombre": "Shorts de Entrenamiento",
         "precio": 150000,
-        "descripcion": "Shorts de entrenamiento ligeros.",
+        "descripcion": "¡Prepárate para el entrenamiento con nuestros shorts de entrenamiento diseñados para rendimiento y comodidad! Estos shorts están confeccionados con tejidos ligeros y transpirables que te mantienen fresco y seco durante tus sesiones de ejercicio más intensas. ",
         "unidades_disponibles": 160,
         "imagen": "https://contents.mediadecathlon.com/p2731651/k$592cdf7bc41d45164334f954040ce657/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -143,7 +143,7 @@
         "id": 18,
         "nombre": "Gorra Deportiva",
         "precio": 100000,
-        "descripcion": "Gorra deportiva ajustable.",
+        "descripcion": "¡Completa tu look deportivo con nuestra gorra deportiva de alto rendimiento! Diseñada para brindarte protección y comodidad bajo el sol, esta gorra está confeccionada con materiales ligeros y transpirables que mantienen tu cabeza fresca y seca durante tus actividades al aire libre. ",
         "unidades_disponibles": 250,
         "imagen": "https://contents.mediadecathlon.com/p2151029/k$19bf0adf16717a81a98b0592169b3eb5/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -151,7 +151,7 @@
         "id": 19,
         "nombre": "Guantes de Invierno",
         "precio": 120000,
-        "descripcion": "Guantes de invierno térmicos.",
+        "descripcion": "¡Enfréntate al invierno con nuestros guantes deportivos de alto rendimiento! Diseñados para mantener tus manos calientes y protegidas durante tus actividades al aire libre en climas fríos, estos guantes están fabricados con materiales aislantes y resistentes al viento que bloquean el frío y la humedad. ",
         "unidades_disponibles": 140,
         "imagen": "https://contents.mediadecathlon.com/p2579617/k$9ed918a1559aa582621dd524bf1420cb/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -159,7 +159,7 @@
         "id": 20,
         "nombre": "Mallas de Compresión",
         "precio": 170000,
-        "descripcion": "Mallas de compresión para running.",
+        "descripcion": "¡Potencia tu entrenamiento con nuestras mallas de compresión de alto rendimiento! Diseñadas para ofrecer soporte muscular y mejorar la circulación sanguínea, estas mallas están fabricadas con tejidos elásticos y transpirables que se ajustan cómodamente a tu cuerpo. Su compresión graduada ayuda a reducir la vibración muscular y el cansancio, permitiéndote entrenar más tiempo y con mayor intensidad.",
         "unidades_disponibles": 130,
         "imagen": "https://contents.mediadecathlon.com/p2197037/k$2c6aec737fbacf6794c2ecd4da897776/prod.jpg?format=auto&quality=80&f=603x350"
       }
@@ -169,7 +169,7 @@
         "id": 21,
         "nombre": "Botella de Agua",
         "precio": 80000,
-        "descripcion": "Botella de agua reutilizable de 1 litro.",
+        "descripcion": "¡Mantente hidratado con nuestra botella de agua deportiva diseñada para acompañarte en tus aventuras! Fabricada con materiales duraderos y libres de BPA, esta botella garantiza un agua fresca y segura en todo momento.",
         "unidades_disponibles": 250,
         "imagen": "https://contents.mediadecathlon.com/p2579629/k$3355f726e334b1250ee450975961371e/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -251,7 +251,7 @@
         "id": 31,
         "nombre": "Proteína en Polvo",
         "precio": 390000,
-        "descripcion": "Proteína en polvo de suero de leche.",
+        "descripcion": "¡Potencia tu recuperación muscular con nuestra proteína en polvo de alta calidad! Formulada para apoyar tus metas de fitness, esta proteína ofrece una mezcla completa de aminoácidos esenciales y nutrientes clave para ayudar a reparar y desarrollar músculos magros después del ejercicio. ",
         "unidades_disponibles": 150,
         "imagen": "https://contents.mediadecathlon.com/p1729699/k$c0632f1471235c1a96c4708ced3995dd/prod.jpg?format=auto&quality=80&f=603x350"
       },
@@ -335,7 +335,7 @@
         "id": 41,
         "nombre": "Entrenamiento HIIT",
         "duracion_video": "30 minutos",
-        "descripcion": "Video de entrenamiento de alta intensidad.",
+        "descripcion": "¡Acelera tu metabolismo y quema calorías con nuestro entrenamiento HIIT diseñado para desafiar y transformar tu cuerpo! El entrenamiento HIIT (High Intensity Interval Training) combina ráfagas cortas pero intensas de ejercicio con períodos de descanso activo, maximizando la quema de grasa y mejorando la resistencia cardiovascular. ",
         "precio": 200000,
         "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hleAwZ4mGh8?si=olbIjuNkHRVU0e0r\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
@@ -416,7 +416,7 @@
       {
         "id": 51,
         "nombre": "Plan Nutricional Básico",
-        "descripcion": "Plan de alimentación básico para empezar una dieta saludable.",
+        "descripcion": "¡Optimiza tu salud y energía con nuestro plan nutricional básico diseñado para apoyar tu estilo de vida activo! Este plan se centra en alimentos naturales y equilibrados para proporcionarte los nutrientes necesarios sin complicaciones. ",
         "precio": 100000,
         "imagen": "https://nutricionvegana.org/wp-content/uploads/2017/07/plato-vegano-es-1-600.jpg"
       },

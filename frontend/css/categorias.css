@@ -41,6 +41,7 @@
   justify-content: space-between;
   border: 1px solid rgba(0, 0, 0, 0.336);
   margin-bottom: 5%;
+  cursor: pointer;
 }
 
 .header-producto {

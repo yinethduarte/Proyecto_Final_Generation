@@ -8,11 +8,29 @@
       rel="stylesheet"
       href="/frontend/css/especificacionesCategorias.css"
     />
+    <script src="/frontend/js/navbar.js"></script>
+    <script src="/frontend/js/footer.js"></script>
   </head>
+  <nav id="navbar-container"></nav>
   <body>
-    <div id="catalogoDetalles">
-      <!-- Productos se generarán aquí -->
-    </div>
+    <center>
+      <div class="product-container">
+        <div class="product-image" id="divImagenVideo"></div>
+        <div class="product-details">
+          <h1 class="product-name" id="nomProducto">Nombre del Producto</h1>
+          <p class="product-price" id="precProducto">$99.99</p>
+          <p class="product-description" id="desProducto">
+            Esta es la descripción del producto. Aquí puedes detallar las
+            características y beneficios del producto.
+          </p>
+          <button class="add-to-cart">Agregar al carrito</button>
+        </div>
+      </div>
+      <div id="catalogoDetalles">
+        <!-- Productos se generarán aquí -->
+      </div>
+    </center>
+    <footer></footer>
     <script src="/frontend/js/especificacionesCategorias.js"></script>
   </body>
 </html>

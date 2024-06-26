@@ -1,11 +1,12 @@
 // selección del DOM
 const contenedorCategoria = document.querySelector(".categoria");
 const listaSubcategorias = document.querySelector(".lista-subcategorias");
-
+//window.location.replace('productos.html', 'especificacionesCategorias.html?');
+console.log(window.location);
 // crear una tarjeta de producto
 function crearCardProducto(product) {
   const productoHTML = `
-    <div class="contenedor-producto">
+    <div class="contenedor-producto" onclick="window.location.href = 'especificacionesCategorias.html?id=${product.id}'">
       <div class="header-producto">
         <h4 class="nombre-producto">${product.nombre}</h4>
         <p class="precio-producto">${product.precio}</p>
