@@ -1,13 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --caribbean-current: #143e3e;
+  --jungle-green: #49a078ff;
+  --cambridge-blue: #9cc5a1ff;
+  --ut-orange: #ff8811ff;
+  --platinum: #dce1deff;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
 /* La clase content debe expandirse para llenar el espacio disponible */
 .content-footer {
   flex: 1;
-  padding-left: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-suscribete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.contenedor-imgAgon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-politicas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-siguenos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Estilos para el footer */
 .footer {
-  margin-top: 10%;
-  background-color: #143e3e;
+  margin-top: 5%;
+  background-color: var(--caribbean-current);
   padding: 10px;
   padding-top: 2%;
   font-size: 18px;
@@ -15,26 +60,26 @@
   text-align: center;
 }
 
-.imgAgon {
-  width: 100%;
+.content-footer .row .imgAgon {
+  width: 50px;
   max-width: 100px; /* Ajusta según sea necesario */
   height: auto;
 }
 
-.row {
+.content-footer .row {
   margin: 20px 0;
 }
 
-ul {
+.content-footer ul {
   list-style-type: none;
   padding: 0;
 }
 
-ul li {
+.content-footer ul li {
   margin-bottom: 10px;
 }
 
-ul li i {
+.content-footer ul li i {
   margin-right: 8px;
   font-size: 130%;
 }
@@ -44,13 +89,18 @@ ul li i {
   text-decoration: none;
 }
 
-input[type="email"] {
+.content-footer h5 {
+  font-size: 1.1rem;
+}
+
+.content-footer .row input[type="email"] {
   padding: 5px;
+  text-align: center;
   margin-right: 10px;
   width: 70%;
 }
 
-button[type="submit"] {
+.content-footer .row button[type="submit"] {
   padding: 5px 10px;
   background-color: #c56709;
   color: white;
@@ -58,6 +108,28 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-button[type="submit"]:hover {
-  background-color: #ff8811ff;
+.content-footer .row button[type="submit"]:hover {
+  background-color: #ff8811;
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+  .content-footer {
+    font-size: 0.6rem;
+  }
+}
+
+/* TABLET */
+@media screen and (max-width: 991px) {
+  .content-footer .row input[type="email"] {
+    text-align: start;
+  }
+
+  .contenedor-suscribete {
+    margin-bottom: 60px;
+  }
+
+  .contenedor-imgAgon {
+    margin-bottom: 30px;
+  }
 }

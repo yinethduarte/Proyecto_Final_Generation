@@ -2,65 +2,74 @@
 const contenedorCategoria = document.querySelector(".categoria");
 const listaSubcategorias = document.querySelector(".lista-subcategorias");
 
-function validarIndefinidoVideo(product) {
-  if (typeof product.video !== "undefined") {
-    return product.video;
+function validarIndefinidoVideo(service) {
+  if (typeof service.video !== "undefined") {
+    return service.video;
   }
-  if (typeof product.imagen !== "undefined") {
-    return `<img src="${product.imagen}" alt="" />`;
+  if (typeof service.imagen !== "undefined") {
+    return `<img src="${service.imagen}" alt="" />`;
   }
-  return `<img src="${product.imagen}" alt="" />`;
+  return `<img src="${service.imagen}" alt="" />`;
 }
 
 // crear una tarjeta de producto
-function crearCardProducto(product) {
-  const productoHTML = `
-    <div class="contenedor-producto"  onclick="window.location.href = 'especificacionesCategorias.html?id=${
-      product.id
+function crearCardProducto(service) {
+  const serviciosHTML = `
+    <div class="contenedor-servicio"  onclick="window.location.href = 'especificacionesCategorias.html?id=${
+      service.id
     }'">
-      <div class="header-producto">
-        <h4 class="nombre-producto">${product.nombre}</h4>
-        <p class="precio-producto">${product.precio}</p>
+      <div class="header-servicio">
+        <h4 class="nombre-servicio">${service.nombre}</h4>
+        <p class="precio-servicio">${service.precio}</p>
       </div>
-      <div class="contenedor-img-producto">
-      ${validarIndefinidoVideo(product)}
+      <div class="contenedor-img-servicio">
+      ${validarIndefinidoVideo(service)}
         
       </div>
       <div class="contenedor-addCart">
         <button>Add to Cart</button>
       </div>
     </div>`;
-  contenedorCategoria.innerHTML += productoHTML;
+  contenedorCategoria.innerHTML += serviciosHTML;
 }
 
 // filtrar y renderizar productos por SUBCATEGORIA
-function renderizarProductos(productos, subcategoria) {
+function renderizarProductos(servicios, subcategoria) {
   contenedorCategoria.innerHTML = "";
   if (subcategoria && subcategoria !== "ver_todo") {
-    const productosFiltrados = productos[subcategoria];
-    if (productosFiltrados) {
-      productosFiltrados.forEach((producto) => {
-        crearCardProducto(producto);
+    const serviciosFiltrados = servicios[subcategoria];
+    if (serviciosFiltrados) {
+      serviciosFiltrados.forEach((servicios) => {
+        crearCardProducto(servicios);
       });
     }
   } else {
-    for (const key in productos) {
-      productos[key].forEach((producto) => {
-        crearCardProducto(producto);
+    for (const key in servicios) {
+      servicios[key].forEach((servicios) => {
+        crearCardProducto(servicios);
       });
     }
   }
 }
 
 // evento al selecciónar de una subcategoría
-function handleSubcategoriaClick(e, productos) {
+function handleSubcategoriaClick(e, servicios) {
   const subcategoria = e.target.textContent.toLowerCase().replace(/\s+/g, "_");
-  renderizarProductos(productos, subcategoria);
+  renderizarProductos(servicios, subcategoria);
 }
 
+
+// filtrar los productos por CATEGORIA
+function filtrarCategoria(data) {
+  const productos = data.servicios; 
+  crearFiltrosSubcategorias(productos);
+  renderizarProductos(productos, null);
+}
+
+
 // crear la lista de filtros
-function crearFiltrosSubcategorias(productos) {
-  for (const key in productos) {
+function crearFiltrosSubcategorias(servicios) {
+  for (const key in servicios) {
     const subcategoria = key.charAt(0).toUpperCase() + key.slice(1);
     const itemSubcategoria = `<li class="subcategoria">${subcategoria.replace(
       /_/g,
@@ -71,16 +80,11 @@ function crearFiltrosSubcategorias(productos) {
 
   const subcategorias = document.querySelectorAll(".subcategoria");
   subcategorias.forEach((sub) => {
-    sub.addEventListener("click", (e) => handleSubcategoriaClick(e, productos));
+    sub.addEventListener("click", (e) => handleSubcategoriaClick(e, servicios));
   });
 }
 
-// filtrar los productos por CATEGORIA
-function filtrarCategoria(data) {
-  const productos = data.servicios; // aca se debe hacer la lógica para que se elija la categoria seleccionada en el nav
-  crearFiltrosSubcategorias(productos);
-  renderizarProductos(productos, null);
-}
+
 
 // Función para obtener y procesar el JSON
 async function fetchAndPrintJSON() {

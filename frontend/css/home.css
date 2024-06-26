@@ -1,0 +1,53 @@
+/* destacados */
+.destacados-home {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.producto-destacado-home {
+  max-height: 600px;
+  width: 100%;
+}
+
+.img-destacados-home {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-vermas-home {
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  margin: 1.5em;
+  background-color: var(--ut-orange);
+  color: var(--caribbean-current);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.btn-vermas-home:hover {
+  background-color: var(--cambridge-blue);
+}
+.btn-vermas-home a {
+  text-decoration: none;
+  color: var(--caribbean-current);
+}
+
+/* promociones */
+
+.promociones-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.title-promociones-home {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: var(--caribbean-current);
+  margin: 30px;
+}

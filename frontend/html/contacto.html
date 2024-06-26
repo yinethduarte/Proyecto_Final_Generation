@@ -17,68 +17,89 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <!-- Estilos -->
     <link rel="stylesheet" href="/frontend/css/contacto.css" />
+    <link rel="stylesheet" href="/frontend/css/body.css" />
 
     <script src="/frontend/js/navbar.js"></script>
   </head>
 
   <body>
     <nav id="navbar-container"></nav>
-    <section class="contact row container">
-      <div class="container-logo col-12 col-md-1"> 
-        <img src="/frontend/css/img/iconoagon-naranja.png" alt="Logo Agon">
-      </div>
-      <div class="card-container col-12 col-md-9">
-      <div class="card-contact-container col">
-        <div class="form-container">
-          <h2>¿Tienes alguna duda? <br />Cuéntanos un poco más</h2>
-          <p class="alert mb-5">
-            Tus solicitudes serán contestadas por uno de nuestros asesores en un
-            plazo maximo de tres días hábiles
-          </p>
-          <form id="form" class="form-contact">
-            <div class="contact-group">
-              <input type="text" name="name" id="name" placeholder=" " />
-              <label for="name">Nombre</label>
-            </div>
-
-            <div class="contact-group">
-              <input type="tel" name="phone" id="phone" placeholder=" " />
-              <label for="phone">Teléfono</label>
-            </div>
-
-            <div class="contact-group">
-              <input type="email" name="email" id="email" placeholder=" " />
-              <label for="email">Correo Electrónico</label>
-            </div>
-
-            <div class="contact-group">
-              <textarea
-                name="txtConsult"
-                id="txtConsult"
-                rows="2"
-                placeholder=" "
-              ></textarea>
-              <label for="txtConsult">Consulta</label>
-            </div>
-
-            <button type="submit" id="submit">Enviar</button>
-          </form>
+    <div class="contact-container">
+      <section class="contact row">
+        <div class="container-logo col-12 col-lg-1">
+          <img src="/frontend/css/img/iconoagon-naranja.png" alt="Logo Agon" />
         </div>
-      </div>
-    </div>
+        <div class="card-container col-12 col-lg-9">
+          <div class="card-contact-container col">
+            <div class="form-container">
+              <h2>¿Tienes alguna duda? <br />Cuéntanos un poco más</h2>
+              <p class="alert mb-5">
+                Tus solicitudes serán contestadas por uno de nuestros asesores
+                en un plazo maximo de tres días hábiles
+              </p>
+              <form id="form" class="form-contact">
+                <div class="contact-group">
+                  <input type="text" name="name" id="name" placeholder=" " />
+                  <label for="name">Nombre</label>
+                </div>
+
+                <div class="contact-group">
+                  <input type="tel" name="phone" id="phone" placeholder=" " />
+                  <label for="phone">Teléfono</label>
+                </div>
+
+                <div class="contact-group">
+                  <input type="email" name="email" id="email" placeholder=" " />
+                  <label for="email">Correo Electrónico</label>
+                </div>
+
+                <div class="contact-group">
+                  <textarea
+                    name="txtConsult"
+                    id="txtConsult"
+                    rows="2"
+                    placeholder=" "
+                  ></textarea>
+                  <label for="txtConsult">Consulta</label>
+                </div>
+
+                <button type="submit" id="submit">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
         <div class="info-container-contact col d-flex">
           <h2>Más información:</h2>
           <div class="list-info-contact">
-            <div class="item-info-contact"><a href="$" target="_blank" rel="noopener noreffer"><i class="bi bi-envelope"></i></a> agon.admin@agon.com</div>
-            <div class="item-info-contact"><a href="$" target="_blank" rel="noopener noreffer"><i class="bi bi-instagram"></i></a> @_Agón</div>
-            <div class="item-info-contact"><a href="$" target="_blank" rel="noopener noreffer"><i class="bi bi-facebook"></i></a> Agón</div>
+            <div class="item-info-contact">
+              <a href="$" target="_blank" rel="noopener noreffer"
+                ><i class="bi bi-envelope"></i
+              ></a>
+              agon.admin@agon.com
             </div>
+            <div class="item-info-contact">
+              <a href="$" target="_blank" rel="noopener noreffer"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              @_Agón
+            </div>
+            <div class="item-info-contact">
+              <a href="$" target="_blank" rel="noopener noreffer"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              Agón
+            </div>
+          </div>
         </div>
-        <div class="container-gris col-12 col-md-2"></div>
-    </section>
+        <div class="container-gris col-2"></div>
+      </section>
+    </div>
 
     <footer></footer>
     <script src="/frontend/js/navbar.js"></script>

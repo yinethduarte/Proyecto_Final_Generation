@@ -1,10 +1,3 @@
-/* ESTILOS GENERALES */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* Contenedor informacion */
 .info-container {
   padding: 40px;
@@ -23,14 +16,14 @@
 /* CONFIGURACION CARDS */
 
 .cards-team-container {
-  background-color: rgb(199, 179, 161);
+  background-color: #dce1deff;
   margin-bottom: 100px;
   padding-inline: 50px;
   color: white;
   text-align: center;
 }
 
-.imgcontainer {
+.card-teammate .imgcontainer {
   height: 50vh;
   position: relative;
 }
@@ -53,13 +46,13 @@
 }
 
 .cards-team-container > div:nth-child(2n) {
-  background-color: #143e3e;
+  background-color: #315656;
   margin-top: -50px;
   margin-bottom: 5%;
 }
 
 .cards-team-container > div:nth-child(2n + 1) {
-  background-color: #143e3e;
+  background-color: #315656;
   margin-top: 5%;
   margin-bottom: -50px;
 }
@@ -75,7 +68,7 @@
   color: #af480c;
 }
 
-.overlay {
+.card-teammate .overlay {
   width: 90%;
   height: 80%;
   transition: all 0.2s ease;
@@ -90,7 +83,7 @@
   justify-content: center;
 }
 
-.overlay p {
+.card-teammate .overlay p {
   font-size: 1rem;
   font-weight: 600;
   display: flex;
@@ -128,7 +121,7 @@
     align-items: center;
   }
 
-  .overlay p {
+  .card-teammate .overlay p {
     font-size: 0.85rem;
   }
 }
@@ -143,13 +136,17 @@
     font-size: 17px;
   }
 
-  .overlay p {
+  .card-teammate .overlay p {
     font-size: 0.98rem;
   }
 }
 
 /* MOBILE */
 @media screen and (max-width: 767px) {
+  .nosotros-container {
+    margin-top: 60px;
+  }
+
   .cards-team-container {
     display: flex;
     flex-wrap: wrap;
@@ -176,6 +173,10 @@
 
 /* TABLET */
 @media (min-width: 767px) and (max-width: 991px) {
+  .nosotros-container {
+    margin-top: 60px;
+  }
+
   .cards-team-container {
     display: flex;
     flex-wrap: nowrap;

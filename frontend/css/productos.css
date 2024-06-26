@@ -5,6 +5,7 @@
   --ut-orange: #ff8811ff;
   --platinum: #dce1deff;
 }
+
 .filtro {
   width: 100%;
   display: flex;
@@ -26,7 +27,11 @@
   margin: 15px;
   font-size: large;
   color: var(--jungle-green);
+  list-style-type: none;
+  padding: 0;
 }
+
+
 .categoria {
   max-width: 80%;
   margin: 40px auto 100px auto;
