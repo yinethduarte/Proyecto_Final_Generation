@@ -62,7 +62,7 @@ loginForm.addEventListener("submit", (e) => {
       },
     }).then((result) => {
       if (result.isConfirmed) {
-        window.location.href = "categorias.html";
+        window.location.href = "home.html";
       }
     });
   } else if (!usuarioValido) {
