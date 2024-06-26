@@ -296,6 +296,10 @@
     justify-content: start;
     width: 100%;
   }
+
+  .contenedor-navbar .cajaBtn {
+    font-size: 25px;
+  }
 }
 
 
