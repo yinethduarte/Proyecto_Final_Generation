@@ -15,14 +15,16 @@ function validarIndefinidoVideo(service) {
 // crear una tarjeta de producto
 function crearCardProducto(service) {
   const serviciosHTML = `
-    <div class="contenedor-servicio"  onclick="window.location.href = 'especificacionesCategorias.html?id=${
-      service.id
-    }'">
-      <div class="header-servicio">
+    <div class="contenedor-servicio">
+      <div class="header-servicio" onclick="window.location.href = 'especificacionesCategorias.html?id=${
+        service.id
+      }'">
         <h4 class="nombre-servicio">${service.nombre}</h4>
         <p class="precio-servicio">${service.precio}</p>
       </div>
-      <div class="contenedor-img-servicio">
+      <div class="contenedor-img-servicio" onclick="window.location.href = 'especificacionesCategorias.html?id=${
+        service.id
+      }'">
       ${validarIndefinidoVideo(service)}
         
       </div>
@@ -32,6 +34,8 @@ function crearCardProducto(service) {
     </div>`;
   contenedorCategoria.innerHTML += serviciosHTML;
 }
+
+//Crear funcion para agregar al carrito
 
 // filtrar y renderizar productos por SUBCATEGORIA
 function renderizarProductos(servicios, subcategoria) {
@@ -58,14 +62,12 @@ function handleSubcategoriaClick(e, servicios) {
   renderizarProductos(servicios, subcategoria);
 }
 
-
 // filtrar los productos por CATEGORIA
 function filtrarCategoria(data) {
-  const productos = data.servicios; 
+  const productos = data.servicios;
   crearFiltrosSubcategorias(productos);
   renderizarProductos(productos, null);
 }
-
 
 // crear la lista de filtros
 function crearFiltrosSubcategorias(servicios) {
@@ -83,8 +85,6 @@ function crearFiltrosSubcategorias(servicios) {
     sub.addEventListener("click", (e) => handleSubcategoriaClick(e, servicios));
   });
 }
-
-
 
 // Función para obtener y procesar el JSON
 async function fetchAndPrintJSON() {
