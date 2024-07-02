@@ -1,0 +1,2 @@
+CREATE TABLE productos(id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, nombre VARCHAR(40), precio INT, descripcion TEXT, unidades_disponibles INT, imagen VARCHAR(500), categoria VARCHAR(100))
+CREATE TABLE servicios(id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, nombre VARCHAR(40), duracion_video VARCHAR(50), descripcion TEXT, precio INT, video VARCHAR(500),imagen VARCHAR(500), categoria VARCHAR(100));
