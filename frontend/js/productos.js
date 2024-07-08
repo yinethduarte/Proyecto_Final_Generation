@@ -6,12 +6,12 @@ console.log(window.location);
 // crear una tarjeta de producto
 function crearCardProducto(product) {
   const productoHTML = `
-    <div class="contenedor-producto" onclick="window.location.href = 'especificacionesCategorias.html?id=${product.id}'">
-      <div class="header-producto">
+    <div class="contenedor-producto" >
+      <div class="header-producto" onclick="window.location.href = 'especificacionesCategorias.html?id=${product.id}'">
         <h4 class="nombre-producto">${product.nombre}</h4>
         <p class="precio-producto">${product.precio}</p>
       </div>
-      <div class="contenedor-img-producto">
+      <div class="contenedor-img-producto" onclick="window.location.href = 'especificacionesCategorias.html?id=${product.id}'">
         <img src="${product.imagen}" alt="" />
       </div>
       <div class="contenedor-addCart">
@@ -20,6 +20,7 @@ function crearCardProducto(product) {
     </div>`;
   contenedorCategoria.innerHTML += productoHTML;
 }
+//crear función para carrito
 
 // filtrar y renderizar productos por SUBCATEGORIA
 function renderizarProductos(productos, subcategoria) {
