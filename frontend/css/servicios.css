@@ -39,6 +39,10 @@
   gap: 20px;
 }
 
+.contenedor-categoria{
+  display: flex;
+}
+
 .contenedor-servicio {
   display: flex;
   flex-direction: column;
@@ -78,4 +82,35 @@
 .contenedor-addCart button:hover {
   color: var(--platinum);
   background-color: var(--caribbean-current);
+}
+
+
+
+/* Adaptable responsivo */
+
+/* MOBILE & TABLET */
+@media screen and (width<=991px) {
+  #contenedor-categoria {
+    margin-top: 100px;
+  }
+}
+
+/* ESCITORIO NORMAL */
+@media (min-width: 991px) {
+
+}
+
+/* Escritorios anchos */
+@media (min-width: 1200px) {
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+  
+}
+
+/* TABLET */
+@media (min-width: 767px) and (max-width: 991px) {
+
 }
