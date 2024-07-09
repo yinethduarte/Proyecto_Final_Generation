@@ -2,6 +2,7 @@ package com.example.productos.Controller;
 
 import com.example.productos.Model.Producto;
 import com.example.productos.Service.ProductoService;
+import jakarta.persistence.Id;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,6 +18,7 @@ public class ProductoController {
     public List<Producto>getAllProductos(){
         return productoService.getAllProductos();
     }
+
     @PostMapping("/agregar")
 
     public Producto addProducto(@RequestBody Producto producto){
