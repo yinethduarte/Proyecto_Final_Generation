@@ -29,13 +29,20 @@ function crearCardProducto(service) {
         
       </div>
       <div class="contenedor-addCart">
-        <button>Add to Cart</button>
+        <button id="product-${service.id}">Add to Cart</button>
       </div>
     </div>`;
   contenedorCategoria.innerHTML += serviciosHTML;
 }
 
 //Crear funcion para agregar al carrito
+function eventoAgregarAlCarrito(servicio) {
+  document
+    .querySelector(`button#product-${servicio.id}`)
+    .addEventListener("click", () => {
+      agregarAlCarrito(servicio);
+    });
+}
 
 // filtrar y renderizar productos por SUBCATEGORIA
 function renderizarProductos(servicios, subcategoria) {
@@ -46,6 +53,9 @@ function renderizarProductos(servicios, subcategoria) {
       serviciosFiltrados.forEach((servicios) => {
         crearCardProducto(servicios);
       });
+      serviciosFiltrados.forEach((servicio) => {
+        eventoAgregarAlCarrito(servicio);
+      });
     }
   } else {
     for (const key in servicios) {
@@ -53,6 +63,11 @@ function renderizarProductos(servicios, subcategoria) {
         crearCardProducto(servicios);
       });
     }
+    Object.values(servicios).forEach((categoria) =>
+      categoria.forEach((servicio) => {
+        eventoAgregarAlCarrito(servicio);
+      })
+    );
   }
 }
 

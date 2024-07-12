@@ -2,11 +2,11 @@
 const contenedorCategoria = document.querySelector(".categoria");
 const listaSubcategorias = document.querySelector(".lista-subcategorias");
 //window.location.replace('productos.html', 'especificacionesCategorias.html?');
-console.log(window.location);
+// console.log(window.location);
 // crear una tarjeta de producto
 function crearCardProducto(product) {
   const productoHTML = `
-    <div class="contenedor-producto" >
+    <div class="contenedor-producto">
       <div class="header-producto" onclick="window.location.href = 'especificacionesCategorias.html?id=${product.id}'">
         <h4 class="nombre-producto">${product.nombre}</h4>
         <p class="precio-producto">${product.precio}</p>
@@ -15,12 +15,20 @@ function crearCardProducto(product) {
         <img src="${product.imagen}" alt="" />
       </div>
       <div class="contenedor-addCart">
-        <button>Add to Cart</button>
+      <button id="product-${product.id}">Add to Cart</button>
       </div>
     </div>`;
   contenedorCategoria.innerHTML += productoHTML;
 }
 //crear función para carrito
+
+function eventoAgregarAlCarrito(producto) {
+  document
+    .querySelector(`button#product-${producto.id}`)
+    .addEventListener("click", () => {
+      agregarAlCarrito(producto);
+    });
+}
 
 // filtrar y renderizar productos por SUBCATEGORIA
 function renderizarProductos(productos, subcategoria) {
@@ -31,6 +39,9 @@ function renderizarProductos(productos, subcategoria) {
       productosFiltrados.forEach((producto) => {
         crearCardProducto(producto);
       });
+      productosFiltrados.forEach((producto) => {
+        eventoAgregarAlCarrito(producto);
+      });
     }
   } else {
     for (const key in productos) {
@@ -38,6 +49,11 @@ function renderizarProductos(productos, subcategoria) {
         crearCardProducto(producto);
       });
     }
+    Object.values(productos).forEach((categoria) =>
+      categoria.forEach((producto) => {
+        eventoAgregarAlCarrito(producto);
+      })
+    );
   }
 }
 

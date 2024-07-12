@@ -119,41 +119,44 @@
         >
           <div class="cajaBotonesContainer d-flex fs-3">
             <div class="cajaBtn">
-              <a href="#"
-                ><i class="fa-solid fa-basket-shopping" id="cart-icon"></i
-              ></a>
+              <a
+                data-bs-toggle="offcanvas"
+                href="#offcanvasCarrito"
+                role="button"
+                aria-controls="offcanvasCarrito"
+              >
+                <i class="fa-solid fa-basket-shopping" id="cart-icon"></i>
+              </a>
 
               <span></span>
             </div>
 
-            <!-- Carrito -->
-
-            <div class="cart">
-              <h2 class="cart-title">Tu carrito</h2>
-
-              <!-- contenido -->
-
-              <div class="cart-content"></div>
-
-              <!-- Total -->
-
-              <div class="total">
-                <div class="total-title">Total</div>
-
-                <div class="total-price">$</div>
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvasCarrito"
+              aria-labelledby="offcanvasCarritoLabel"
+            >
+              <div class="offcanvas-header flex justify-content-between">
+                <h2 class="offcanvas-title" id="offcanvasCarritoLabel">
+                  Carrito
+                </h2>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
               </div>
-
-              <!-- Botón de comprar -->
-
-              <button type="button" class="btn-buy">Comprar ahora</button>
-
-              <!-- Cerrar carrito -->
-
-              <i class="bx bx-x" id="cart-close"></i>
+              <div
+                class="offcanvas-body d-flex flex-column align-items-center gap-4"
+              ></div>
             </div>
 
             <div class="cajaBtn">
-              <a href="login.html"> <i class="fa-solid fa-circle-user"></i></a>
+              <a href="login.html">
+                <i class="fa-solid fa-circle-user"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -164,7 +167,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-
     <script src="/frontend/js/navbar.js"></script>
     <script src="/frontend/js/carrito.js"></script>
   </body>
