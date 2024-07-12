@@ -3,10 +3,10 @@ const contenedorCategoria = document.querySelector(".categoria");
 const listaSubcategorias = document.querySelector(".lista-subcategorias");
 
 function validarIndefinidoVideo(service) {
-  if (typeof service.video !== "undefined") {
+  if (typeof service.video === "string") {
     return service.video;
   }
-  if (typeof service.imagen !== "undefined") {
+  if (typeof service.imagen === "string") {
     return `<img src="${service.imagen}" alt="" />`;
   }
   return `<img src="${service.imagen}" alt="" />`;
@@ -48,7 +48,9 @@ function eventoAgregarAlCarrito(servicio) {
 function renderizarProductos(servicios, subcategoria) {
   contenedorCategoria.innerHTML = "";
   if (subcategoria && subcategoria !== "ver_todo") {
-    const serviciosFiltrados = servicios[subcategoria];
+    const serviciosFiltrados = servicios.filter(
+      (res) => res.categoria === subcategoria
+    );
     if (serviciosFiltrados) {
       serviciosFiltrados.forEach((servicios) => {
         crearCardProducto(servicios);
@@ -58,15 +60,11 @@ function renderizarProductos(servicios, subcategoria) {
       });
     }
   } else {
-    for (const key in servicios) {
-      servicios[key].forEach((servicios) => {
-        crearCardProducto(servicios);
-      });
-    }
-    Object.values(servicios).forEach((categoria) =>
-      categoria.forEach((servicio) => {
-        eventoAgregarAlCarrito(servicio);
-      })
+    servicios.forEach((servicios) => {
+      crearCardProducto(servicios);
+    });
+    Object.values(servicios).forEach((servicio) =>
+      eventoAgregarAlCarrito(servicio)
     );
   }
 }
@@ -79,32 +77,39 @@ function handleSubcategoriaClick(e, servicios) {
 
 // filtrar los productos por CATEGORIA
 function filtrarCategoria(data) {
-  const productos = data.servicios;
-  crearFiltrosSubcategorias(productos);
-  renderizarProductos(productos, null);
+  const servicios = data;
+  crearFiltrosSubcategorias(servicios);
+  renderizarProductos(servicios, null);
 }
 
 // crear la lista de filtros
-function crearFiltrosSubcategorias(servicios) {
-  for (const key in servicios) {
-    const subcategoria = key.charAt(0).toUpperCase() + key.slice(1);
+function crearFiltrosSubcategorias(productos) {
+  categoriasDiferentes = [];
+  productos.forEach(function (producto) {
+    const subcategoria =
+      producto.categoria.charAt(0).toUpperCase() + producto.categoria.slice(1);
+    if (categoriasDiferentes.indexOf(subcategoria) === -1) {
+      categoriasDiferentes.push(subcategoria);
+    }
+  });
+  categoriasDiferentes.forEach(function (subcategoria) {
     const itemSubcategoria = `<li class="subcategoria">${subcategoria.replace(
       /_/g,
       " "
     )}</li>`;
     listaSubcategorias.innerHTML += itemSubcategoria;
-  }
-
+  });
   const subcategorias = document.querySelectorAll(".subcategoria");
   subcategorias.forEach((sub) => {
-    sub.addEventListener("click", (e) => handleSubcategoriaClick(e, servicios));
+    sub.addEventListener("click", (e) => handleSubcategoriaClick(e, productos));
   });
 }
 
 // Función para obtener y procesar el JSON
 async function fetchAndPrintJSON() {
   try {
-    const response = await fetch("../json/productos_y_servicios.json");
+    //const response = await fetch("../json/productos_y_servicios.json");
+    const response = await fetch("http://localhost:8080/servicio/obtener");
     if (!response.ok) {
       throw new Error("Error al obtener el archivo JSON");
     }
