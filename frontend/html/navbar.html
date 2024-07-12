@@ -119,11 +119,40 @@
         >
           <div class="cajaBotonesContainer d-flex fs-3">
             <div class="cajaBtn">
-              <a href="#">
+              <a
+                data-bs-toggle="offcanvas"
+                href="#offcanvasCarrito"
+                role="button"
+                aria-controls="offcanvasCarrito"
+              >
                 <i class="fa-solid fa-basket-shopping" id="cart-icon"></i>
               </a>
+
               <span></span>
             </div>
+
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvasCarrito"
+              aria-labelledby="offcanvasCarritoLabel"
+            >
+              <div class="offcanvas-header flex justify-content-between">
+                <h2 class="offcanvas-title" id="offcanvasCarritoLabel">
+                  Carrito
+                </h2>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div
+                class="offcanvas-body d-flex flex-column align-items-center gap-4"
+              ></div>
+            </div>
+
             <div class="cajaBtn">
               <a href="login.html">
                 <i class="fa-solid fa-circle-user"></i>
