@@ -18,13 +18,13 @@ function crearCardProducto(service) {
     <div class="contenedor-servicio">
       <div class="header-servicio" onclick="window.location.href = 'especificacionesCategorias.html?id=${
         service.id
-      }'">
+      }&tipo=servicio'">
         <h4 class="nombre-servicio">${service.nombre}</h4>
         <p class="precio-servicio">${service.precio}</p>
       </div>
       <div class="contenedor-img-servicio" onclick="window.location.href = 'especificacionesCategorias.html?id=${
         service.id
-      }'">
+      }&tipo=servicio'">
       ${validarIndefinidoVideo(service)}
         
       </div>

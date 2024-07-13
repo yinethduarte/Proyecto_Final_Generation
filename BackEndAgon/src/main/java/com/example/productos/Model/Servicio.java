@@ -13,7 +13,7 @@ public class Servicio {
     private String nombre;
     @Column(name="precio", nullable = false)
     private int precio;
-    @Column(name="descipcion", nullable = false)
+    @Column(name="descripcion", nullable = false)
     private String descripcion;
     @Column(name="duracion_video", nullable = true)
     private String duracion_video;
