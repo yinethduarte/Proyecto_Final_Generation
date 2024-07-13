@@ -337,7 +337,7 @@
         "duracion_video": "30 minutos",
         "descripcion": "¡Acelera tu metabolismo y quema calorías con nuestro entrenamiento HIIT diseñado para desafiar y transformar tu cuerpo! El entrenamiento HIIT (High Intensity Interval Training) combina ráfagas cortas pero intensas de ejercicio con períodos de descanso activo, maximizando la quema de grasa y mejorando la resistencia cardiovascular. ",
         "precio": 200000,
-        "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/hleAwZ4mGh8?si=olbIjuNkHRVU0e0r\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+        "video": "<iframe style=\"width:100%\" src=\"https://www.youtube.com/embed/hleAwZ4mGh8?si=olbIjuNkHRVU0e0r\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
         "id": 42,
@@ -345,7 +345,7 @@
         "duracion_video": "45 minutos",
         "descripcion": "Video de yoga básico para principiantes.",
         "precio": 90000,
-        "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FU4OTllcOXM?si=rLL2iTd17S3I-sRJ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+        "video": "<iframe style=\"width:100%\" src=\"https://www.youtube.com/embed/FU4OTllcOXM?si=rLL2iTd17S3I-sRJ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
         "id": 43,
@@ -353,7 +353,7 @@
         "duracion_video": "60 minutos",
         "descripcion": "Video de entrenamiento de fuerza completo.",
         "precio": 96000,
-        "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WuzTGQp-AOo?si=4XSF-pm4DfAc9STm\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+        "video": "<iframe style=\"width:100%\" src=\"https://www.youtube.com/embed/WuzTGQp-AOo?si=4XSF-pm4DfAc9STm\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
         "id": 44,
@@ -361,7 +361,7 @@
         "duracion_video": "40 minutos",
         "descripcion": "Video de entrenamiento cardiovascular con baile.",
         "precio": 40000,
-        "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/kS0YB--Cz0U?si=LlquePl-x9qzXcw8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+        "video": "<iframe style=\"width:100%\" src=\"https://www.youtube.com/embed/kS0YB--Cz0U?si=LlquePl-x9qzXcw8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
         "id": 45,
@@ -369,7 +369,7 @@
         "duracion_video": "50 minutos",
         "descripcion": "Video de entrenamiento de pilates para casa.",
         "precio": 70000,
-        "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/oUMr3YvZBPA?si=guQH6KzDawHp_DqS\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+        "video": "<iframe style=\"width:100%\" src=\"https://www.youtube.com/embed/oUMr3YvZBPA?si=guQH6KzDawHp_DqS\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
         "id": 46,
@@ -377,7 +377,7 @@
         "duracion_video": "35 minutos",
         "descripcion": "Video de entrenamiento de boxeo con cardio.",
         "precio": 120000,
-        "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/E6eibbkPudk?si=BSZjPCS1YU6vVs1b\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+        "video": "<iframe style=\"width:100%\" src=\"https://www.youtube.com/embed/E6eibbkPudk?si=BSZjPCS1YU6vVs1b\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
         "id": 47,
@@ -385,7 +385,7 @@
         "duracion_video": "55 minutos",
         "descripcion": "Video de entrenamiento funcional para todo el cuerpo.",
         "precio": 40000,
-        "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xUG92gfUmHo?si=Vzbu7O2rBC-zExG7\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+        "video": "<iframe style=\"width:100%\" src=\"https://www.youtube.com/embed/xUG92gfUmHo?si=Vzbu7O2rBC-zExG7\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
         "id": 48,
@@ -393,7 +393,7 @@
         "duracion_video": "30 minutos",
         "descripcion": "Video de estiramientos y mejora de la movilidad.",
         "precio": 45000,
-        "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/oC91y7SRPHU?si=2cg7pI4I1px_9uSC\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+        "video": "<iframe style=\"width:100%\" src=\"https://www.youtube.com/embed/oC91y7SRPHU?si=2cg7pI4I1px_9uSC\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
         "id": 49,
@@ -401,7 +401,7 @@
         "duracion_video": "25 minutos",
         "descripcion": "Video de ejercicios para fortalecer el core.",
         "precio": 57000,
-        "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/c_XOTJJXfVQ?si=cI3blK7pLSCPTusV\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+        "video": "<iframe style=\"width:100%\" src=\"https://www.youtube.com/embed/c_XOTJJXfVQ?si=cI3blK7pLSCPTusV\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       },
       {
         "id": 50,
@@ -409,7 +409,7 @@
         "duracion_video": "45 minutos",
         "descripcion": "Video de entrenamiento para mejorar la resistencia.",
         "precio": 100000,
-        "video": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/JPjUmLNQkxI?si=Jvxl_f_l0Yqdycn_\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+        "video": "<iframe style=\"width:100%\" src=\"https://www.youtube.com/embed/JPjUmLNQkxI?si=Jvxl_f_l0Yqdycn_\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
       }
     ],
     "planes_nutricionales": [

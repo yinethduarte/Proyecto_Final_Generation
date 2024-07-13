@@ -3,8 +3,8 @@ package com.example.productos.Model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name= "productos")
-public class Producto {
+@Table(name="servicios")
+public class Servicio {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)//notacion que dice al id cómo generarse, puede ser de manera automática, autoincrental
     private Long Id;
@@ -15,23 +15,26 @@ public class Producto {
     private int precio;
     @Column(name="descripcion", nullable = false)
     private String descripcion;
-    @Column(name="unidades_disponibles", nullable = false)
-    private int unidades_disponibles;
-    @Column(name="imagen", nullable = false)
+    @Column(name="duracion_video", nullable = true)
+    private String duracion_video;
+    @Column(name="imagen", nullable = true)
     private String imagen;
+    @Column(name="video", nullable = true)
+    private String video;
     @Column(name="categoria", nullable = false)
     private String categoria;
 
-    public Producto() {
+    public Servicio() {
     }
 
-    public Producto(Long id, String nombre, int precio, String descripcion, int unidades_disponibles, String imagen, String categoria) {
+    public Servicio(Long id, String nombre, int precio, String descripcion, String duracion_video, String imagen, String video, String categoria) {
         Id = id;
         this.nombre = nombre;
         this.precio = precio;
         this.descripcion = descripcion;
-        this.unidades_disponibles = unidades_disponibles;
+        this.duracion_video = duracion_video;
         this.imagen = imagen;
+        this.video = video;
         this.categoria = categoria;
     }
 
@@ -67,12 +70,12 @@ public class Producto {
         this.descripcion = descripcion;
     }
 
-    public int getUnidades_disponibles() {
-        return unidades_disponibles;
+    public String getDuracion_video() {
+        return duracion_video;
     }
 
-    public void setUnidades_disponibles(int unidades_disponibles) {
-        this.unidades_disponibles = unidades_disponibles;
+    public void setDuracion_video(String duracion_video) {
+        this.duracion_video = duracion_video;
     }
 
     public String getImagen() {
@@ -81,6 +84,14 @@ public class Producto {
 
     public void setImagen(String imagen) {
         this.imagen = imagen;
+    }
+
+    public String getVideo() {
+        return video;
+    }
+
+    public void setVideo(String video) {
+        this.video = video;
     }
 
     public String getCategoria() {

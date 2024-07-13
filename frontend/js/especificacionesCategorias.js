@@ -2,44 +2,30 @@ document.addEventListener("DOMContentLoaded", () => {
   // Función para obtener y procesar el JSON
   async function fetchAndPrintJSON() {
     try {
-      const response = await fetch("../json/productos_y_servicios.json");
+      const params = new URLSearchParams(window.location.search);
+      const idElemento = params.get("id");
+      const tipo = params.get("tipo");
+      console.log(`${tipo} recibido con id ${idElemento}`);
+      const response = await fetch(`http://localhost:8080/${tipo}/obtener`);
       if (!response.ok) {
         throw new Error("Error al obtener el archivo JSON");
       }
 
-      const params = new URLSearchParams(window.location.search);
-      const productoId = params.get("id");
-      console.log("producto recibido con id " + productoId);
-      let producto = undefined;
-      const productos_y_servicios = await response.json();
-      const productos = productos_y_servicios.productos;
-      for (var categoria in productos) {
-        if (Object.prototype.hasOwnProperty.call(productos, categoria)) {
-          if (!producto) {
-            producto = productos[categoria].find((p) => p.id == productoId);
-          }
-        }
-      }
-      const servicios = productos_y_servicios.servicios;
-      for (var categoria in servicios) {
-        if (Object.prototype.hasOwnProperty.call(servicios, categoria)) {
-          if (!producto) {
-            producto = servicios[categoria].find((p) => p.id == productoId);
-          }
-        }
-      }
+      let elemento = undefined;
+      const productos_o_servicios = await response.json();
+      elemento = productos_o_servicios.find((p) => p.id == idElemento);
 
-      if (producto) {
+      if (elemento) {
         // Cambiar el innerHTML de los elementos h1 y p
-        document.getElementById("nomProducto").innerHTML = producto.nombre;
+        document.getElementById("nomProducto").innerHTML = elemento.nombre;
         document.getElementById(
           "precProducto"
-        ).innerHTML = `Precio: $${producto.precio}`;
-        document.getElementById("desProducto").innerHTML = producto.descripcion;
+        ).innerHTML = `Precio: $${elemento.precio}`;
+        document.getElementById("desProducto").innerHTML = elemento.descripcion;
 
         // Cambiar el src del elemento img
         document.getElementById("divImagenVideo").innerHTML =
-          validarIndefinidoVideo(producto);
+          validarIndefinidoVideo(elemento);
       } else {
         document.getElementById("catalogoDetalles").textContent =
           "Producto no encontrado";
@@ -50,10 +36,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function validarIndefinidoVideo(product) {
-    if (typeof product.video !== "undefined") {
+    if (typeof product.video === "string") {
       return product.video;
     }
-    if (typeof product.imagen !== "undefined") {
+    if (typeof product.imagen === "string") {
       return `<img src="${product.imagen}" alt="" />`;
     }
     return `<img src="${product.imagen}" alt="" />`;

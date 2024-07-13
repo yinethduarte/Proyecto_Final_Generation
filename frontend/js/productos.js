@@ -2,42 +2,56 @@
 const contenedorCategoria = document.querySelector(".categoria");
 const listaSubcategorias = document.querySelector(".lista-subcategorias");
 //window.location.replace('productos.html', 'especificacionesCategorias.html?');
-console.log(window.location);
+// console.log(window.location);
 // crear una tarjeta de producto
 function crearCardProducto(product) {
   const productoHTML = `
-    <div class="contenedor-producto" >
-      <div class="header-producto" onclick="window.location.href = 'especificacionesCategorias.html?id=${product.id}'">
+    <div class="contenedor-producto">
+      <div class="header-producto" onclick="window.location.href = 'especificacionesCategorias.html?id=${product.id}&tipo=producto'">
         <h4 class="nombre-producto">${product.nombre}</h4>
         <p class="precio-producto">${product.precio}</p>
       </div>
-      <div class="contenedor-img-producto" onclick="window.location.href = 'especificacionesCategorias.html?id=${product.id}'">
+      <div class="contenedor-img-producto" onclick="window.location.href = 'especificacionesCategorias.html?id=${product.id}&tipo=producto'">
         <img src="${product.imagen}" alt="" />
       </div>
       <div class="contenedor-addCart">
-        <button>Add to Cart</button>
+      <button id="product-${product.id}">Agregar al carrito</button>
       </div>
     </div>`;
   contenedorCategoria.innerHTML += productoHTML;
 }
 //crear función para carrito
 
+function eventoAgregarAlCarrito(producto) {
+  document
+    .querySelector(`button#product-${producto.id}`)
+    .addEventListener("click", () => {
+      agregarAlCarrito(producto);
+    });
+}
+
 // filtrar y renderizar productos por SUBCATEGORIA
 function renderizarProductos(productos, subcategoria) {
   contenedorCategoria.innerHTML = "";
   if (subcategoria && subcategoria !== "ver_todo") {
-    const productosFiltrados = productos[subcategoria];
+    const productosFiltrados = productos.filter(
+      (res) => res.categoria === subcategoria
+    );
     if (productosFiltrados) {
       productosFiltrados.forEach((producto) => {
         crearCardProducto(producto);
       });
-    }
-  } else {
-    for (const key in productos) {
-      productos[key].forEach((producto) => {
-        crearCardProducto(producto);
+      productosFiltrados.forEach((producto) => {
+        eventoAgregarAlCarrito(producto);
       });
     }
+  } else {
+    productos.forEach((producto) => {
+      crearCardProducto(producto);
+    });
+    Object.values(productos).forEach((producto) =>
+      eventoAgregarAlCarrito(producto)
+    );
   }
 }
 
@@ -49,15 +63,21 @@ function handleSubcategoriaClick(e, productos) {
 
 // crear la lista de filtros
 function crearFiltrosSubcategorias(productos) {
-  for (const key in productos) {
-    const subcategoria = key.charAt(0).toUpperCase() + key.slice(1);
+  categoriasDiferentes = [];
+  productos.forEach(function (producto) {
+    const subcategoria =
+      producto.categoria.charAt(0).toUpperCase() + producto.categoria.slice(1);
+    if (categoriasDiferentes.indexOf(subcategoria) === -1) {
+      categoriasDiferentes.push(subcategoria);
+    }
+  });
+  categoriasDiferentes.forEach(function (subcategoria) {
     const itemSubcategoria = `<li class="subcategoria">${subcategoria.replace(
       /_/g,
       " "
     )}</li>`;
     listaSubcategorias.innerHTML += itemSubcategoria;
-  }
-
+  });
   const subcategorias = document.querySelectorAll(".subcategoria");
   subcategorias.forEach((sub) => {
     sub.addEventListener("click", (e) => handleSubcategoriaClick(e, productos));
@@ -66,7 +86,7 @@ function crearFiltrosSubcategorias(productos) {
 
 // filtrar los productos por CATEGORIA
 function filtrarCategoria(data) {
-  const productos = data.productos; // aca se debe hacer la lógica para que se elija la categoria seleccionada en el nav
+  const productos = data; // aca se debe hacer la lógica para que se elija la categoria seleccionada en el nav
   crearFiltrosSubcategorias(productos);
   renderizarProductos(productos, null);
 }
@@ -74,7 +94,8 @@ function filtrarCategoria(data) {
 // Función para obtener y procesar el JSON
 async function fetchAndPrintJSON() {
   try {
-    const response = await fetch("../json/productos_y_servicios.json");
+    //const response = undefined; await fetch("../json/productos_y_servicios.json");
+    const response = await fetch("http://localhost:8080/producto/obtener");
     if (!response.ok) {
       throw new Error("Error al obtener el archivo JSON");
     }
