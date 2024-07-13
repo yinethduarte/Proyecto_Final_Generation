@@ -15,7 +15,7 @@ function crearCardProducto(product) {
         <img src="${product.imagen}" alt="" />
       </div>
       <div class="contenedor-addCart">
-      <button id="product-${product.id}">Add to Cart</button>
+      <button id="product-${product.id}">Agregar al carrito</button>
       </div>
     </div>`;
   contenedorCategoria.innerHTML += productoHTML;

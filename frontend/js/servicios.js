@@ -29,7 +29,7 @@ function crearCardProducto(service) {
         
       </div>
       <div class="contenedor-addCart">
-        <button id="product-${service.id}">Add to Cart</button>
+        <button id="product-${service.id}">Agregar al carrito</button>
       </div>
     </div>`;
   contenedorCategoria.innerHTML += serviciosHTML;
