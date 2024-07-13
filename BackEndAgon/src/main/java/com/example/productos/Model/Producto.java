@@ -13,7 +13,7 @@ public class Producto {
     private String nombre;
     @Column(name="precio", nullable = false)
     private int precio;
-    @Column(name="descipcion", nullable = false)
+    @Column(name="descripcion", nullable = false)
     private String descripcion;
     @Column(name="unidades_disponibles", nullable = false)
     private int unidades_disponibles;
