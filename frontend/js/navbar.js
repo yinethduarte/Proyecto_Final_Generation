@@ -94,7 +94,11 @@ function renderizarCarrito() {
     )}</p>`;
 
     //  Boton continuar compra
-    contenedorCarrito.innerHTML += `<button class="btn btn-primary">Finalizar compra</button>`;
+    contenedorCarrito.innerHTML += `<button class=" continuar-compra">Continuar compra</button>`;
+    const continuarCompra = document.querySelector(".continuar-compra");
+    continuarCompra.addEventListener("click", () => {
+      window.location.href = "finalizarCompra.html";
+    });
 
     // Añadir eventos
     carrito.forEach((producto) => {
