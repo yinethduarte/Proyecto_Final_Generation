@@ -43,6 +43,16 @@ function eliminarDelCarrito(producto) {
   localStorage.setItem("cart", JSON.stringify(carrito));
 }
 
+function cacularItemsCarrito() {
+  let carrito = JSON.parse(localStorage.getItem("cart")) || [];
+  const contador = document.querySelector("#contador-items-carrito");
+
+  contador.textContent = carrito.reduce(
+    (acc, producto) => acc + producto.cantidad,
+    0
+  );
+}
+
 function renderizarCarrito() {
   const carrito = JSON.parse(localStorage.getItem("cart")) || [];
   const contenedorCarrito = document.querySelector(
@@ -114,11 +124,13 @@ function renderizarCarrito() {
 
       decrementarButton.addEventListener("click", () => {
         eliminarDelCarrito(producto);
+        cacularItemsCarrito();
         renderizarCarrito();
       });
 
       aumentarButton.addEventListener("click", () => {
         agregarAlCarrito(producto);
+        cacularItemsCarrito();
         renderizarCarrito();
       });
     });
@@ -174,6 +186,7 @@ function buildMenu(navmenu) {
   menu.addEventListener("click", () =>
     list.classList.toggle("lista-navbar--show")
   );
+  cacularItemsCarrito();
 
   const offcanvasCarrito = document.querySelector("#offcanvasCarrito");
 

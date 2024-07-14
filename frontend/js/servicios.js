@@ -41,6 +41,7 @@ function eventoAgregarAlCarrito(servicio) {
     .querySelector(`button#product-${servicio.id}`)
     .addEventListener("click", () => {
       agregarAlCarrito(servicio);
+      cacularItemsCarrito();
     });
 }
 

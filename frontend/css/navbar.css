@@ -222,6 +222,11 @@
   border: none;
   width: 100%;
 }
+#contador-items-carrito {
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
+}
 
 @media screen and (max-width: 991px) {
   .contenedor-navbar .contenedor-interno {
