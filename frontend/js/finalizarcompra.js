@@ -126,30 +126,124 @@ finalizarCompraForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const inputsValidos = validarInputs();
   if (inputsValidos) {
-    Swal.fire({
-      title: "Tu compra se ha registrado con exito",
-      text: "Número de orden: fgi25ajtiq236ad",
-      icon: "success",
-      iconColor: "#49a078ff",
-      confirmButtonColor: "#49a078ff",
-      showClass: {
-        popup: `
-      animate__animated
-      animate__zoomIn
-      animate__faster
-    `,
-      },
-      hideClass: {
-        popup: `
-      animate__animated
-      animate__zoomIn
-      animate__faster
-    `,
-      },
-    }).then((result) => {
-      if (result.isConfirmed) {
-        window.location.href = "home.html";
+    const elementosEnCarrito = JSON.parse(localStorage.getItem("cart"));
+    let elementosComprados = [];
+    let total = 0;
+    elementosEnCarrito.forEach((elemento) => {
+      total += elemento.cantidad * elemento.precio;
+      let elementoComprado = {
+        cantidad: elemento.cantidad,
+        precioTotal: elemento.cantidad * elemento.precio,
+      };
+      if (elemento.tipo === "producto") {
+        elementoComprado.producto = {
+          id: elemento.id,
+        };
+      } else if (elemento.tipo === "servicio") {
+        elementoComprado.servicio = {
+          id: elemento.id,
+        };
       }
+      elementosComprados.push(elementoComprado);
     });
+
+    const hoy = new Date();
+    const año = hoy.getFullYear();
+    const mes = String(hoy.getMonth() + 1).padStart(2, "0"); // Los meses van de 0 a 11
+    const dia = String(hoy.getDate()).padStart(2, "0");
+    const factura = {
+      fecha: `${año}-${mes}-${dia}`,
+      total: total,
+      tipoCheck: document.getElementById("opcion1").checked,
+      correoElectronico: document.getElementById("email").value,
+      nombre: document.getElementById("nombre").value,
+      telefono: document.getElementById("telefono").value,
+      apellido: document.getElementById("apellidos").value,
+      documentoIdentidad: document.getElementById("documento").value,
+      direccion: document.getElementById("direccion").value,
+      detallesDireccion: document.getElementById("detallesDireccion").value,
+      ciudad: document.getElementById("ciudad").value,
+      elementosComprados: elementosComprados,
+    };
+    console.log("factura", factura);
+    guardarFactura(factura)
+      .then((success) => {
+        if (success) {
+          console.log("La factura se guardó exitosamente.");
+          Swal.fire({
+            title: "Tu compra se ha registrado con exito",
+            text: "Número de orden: fgi25ajtiq236ad",
+            icon: "success",
+            iconColor: "#49a078ff",
+            confirmButtonColor: "#49a078ff",
+            showClass: {
+              popup: `
+          animate__animated
+          animate__zoomIn
+          animate__faster
+        `,
+            },
+            hideClass: {
+              popup: `
+          animate__animated
+          animate__zoomIn
+          animate__faster
+        `,
+            },
+          }).then((result) => {
+            if (result.isConfirmed) {
+              localStorage.setItem("cart", JSON.stringify([]));
+              window.location.href = "home.html";
+            }
+          });
+        } else {
+          console.log("Hubo un problema al guardar la factura.");
+          Swal.fire({
+            title: "Error al registrar tu compra",
+            text: "Por favor, inténtalo de nuevo más tarde.",
+            icon: "error",
+            iconColor: "#d33",
+            confirmButtonColor: "#d33",
+            showClass: {
+              popup: `
+          animate__animated
+          animate__shakeX
+          animate__faster
+        `,
+            },
+            hideClass: {
+              popup: `
+          animate__animated
+          animate__fadeOut
+          animate__faster
+        `,
+            },
+          }).then((result) => {});
+        }
+      })
+      .catch((error) => {
+        console.error("Error al llamar guardarFactura:", error);
+      });
   }
 });
+
+async function guardarFactura(factura) {
+  try {
+    const response = await fetch("http://localhost:8080/factura/agregar", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(factura),
+    });
+
+    if (!response.ok) {
+      throw new Error("Error al guardar la factura");
+    }
+
+    return true;
+  } catch (error) {
+    console.error("Hubo un problema con la operación fetch:", error);
+    return false;
+  }
+}

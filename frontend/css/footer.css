@@ -16,8 +16,6 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .contenedor-suscribete {
@@ -96,11 +94,12 @@
 .content-footer .row input[type="email"] {
   padding: 5px;
   text-align: center;
-  margin-right: 10px;
+  margin-right: 8px;
   width: 70%;
 }
 
 .content-footer .row button[type="submit"] {
+  margin-top: 1%;
   padding: 5px 10px;
   background-color: #c56709;
   color: white;
