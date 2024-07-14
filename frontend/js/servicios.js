@@ -40,7 +40,9 @@ function eventoAgregarAlCarrito(servicio) {
   document
     .querySelector(`button#product-${servicio.id}`)
     .addEventListener("click", () => {
+      servicio.tipo = "servicio";
       agregarAlCarrito(servicio);
+      cacularItemsCarrito();
     });
 }
 

@@ -83,7 +83,7 @@
 
 .contenedor-addCart button:hover {
   color: var(--platinum);
-  background-color: var(--caribbean-current);
+  background-color: var(--ut-orange);
 }
 
 @media (max-width: 768px) {

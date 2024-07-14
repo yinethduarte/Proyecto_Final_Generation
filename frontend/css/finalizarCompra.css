@@ -1,0 +1,10 @@
+.finalizar-compra {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 14px;
+  background-color: var(--ut-orange);
+  padding: 10px 25px;
+  position: relative;
+  border: none;
+  width: 100%;
+}

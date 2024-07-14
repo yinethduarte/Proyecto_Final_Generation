@@ -212,6 +212,22 @@
   width: 36px;
 }
 
+.continuar-compra {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 14px;
+  background-color: var(--ut-orange);
+  padding: 10px 25px;
+  position: relative;
+  border: none;
+  width: 100%;
+}
+#contador-items-carrito {
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
+}
+
 @media screen and (max-width: 991px) {
   .contenedor-navbar .contenedor-interno {
     background-color: transparent;

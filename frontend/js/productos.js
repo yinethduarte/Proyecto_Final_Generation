@@ -26,7 +26,9 @@ function eventoAgregarAlCarrito(producto) {
   document
     .querySelector(`button#product-${producto.id}`)
     .addEventListener("click", () => {
+      producto.tipo = "producto";
       agregarAlCarrito(producto);
+      cacularItemsCarrito();
     });
 }
 
