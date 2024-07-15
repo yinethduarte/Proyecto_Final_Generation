@@ -1,5 +1,6 @@
 .contenedor-planes-general{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
@@ -8,20 +9,20 @@
   gap: 50px;
 }
 
-h2, h3{
-  color: blue;
+.contenedor-planes h2, h3{
+  color: #ff8811ff;
 }
 
 .conteneder-plan{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-grow: 0;
   width: 100%;
-  height: 60vh;
+  height: 500px;
   max-width: 300px;
-  box-shadow: 0 0 10px 0 rgba(120, 135, 182, .3);
+  box-shadow: 0 0 10px 0 #9cc5a1ff;
   border-radius: 5px;
 }
 
@@ -42,6 +43,7 @@ h2, h3{
 
 .contenedor-plan-icono{
   height: 50px;
+  margin:10px;
 }
 
 .contenedor-plan-icono img {
@@ -51,6 +53,125 @@ h2, h3{
 }
 
 .lista-plan-beneficios{
-  list-style: none;
-  padding: 1.2rem;
+  list-style-type: none;
+  padding: 0 1.2rem 0;
+  margin: 0;
+}
+
+/* Animacion para el boton de compra */
+
+.contenedor-plan-boton{
+  width: fit-content;
+  height:auto;
+}
+
+.contenedor-plan-boton button{
+  width:200px;
+  height:60px;
+  background: linear-gradient(to left top, rgb(255, 157, 59) 50%, #ff8811ff 50%);
+  border-style: none;
+  color:#fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  padding: 0px;
+  margin:0px 0px 20px;
+  overflow: hidden;
+  transition: all .5s;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+
+.contenedor-plan-boton button span{
+  position: absolute;
+  display: block;
+}
+
+.contenedor-plan-boton button span:nth-child(1){
+  height: 3px;
+  width:200px;
+  top:0px;
+  left:-200px;
+  background: linear-gradient(to right, rgba(0,0,0,0), #f6e58d);
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+  animation: span1 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes span1{
+  0%{
+      left:-200px
+  }
+  100%{
+      left:200px;
+  }
+}
+.contenedor-plan-boton button span:nth-child(2){
+  height: 70px;
+  width: 3px;
+  top:-70px;
+  right:0px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), #f6e58d);
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  animation: span2 2s linear infinite;
+  animation-delay: 2s;
+}
+@keyframes span2{
+  0%{
+      top:-70px;
+  }
+  100%{
+      top:70px;
+  }
+}
+.contenedor-plan-boton button span:nth-child(3){
+  height:3px;
+  width:200px;
+  right:-200px;
+  bottom: 0px;
+  background: linear-gradient(to left, rgba(0,0,0,0), #f6e58d);
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
+  animation: span3 2s linear infinite;
+  animation-delay: 3s;
+}
+@keyframes span3{
+  0%{
+      right:-200px;
+  }
+  100%{
+      right: 200px;
+  }
+}
+
+.contenedor-plan-boton button span:nth-child(4){
+  height:70px;
+  width:3px;
+  bottom:-70px;
+  left:0px;
+  background: linear-gradient(to top, rgba(0,0,0,0), #f6e58d);
+  border-top-right-radius: 1px;
+  border-top-left-radius: 1px;
+  animation: span4 2s linear infinite;
+  animation-delay: 4s;
+}
+@keyframes span4{
+  0%{
+      bottom: -70px;
+  }
+  100%{
+      bottom:70px;
+  }
+}
+
+.contenedor-plan-boton button:hover{
+  transition: all .5s;
+  transform: rotate(-3deg) scale(1.1);
+  box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+}
+.contenedor-plan-boton button:hover span{
+  animation-play-state: paused;
 }
