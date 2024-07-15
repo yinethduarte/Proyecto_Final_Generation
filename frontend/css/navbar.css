@@ -25,6 +25,11 @@
   padding: 1%;
   background-color: #ff8811ff;
   max-height: 80px;
+  text-decoration: none;
+}
+
+.cajaMarca a {
+  text-decoration: none;
 }
 
 .contenedor-navbar .logoContainer img {

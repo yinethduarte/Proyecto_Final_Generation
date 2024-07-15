@@ -14,7 +14,7 @@ async function fetchContact() {
 }
 
 function buildContac(contactfrom) {
-  document.getElementById("contacto-container-home").innerHTML = contactfrom;
+  // document.getElementById("contacto-container-home").innerHTML = contactfrom;
   // Variables globales
   const $form = document.querySelector("#form");
   const inputNombre = document.querySelector("#name");
@@ -92,11 +92,56 @@ function buildContac(contactfrom) {
         });
         if (response.ok) {
           $form.reset();
-          alert("Gracias por contactarnos");
+          return Swal.fire({
+            title: "Gracias Por contactarnos",
+            icon: "succes",
+            iconColor: "#ff8811ff",
+            confirmButtonColor: "#ff8811ff",
+            showClass: {
+              popup: `
+                animate__animated
+                animate__zoomIn
+                animate__faster
+              `,
+            },
+            hideClass: {
+              popup: `
+                animate__animated
+                animate__zoomIn
+                animate__faster
+              `,
+            },
+          }).then((result) => {
+            if (result.isConfirmed) {
+              window.location.href = "home.html";
+            }
+          });
         } else {
-          alert(
-            "Hubo un problema con el envío. Por favor, inténtelo de nuevo."
-          );
+          return Swal.fire({
+            title:
+              "Hubo un erorr con la información, por favor intentalo de nuevo",
+            icon: "warning",
+            iconColor: "#ff8811ff",
+            confirmButtonColor: "#ff8811ff",
+            showClass: {
+              popup: `
+                animate__animated
+                animate__zoomIn
+                animate__faster
+              `,
+            },
+            hideClass: {
+              popup: `
+                animate__animated
+                animate__zoomIn
+                animate__faster
+              `,
+            },
+          }).then((result) => {
+            if (result.isConfirmed) {
+              window.location.href = "contacto.html";
+            }
+          });
         }
       } catch (error) {
         alert("Error al enviar el formulario. Por favor, inténtelo de nuevo.");

@@ -82,7 +82,7 @@ textarea {
   padding: 10px 85px;
   border-radius: 20px;
   position: relative;
-  left:11%;
+  left: 11%;
   top: -50px;
 }
 
@@ -91,11 +91,20 @@ textarea {
   top: 45px;
   font-size: 13px;
   color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .modal2 .modalContainer2 .noRegistrado a {
   text-decoration: none;
   color: var(--ut-orange);
+}
+
+.modal2 .modalContainer2 .noRegistrado h3 {
+  text-decoration: none;
+  color: var(--ut-orange);
+  margin: 10px;
 }
 
 .modal2 .modalContainer2 .extra {
