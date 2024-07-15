@@ -108,3 +108,33 @@
     height: 40px;
   }
 }
+
+
+
+/* Adaptable responsivo */
+/* MOBILE & TABLET */
+@media screen and (width<=991px) {
+  #contenedor-categoria {
+    margin-top: 100px;
+  }
+}
+
+/* ESCITORIO NORMAL */
+@media (min-width: 991px) {
+
+}
+
+/* Escritorios anchos */
+@media (min-width: 1200px) {
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+
+}
+
+/* TABLET */
+@media (min-width: 767px) and (max-width: 991px) {
+
+}

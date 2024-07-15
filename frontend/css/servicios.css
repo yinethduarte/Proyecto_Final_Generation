@@ -41,6 +41,10 @@
   gap: 20px;
 }
 
+.contenedor-categoria{
+  display: flex;
+}
+
 .contenedor-servicio {
   display: flex;
   flex-direction: column;

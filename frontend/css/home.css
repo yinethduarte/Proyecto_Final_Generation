@@ -35,6 +35,93 @@
   color: var(--caribbean-current);
 }
 
+/* Sobre Nosotros */
+
+.sobreNosotros-home{
+  margin: 70px 50px;
+}
+
+.sobreNosotros-home h1{
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 800;
+}
+
+.sobreNosotros-home .acercaNosotros{
+  background-color: #28502E;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sobreNosotros-home .acercaNosotros h3{
+  text-align: center;
+  color: aliceblue;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.sobreNosotros-home .acercaNosotros p{
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(216, 215, 215);
+}
+
+
+.sobreNosotros-home .acercaMision{
+  margin-top: 60px;
+}
+
+.sobreNosotros-home .acercaMision h3{
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+
+.sobreNosotros-home .acercaMisionContainer{
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.sobreNosotros-home .acercaMisionContainer .cardMision{
+  width: 330px;
+  height: 450px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.sobreNosotros-home .acercaMisionContainer .cardMision:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2s);
+}
+
+.sobreNosotros-home .acercaMisionContainer .cardMision img{
+  width: 330px;
+  height: 220px;
+}
+
+.sobreNosotros-home .acercaMisionContainer .cardMision h4{
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.sobreNosotros-home .acercaMisionContainer .cardMision p{
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
 /* promociones */
 
 .promociones-home {
