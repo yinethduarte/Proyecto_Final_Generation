@@ -9,7 +9,7 @@
 .modal2 {
   position: fixed;
   height: 100vh;
-  padding-top: 5%;
+  padding-top: 7%;
   top: 0;
   left: 0;
   right: 0;
@@ -71,7 +71,7 @@ textarea {
 .modal2 .modalContainer2 .formRegistro2 .registroGroup2 {
   position: relative;
   top: -30px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .modal2 .modalContainer2 .modalContinuar2 {
