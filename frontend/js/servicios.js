@@ -24,7 +24,7 @@ function crearCardProducto(service) {
           style: "currency",
           currency: "COP",
           minimumFractionDigits: 0,
-        }).format(product.precio)}</p>
+        }).format(service.precio)}</p>
       </div>
       <div class="contenedor-img-servicio" onclick="window.location.href = 'especificacionesCategorias.html?id=${
         service.id
@@ -66,8 +66,8 @@ function renderizarProductos(servicios, subcategoria) {
       });
     }
   } else {
-    servicios.forEach((servicios) => {
-      crearCardProducto(servicios);
+    servicios.forEach((servicio) => {
+      crearCardProducto(servicio);
     });
     Object.values(servicios).forEach((servicio) =>
       eventoAgregarAlCarrito(servicio)
