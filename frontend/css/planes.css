@@ -9,19 +9,15 @@
   gap: 50px;
 }
 
-.contenedor-planes h2, h3{
-  color: #ff8811ff;
-}
-
 .conteneder-plan{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-grow: 0;
   width: 100%;
-  height: 500px;
-  max-width: 300px;
+  height: 600px;
+  max-width: 350px;
   box-shadow: 0 0 10px 0 #9cc5a1ff;
   border-radius: 5px;
 }
@@ -34,10 +30,14 @@
 
 .conteneder-plan-header h2{
   margin: 0.5rem;
+  font-size: 25px;
+  color: #ff8811ff;
 }
 .conteneder-plan-header h3{
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  font-size: 18px;
+  margin-bottom: 0.9rem;
+  color: #ff8811ff;
 }
 
 
@@ -52,9 +52,13 @@
   object-fit: cover;
 }
 
+.precio-plan-text{
+  font-weight: 600;
+}
+
 .lista-plan-beneficios{
   list-style-type: none;
-  padding: 0 1.2rem 0;
+  padding: 0 2rem 0;
   margin: 0;
 }
 
