@@ -8,6 +8,8 @@
 
 .modal2 {
   position: fixed;
+  height: 100vh;
+  padding-top: 5%;
   top: 0;
   left: 0;
   right: 0;
@@ -66,8 +68,6 @@ textarea {
   border-bottom: 2px solid var(--ut-orange);
 }
 
-/*  */
-
 .modal2 .modalContainer2 .formRegistro2 .registroGroup2 {
   position: relative;
   top: -30px;
@@ -78,17 +78,17 @@ textarea {
   text-decoration: none;
   color: aliceblue;
   font-size: 14px;
+  font-weight: 500;
   background-color: var(--ut-orange);
   padding: 10px 85px;
   border-radius: 20px;
   position: relative;
-  left: 11%;
-  top: -50px;
+  left: 13%;
+  border: none;
 }
 
 .modal2 .modalContainer2 .noRegistrado {
-  position: relative;
-  top: 45px;
+  margin-top: 10px;
   font-size: 13px;
   color: wheat;
   display: flex;
@@ -100,25 +100,16 @@ textarea {
   text-decoration: none;
   color: var(--ut-orange);
 }
-
-.modal2 .modalContainer2 .noRegistrado h3 {
-  text-decoration: none;
-  color: var(--ut-orange);
-  margin: 10px;
-}
-
-.modal2 .modalContainer2 .extra {
-  position: relative;
-  top: -87px;
+.extra {
+  color: white;
 }
 
 .modal2 .modalContainer2 .facebook {
   text-decoration: none;
   color: aliceblue;
   font-size: 14px;
+  font-weight: 500;
   background-color: #3b5998;
   padding: 10px 30px;
   border-radius: 20px;
-  position: relative;
-  top: -83px;
 }
