@@ -7,11 +7,19 @@ const listaSubcategorias = document.querySelector(".lista-subcategorias");
 function crearCardProducto(product) {
   const productoHTML = `
     <div class="contenedor-producto">
-      <div class="header-producto" onclick="window.location.href = 'especificacionesCategorias.html?id=${product.id}&tipo=producto'">
+      <div class="header-producto" onclick="window.location.href = 'especificacionesCategorias.html?id=${
+        product.id
+      }&tipo=producto'">
         <h4 class="nombre-producto">${product.nombre}</h4>
-        <p class="precio-producto">${product.precio}</p>
+        <p class="precio-producto">${Intl.NumberFormat("es-CO", {
+          style: "currency",
+          currency: "COP",
+          minimumFractionDigits: 0,
+        }).format(product.precio)}</p>
       </div>
-      <div class="contenedor-img-producto" onclick="window.location.href = 'especificacionesCategorias.html?id=${product.id}&tipo=producto'">
+      <div class="contenedor-img-producto" onclick="window.location.href = 'especificacionesCategorias.html?id=${
+        product.id
+      }&tipo=producto'">
         <img src="${product.imagen}" alt="" />
       </div>
       <div class="contenedor-addCart">

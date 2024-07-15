@@ -20,7 +20,11 @@ function crearCardProducto(service) {
         service.id
       }&tipo=servicio'">
         <h4 class="nombre-servicio">${service.nombre}</h4>
-        <p class="precio-servicio">${service.precio}</p>
+        <p class="precio-servicio">${Intl.NumberFormat("es-CO", {
+          style: "currency",
+          currency: "COP",
+          minimumFractionDigits: 0,
+        }).format(product.precio)}</p>
       </div>
       <div class="contenedor-img-servicio" onclick="window.location.href = 'especificacionesCategorias.html?id=${
         service.id
