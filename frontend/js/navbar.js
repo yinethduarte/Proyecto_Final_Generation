@@ -32,7 +32,6 @@ function eliminarDelCarrito(producto) {
   const productoEnCarrito = carrito.find((p) => p.nombre == producto.nombre);
 
   if (productoEnCarrito) {
-    console.log(productoEnCarrito);
     if (productoEnCarrito.cantidad === 1) {
       carrito = carrito.filter((p) => p.nombre != producto.nombre);
     } else {
