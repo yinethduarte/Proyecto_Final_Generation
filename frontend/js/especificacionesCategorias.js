@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const params = new URLSearchParams(window.location.search);
       const idElemento = params.get("id");
       const tipo = params.get("tipo");
-      console.log(`${tipo} recibido con id ${idElemento}`);
       const response = await fetch(`http://localhost:8080/${tipo}/obtener`);
       if (!response.ok) {
         throw new Error("Error al obtener el archivo JSON");
@@ -20,12 +19,31 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("nomProducto").innerHTML = elemento.nombre;
         document.getElementById(
           "precProducto"
-        ).innerHTML = `Precio: $${elemento.precio}`;
+        ).innerHTML = `Precio: ${Intl.NumberFormat("es-CO", {
+          style: "currency",
+          currency: "COP",
+          minimumFractionDigits: 0,
+        }).format(elemento.precio)}`;
         document.getElementById("desProducto").innerHTML = elemento.descripcion;
 
         // Cambiar el src del elemento img
         document.getElementById("divImagenVideo").innerHTML =
           validarIndefinidoVideo(elemento);
+
+        // agregar boton para carrito
+        const productContainer = document.querySelector(".product-details");
+        const botonaddCart = `<button class="add-to-cart" id="product-${elemento.id}">Agregar al carrito</button>`;
+
+        productContainer.innerHTML += botonaddCart;
+
+        function eventoAgregarAlCarrito() {
+          document
+            .querySelector(`button#product-${elemento.id}`)
+            .addEventListener("click", () => {
+              agregarAlCarrito(elemento);
+              cacularItemsCarrito();
+            });
+        }
       } else {
         document.getElementById("catalogoDetalles").textContent =
           "Producto no encontrado";
@@ -33,6 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } catch (error) {
       console.error("Hubo un problema con la operación fetch:", error);
     }
+    eventoAgregarAlCarrito();
   }
 
   function validarIndefinidoVideo(product) {
