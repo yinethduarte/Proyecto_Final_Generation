@@ -93,7 +93,7 @@ function buildContac(contactfrom) {
         if (response.ok) {
           $form.reset();
           return Swal.fire({
-            title: "Gracias Por contactarnos",
+            title: "Gracias por contactarnos",
             icon: "succes",
             iconColor: "#ff8811ff",
             confirmButtonColor: "#ff8811ff",
@@ -111,10 +111,6 @@ function buildContac(contactfrom) {
                 animate__faster
               `,
             },
-          }).then((result) => {
-            if (result.isConfirmed) {
-              window.location.href = "home.html";
-            }
           });
         } else {
           return Swal.fire({

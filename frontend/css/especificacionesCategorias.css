@@ -119,3 +119,10 @@ iframe {
     height: 400px;
   }
 }
+
+@media (max-width: 768px) {
+  .close-container {
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+}
