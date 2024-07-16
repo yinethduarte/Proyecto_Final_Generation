@@ -6,8 +6,10 @@
   --platinum: #dce1deff;
 }
 
-.modal {
+.modal2 {
   position: fixed;
+  height: 100vh;
+  padding-top: 5%;
   top: 0;
   left: 0;
   right: 0;
@@ -23,70 +25,39 @@
   max-width: 400px;
   max-height: 90%;
   border-radius: 6px;
-  padding: 10px 10px;
+  padding: 30px 10px 15px 10px;
   display: grid;
   gap: 1em;
   place-items: center;
   grid-auto-columns: 100%;
 }
 
-.modal .modalContainer .imgModal img {
+.modal2 .modalContainer .imgModal img {
   width: 70px;
 }
 
-.modal .modalContainer h3 {
-  font-size: 35px;
-  margin-bottom: -12px;
+.modal2 .modalContainer h2 {
   color: var(--ut-orange);
-  position: relative;
-  top: -6px;
+  font-size: 35px;
 }
 
-.modal .modalContainer p {
-  font-size: 13px;
+.modal2 .modalContainer p {
+  font-size: 15px;
   margin-bottom: 20px;
-  position: relative;
-  top: -6px;
   color: wheat;
-}
-
-.modal .modalContainer .formRegistro {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  position: relative;
-  top: -20px;
-}
-
-.modal .modalContainer .formRegistro .registroGroup {
-  position: relative;
-  margin-bottom: 1rem;
 }
 
 /* Animación  */
 
-.modal .modalContainer .formRegistro .registroGroup label {
-  /* position: absolute;
-    left: 0;
-    top: 0;
-    transition: top 0.3s;  */
+.modal2 .modalContainer .formRegistro .registroGroup label {
   font-size: 1rem;
   color: var(--jungle-green);
 }
 
-/* .modal .modalContainer .formRegistro .registroGroup input:focus + label,
-  .registroGroup input:not(:placeholder-shown) + label {
-    top: -1.2em;
-  }
-  
-  .modal .modalContainer .formRegistro .registroGroup textarea:focus + label,
-  .registroGroup textarea:not(:placeholder-shown) + label {
-    top: -1.2em;
-  } */
-
-.modal .modalContainer .formRegistro .registroGroup input,
+.modal2 .modalContainer .formRegistro .registroGroup input,
 textarea {
   width: 100%;
-  padding: 0.5em;
+  padding: 0.1em;
   color: var(--platinum);
   background-color: transparent;
   border: none;
@@ -96,42 +67,33 @@ textarea {
 
 /* Clase error */
 
-.modal .modalContainer .formRegistro .registroGroup .error {
+.modal2 .modalContainer .formRegistro .registroGroup .error {
   border-bottom: 2px solid var(--ut-orange);
 }
 
-/*  */
+.modal2 .modalContainer .formRegistro .registroGroup {
+  position: relative;
+  top: -30px;
+  margin-bottom: 20px;
+}
 
-.modal .modalContainer .modalContinuar {
+.modal2 .modalContainer .modalContinuar {
   text-decoration: none;
   color: aliceblue;
   font-size: 14px;
+  font-weight: 500;
   background-color: var(--ut-orange);
-  padding: 10px 25px;
+  padding: 10px 85px;
   border-radius: 20px;
   position: relative;
-  top: 3px;
-  left: 75px;
+  left: 13%;
+  border: none;
 }
 
-.modal .modalContainer .modalCloseContainer {
-  /* width: 100%;
-    display: flex;
-    justify-content: end; */
-  font-size: 30px;
-}
-
-.modal .modalContainer .modalCloseContainer .modalClose i {
-  color: var(--jungle-green);
-  font-weight: 100;
-}
-
-.modal .modalContainer .yaRegistrado {
-  position: relative;
-  top: -25px;
-}
-
-.modal .modalContainer .yaRegistrado a {
+.modal2 .modalContainer .yaRegistrado a {
   text-decoration: none;
   color: var(--ut-orange);
+}
+.modal2 .modalContainer .yaRegistrado p {
+  margin-bottom: 30px;
 }
