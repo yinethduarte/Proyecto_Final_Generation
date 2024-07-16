@@ -9,7 +9,7 @@
 .modal2 {
   position: fixed;
   height: 100vh;
-  padding-top: 5%;
+  padding-top: 6%;
   top: 0;
   left: 0;
   right: 0;
@@ -23,7 +23,7 @@
   background-color: var(--caribbean-current);
   margin: auto;
   max-width: 400px;
-  max-height: 90%;
+  max-height: 95%;
   border-radius: 6px;
   padding: 30px 10px 15px 10px;
   display: grid;
