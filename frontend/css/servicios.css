@@ -27,17 +27,18 @@
 
 .lista-subcategorias li {
   margin: 15px;
-  font-size: large;
+  font-size: 1.1rem;
   color: var(--jungle-green);
   list-style-type: none;
   padding: 0;
 }
 
 .categoria {
-  max-width: 90%;
-  margin: 40px auto 100px auto;
+  margin: 40px 80px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
   gap: 20px;
 }
 
@@ -52,25 +53,39 @@
   border: 1px solid rgba(0, 0, 0, 0.336);
   margin-bottom: 5%;
   cursor: pointer;
+  height: 100%;
 }
 
 .header-servicio {
-  padding: 5% 5% 0 5%;
+  padding: 10% 5% 0 5%;
   color: var(--caribbean-current);
+}
+
+.nombre-servicio{
+  font-size: 1.2rem;
 }
 
 .contenedor-img-servicio {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 350px;
+  height: 300px;
 }
 
 .contenedor-img-servicio img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  padding: 10px;
 }
+
+.contenedor-img-servicio iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 10px;
+}
+
 
 .contenedor-addCart button {
   width: 100%;
@@ -79,12 +94,15 @@
   color: var(--caribbean-current);
   background-color: var(--cambridge-blue);
   font-weight: 550;
+  font-size: 1rem;
 }
 
 .contenedor-addCart button:hover {
   color: var(--platinum);
   background-color: var(--ut-orange);
 }
+
+/* RESPONSIVE */
 
 @media (max-width: 768px) {
   .lista-subcategorias {
@@ -97,7 +115,7 @@
   }
 
   .categoria {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
 
@@ -114,3 +132,52 @@
     height: 40px;
   }
 }
+
+
+/* MOBILE & TABLET */
+@media screen and (width<=991px) {
+  #contenedor-categoria {
+    margin-top: 80px;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+  .contenedor-img-sercicio {
+    height: 200px;
+  }
+  .nombre-producto{
+    font-size: 20px;
+  }
+  .lista-subcategorias {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lista-subcategorias li {
+    font-size: 1rem;
+  }
+
+  .categoria {
+    margin: 40px 80px;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+}
+
+
+/* TABLET */
+@media (min-width: 767px) and (max-width: 991px) {
+  .categoria {
+    margin: 40px 40px 100px ;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+  }
+  .contenedor-img-servicio {
+    height: 250px;
+  }
+
+  .contenedor-addCart button {
+    height: 40px;
+  }
+}
+

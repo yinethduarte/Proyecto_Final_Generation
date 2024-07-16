@@ -17,7 +17,7 @@
   flex-grow: 0;
   width: 100%;
   height: 600px;
-  max-width: 350px;
+  max-width: 400px;
   box-shadow: 0 0 10px 0 #9cc5a1ff;
   border-radius: 5px;
 }
@@ -68,6 +68,11 @@
   width: fit-content;
   height:auto;
 }
+
+.contenedor-plan-boton a{
+  text-decoration: none;
+  color:#fff;
+} 
 
 .contenedor-plan-boton button{
   width:200px;

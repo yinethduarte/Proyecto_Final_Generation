@@ -13,7 +13,25 @@
   font-size: 1.8rem;
 }
 
-/* CONFIGURACION CARDS */
+/* CONTENEDOR MISION, VISION Y VALORES */
+.contenedor-nosotros-mision, 
+.contenedor-nosotros-vision,
+.contenedor-nosotros-valores{
+  display: flex;
+}
+
+/* CONFIGURACION EQUIPO*/
+.container-equipo-devs{
+  background-color:#315656;
+}
+.container-equipo-devs h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 100px 20px 100px; */
+  margin: 70px;
+  color: white;
+}
 
 .cards-team-container {
   background-color: #dce1deff;
@@ -47,14 +65,14 @@
 
 .cards-team-container > div:nth-child(2n) {
   background-color: #315656;
-  margin-top: -50px;
+  margin-top: -300px;
   margin-bottom: 5%;
 }
 
 .cards-team-container > div:nth-child(2n + 1) {
   background-color: #315656;
   margin-top: 5%;
-  margin-bottom: -50px;
+  margin-bottom: 200px;
 }
 
 .teamater-contact a {
@@ -185,6 +203,15 @@
     height: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .info-container p {
+    font-size: 22px;
+  }
+
+
+  .card-teammate .overlay p {
+    font-size: 1.5rem;
   }
 
   .cards-team-container > div:nth-child(2n) {

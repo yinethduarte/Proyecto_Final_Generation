@@ -33,12 +33,12 @@
 }
 
 .contenedor-navbar .logoContainer img {
-  width: 75px;
-  height: 70px;
+  width: 70px;
+  height: 65px;
 }
 
 .contenedor-navbar .titleAgon {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   color: black;
   font-family: "Montserrat", sans-serif;
 }
@@ -234,6 +234,19 @@
 }
 
 @media screen and (max-width: 991px) {
+  .contenedor-navbar .cajaMarca {
+    max-height:60px;
+  }
+  .contenedor-navbar .logoContainer img {
+    width: 60px;
+    height: 55px;
+  }
+  
+  .contenedor-navbar .contenedor-box input {
+    width: 40px;
+    height: 40px;
+  }
+
   .contenedor-navbar .contenedor-interno {
     background-color: transparent;
   }
@@ -268,7 +281,7 @@
     position: fixed;
     max-width: 250px;
     width: 100%;
-    top: 78px;
+    top: 60px;
     bottom: 0;
     right: 0;
     background-color: #143e3ee1;
