@@ -64,4 +64,10 @@ document.addEventListener("DOMContentLoaded", () => {
     return `<img src="${product.imagen}" alt="" />`;
   }
   fetchAndPrintJSON();
+
+  // evento para cerrar ventana
+  const closeContainer = document.querySelector(".close-container");
+  closeContainer.addEventListener("click", () => {
+    history.back();
+  });
 });
